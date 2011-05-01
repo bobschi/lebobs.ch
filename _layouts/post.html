@@ -19,30 +19,33 @@
 		<script src="../../../libraries/modernizr.min.js"></script>
 	</head>
 
-	<body>
+	<body class="post">
 		<!-- The oh-so necessary container. Doesn't really work when you use it on body ... :( -->
 		<div class="container">
 			<header class="span-24">
 				<h1>bobschi's BLAHRG</h1>
 				<h2>Beeing awesome and stuff</h2>
 			</header>
+
+			<nav class="span-24">
+				<ul>
+					<li><a href="http://lebobs.ch/">Home</a></li>
+				</ul>
+			</nav>
 			
-			<article class="span-18">
+			<article class="span-24">
 				<h1>{{ page.title }}</h1>
 				<section>
 					{{ content }}
 				</section>
 			</article>
 
-			<nav class="span-6 last">
-				<ul>
-					<li><a href="http://lebobs.ch/">Home</a></li>
-				</ul>
-			</nav>
-
 			<footer class="span-24">
 				<p>Epic since 2011.</p>
 				<p>Epicness provided by Florian <a href="https://twitter.com/bobschi">bobschi</a> Holzner</p>
+				<div class="ribbon">
+					<a href="https://github.com/cypher/" rel="me">Fork me on GitHub</a>
+				</div>
 			</footer>
 		</div>
 	</body>
