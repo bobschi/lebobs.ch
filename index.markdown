@@ -1,6 +1,6 @@
 ---
 layout: default
-title: coding with spice
+title: bobschi's BLAHRG
 ---
 {% assign first_post = site.posts.first %}
 <div id="post">
