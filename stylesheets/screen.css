@@ -13,6 +13,8 @@ header { height: 10em; }
 	position: absolute;
 	-moz-box-shadow: 0 0 1em #888;
 	-webkit-box-shadow: 0 0 1em #888;
+	-moz-transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
 }
 .ribbon a {
 	z-index: -1;
@@ -31,13 +33,9 @@ header { height: 10em; }
 .post .ribbon {
 	left: -3.0em;
 	bottom: 2.5em;
-	-moz-transform: rotate(45deg);
-	-webkit-transform: rotate(45deg);
 }
 
 .default .ribbon {
-	left: -3.0em;
+	right: -3.0em;
 	top: 2.5em;
-	-moz-transform: rotate(-45deg);
-	-webkit-transform: rotate(-45deg);
 }
