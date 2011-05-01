@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>bobschi's BLAHRG -- {{ page.title }}</title>
+
+		<!-- Blueprint.css Library -->
+		<link rel="stylesheet" href="css/blueprint/screen.css" media="screen, projection">
+		<link rel="stylesheet" href="css/blueprint/print.css" media="print">
+
+		<!-- My own stylesheets -->
+		<link rel="stylesheet" href="stylesheets/screen.css" media="screen,projection" />
+		<link rel="stylesheet" href="stylesheets/print.css" media="print" />
+	</head>
+
+	<body>
+		<header>
+			<h1>bobschi's BLAHRG</h1>
+			<h2>Beeing awesome and stuff</h2>
+		</header>
+		
+		<article>
+			<h1>{{ page.title }}</h1>
+			<section>
+				{{ content }}
+			</section>
+		</article>
+
+		<footer>
+			<p>Epic since 2011.</p>
+		</footer>
+	</body>
+</html>
