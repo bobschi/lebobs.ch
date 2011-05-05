@@ -4,20 +4,20 @@ layout: nil
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
  
- <title>bobschi's BLAHRG</title>
+ <title>Le Bobsch Blogs</title>
  <link href="http://lebobs.ch/atom.xml" rel="self" />
  <link href="http://lebobs.ch/" />
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>http://lebobs.ch/</id>
+ <id>http://lebobs.ch/<id>
  <author>
-   <name>Florian "bobschi" Holzner</name>
-   <email>bobschi@lavabit.com</email>
+   <name>site.owner-name</name>
+   <email>site.owner-email</email>
  </author>
 
  {% for post in site.posts %}
  <entry>
    <title>{{ post.title }}</title>
-   <link href="http://tom.preston-werner.com{{ post.url }}" />
+   <link href="http://lebobs.ch/{{ post.url }}" />
    <updated>{{ post.date | date_to_xmlschema }}</updated>
    <id>http://lebobs.ch/{{ post.id }}</id>
    <content type="html">{{ post.content | xml_escape }}</content>
