@@ -2,7 +2,7 @@ auto: true
 
 markdown: rdiscount
 rdiscount:
-	extensions: [smart]
+  extensions: [smart]
 
 exclude: ["README.md", "LICENSE.md", "TODO.md", "build", "test"]
 
