@@ -1,4 +1,4 @@
 ---
 layout: frontpage
-title: Le Bobsch Blogs
+title: Le Bobsch Blogs &ndash; Posts
 ---
