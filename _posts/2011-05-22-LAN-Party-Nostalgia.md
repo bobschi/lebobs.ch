@@ -1,6 +1,8 @@
 ---
 layout: post
-title: Hello World!
-categories:
-- Trivia
+title: LAN Party Nostalgia
+teaser: T.B.A.
 ---
+
+LAN Party Nostalgia
+===================

@@ -9,8 +9,9 @@ layout: default
 <header class="post-header">
 <hgroup>
 <h1><a href="{{ ps.url }}">{{ ps.title }}</a></h1>
-<time datetime="{{ ps.date }}" pubdate>{{ ps.date }}</time>
+<time datetime="{{ ps.date | date: "%Y-%M-%d %H:%M" }}" pubdate>{{ ps.date | date: "%Y-%M-%d %H:%M" }}</time>
 </hgroup>
 </header>
+<p class="post-teaser">{{ ps.teaser }}</p>
 </section>
 {% endfor %}
