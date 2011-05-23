@@ -3,8 +3,8 @@ pygments: true
 safe: true
 lsi: false
 
-markdown: rdiscount
-rdiscount:
+markdown: maruku
+maruku:
   extensions: [smart]
 
 exclude: ["README.md", "LICENSE.md", "TODO.md", "build", "test"]
