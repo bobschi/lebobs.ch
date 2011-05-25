@@ -3,11 +3,11 @@ layout: post
 title: LAN Party Nostalgia
 teaser: T.B.A.
 pic: 
-teaser: After surfing around the intertubes for a little bit last night, I started looking at the homepages of the biggest, most well known Austrian LAN parties. What I found made me sad and melancholic the same time.
+teaser: After surfing around the world wide web for a little bit last night, I started looking at the pages of the biggest, most well known Austrian LAN parties. What I found made me sad and melancholic the same time.
 categories:
   - gaming
 ---
-After surfing around the intertubes for a little bit last night, I started looking at the homepages of the biggest, most well known Austrian LAN parties. What I found made me sad and melancholic the same time. I visited the, sometimes partly broken, homepages of the [Days of Thunder][dot] LAN, [Dagor][dagor], [CityX][cityx], [nur48Stunden][n48h], [Detonation][det03], [Ennsomnia][ennsomn], [Freestyle Zero LAN][fs], [Detonation][det03] and a few others. I took the time to check the pages of the clans [Eagle Squad 7][es7] and [Defcon5][defcon5] as well -- I knew some people playing for those, but both are long gone as well. Some of those I just found by using the orga.nice IT LAN system's [references page][lscref].
+After surfing around the intertubes for a little bit last night, I started looking at the pages of the biggest, most well known Austrian LAN parties. What I found made me sad and melancholic the same time. I visited the, sometimes partly broken, pages of the [Days of Thunder][dot] LAN, [Dagor][dagor], [CityX][cityx], [nur48Stunden][n48h], [Detonation][det03], [Ennsomnia][ennsomn], [Freestyle Zero LAN][fs], [Detonation][det03] and a few others. I took the time to check the pages of the clans [Eagle Squad 7][es7] and [Defcon5][defcon5] as well -- I knew some people playing for those, but both are long gone as well. Some of those I just found by using the orga.nice IT LAN system's [references page][lscref].
 
 But I digress ... Back to LAN Parties
 -------------------------------------
@@ -17,6 +17,7 @@ LAN parties are nice. I like them. Gamers and Nerds everywhere, people playing g
 
 esvö
 ----
+With lanscene.at gone, there is no central calender for LAN parties in Austria anymore. That, and the steads decline in the number of clans that has been observed in the last years. A strange development, considering that a lot more people have consoles and PC suitable for gaming.
 
 [cityx]:	http://www.cityx.org/ (CityX "xTending Borders" '06)
 [dot]:		http://www.dot-lan.at/ (Days of Thunder '09)

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Hello World!
-pic: 
+published: false
 teaser: I **finally** went through with the plan to buy the domain [lebobs.ch][lebobsch] and setup a blog for myself. [][Markus] told me about [pages.github.com][ghpages] some time ago, and this weekend I finally set down and purchased my domain, set up the repository, site structure etc. pp., the end product of which you can see here.
 categories:
   - personal
