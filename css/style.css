@@ -321,6 +321,17 @@ font-size: 1em; }
 color: #fff; }
 
 /* 9.NAVIGATION */
+nav[role='navigation'] ul {
+list-style: none; 
+margin: 0;
+padding: 0;
+text-align: center; }
+nav[role='navigation'] li {
+display: inline; }
+nav[role='navigation'] a {
+width: 5em;
+display: inline-block; }
+
 /* 10.CONTENT */
 .content,
 footer,
@@ -332,24 +343,28 @@ margin: 0 auto; }
 
 /* 11.MAIN */
 .post-header .post-date {
-float: right; }
+float: right; 
+padding-left: 0.5em; }
 .post-header .post-title {
-float: left; }
+float: left; 
+padding-right: 0.3em; }
 .post-header .post-date,
-.post-header .post-title: {
-width: auto;
-display: block; }
+.post-header .post-title {
+background: white; }
 .post-header h1 {
 font-size: 1.2em;
-line-height: 1; }
+line-height: 1; 
+text-align: center; }
 .post-header {
-background: url('') repeat-x top center; }
+background: url('/img/dot.png') repeat-x center center; }
 
 .welcome-message {
 text-transform: none;
 font-size: 1em; }
 
 /* 12.COMPLIMENTARY */
+aside[role='complementary'] {
+font-size: 0.8em; }
 
 /* 13.CONTENTINFO */
 footer p { 

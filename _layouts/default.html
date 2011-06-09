@@ -34,6 +34,8 @@ URL: http://stuffandnonsense.co.uk/projects/320andup
   	<h2 class="tagline">
       {% if is_post %}
         {{ page.teaser | markdownify }}
+      {% elsif page.tagline != null %}
+        {{ page.tagline | markdownify }}
       {% else %}
         {{ site.tagline | markdownify }}
       {% endif %}
@@ -50,22 +52,31 @@ URL: http://stuffandnonsense.co.uk/projects/320andup
 
 <p class="flourish">❁</p>
 
+<nav role="navigation">
+  <ul>
+    <li><a href="{{ site.base-url }}">Home</a></li>
+    <li><a href="{{ site.base-url }}/about.html">About</a></li>
+    <li><a href="{{ site.base-url }}/about.html#contact">Contact</a></li>
+  </ul>
+</nav>
+
 <article role="main">
 {{ content }}
 </article>
 
 <aside role="complementary">
-  {% if is_post %} <p><a href="{{ page.base-url }}">Take me back home!</a></p> {% endif %}
+{% if is_post or page.url != site.base-url %} <p><a href="{{ site.base-url }}">Take me back home!</a></p> {% endif %}
 </aside>
-</div>
 
 <p class="flourish">❁</p>
+</div>
 
 <footer role="contentinfo" class="clearfix">
-  <p>This work is licensed under the <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/at/">Creative Commons Attribution-NonCommercial 3.0 Österreich License</a>.</p>
+  <p>This work is licensed under the <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/at/">Creative Commons Attribution-NonCommercial 3.0 Austria License</a>.</p>
   <p>If you like this blog, feel free to suscribe to the RSS-feed, bookmark it, share the links with over your favourite social networks, etc.</p>
-  <p>Yours,<br /><span class="signature">Florian Holzner</span></p>
-  <p>P.S.: You can contact me in various ways, primarily via <a href="https://twitter.com/bobschi" title="my twitter profile">twitter</a>, and browse through my repositories on <a href="https://bitbucket.org/florianholzner" title="my bitbucket profile">bitbucket</a> or <a href="https://github.com/bobschi" title="my github profile">github</a>.</p>
+  <p>Yours,<br /><a href="/about.html" class="signature">Florian Holzner</a></p>
+  <p>P.S.: If you have any comments, for the time being please let me know via <a href="https://twitter.com/bobschi" title="my twitter profile">twitter</a> or <script> document.write("<n uers=\"obofpuv\@yninovg.pbz\" ery=\"absbyybj\">".replace(/[a-zA-Z]/g, function(c){return String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);})); </script>email</a>, or look around the <a href="{{ page.base-url}}/about.html">About</a>-page, to find out other ways to contact me.</p>
+
 </footer>
 
 {% include boilerplate_analytics_scripts.html %}
