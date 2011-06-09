@@ -5,6 +5,9 @@
 @import url(http://fonts.googleapis.com/css?family=IM+Fell+DW+Pica+SC);
 /* font-family: 'Inconsolata' */
 @import url(http://fonts.googleapis.com/css?family=Inconsolata);
+/* font-family: 'Homemade Apple' */
+@import url(http://fonts.googleapis.com/css?family=Homemade+Apple);
+
 /* 320
 
 _____________________________________________________
@@ -299,6 +302,11 @@ text-align: center;
 text-transform: uppercase; }
 .tagline {
 text-transform: none; }
+header[role='banner'] * h1 {
+font-size: 8em; }
+header[role='banner'] * .tagline {
+font-size: 1.75em;
+margin-bottom: 2em; }
 
 .ribbon-holder {
 text-align: left;
@@ -314,20 +322,39 @@ color: #fff; }
 
 /* 9.NAVIGATION */
 /* 10.CONTENT */
-.content, footer, header {
+.content,
+footer,
+header {
 width: 50em; /* 800 / 16 = 50 */
 max-width: 900px;
-min-width: 320px;
+min-width: 320px; 
 margin: 0 auto; }
 
 /* 11.MAIN */
+.post-header .post-date {
+float: right; }
+.post-header .post-title {
+float: left; }
+.post-header h1 {
+font-size: 1em;
+line-height: 1; }
+.post-date,
+.post-title: {
+width: auto;
+display: block; }
+.welcome-message {
+text-transform: none;
+font-size: 1em; }
+
 /* 12.COMPLIMENTARY */
+
 /* 13.CONTENTINFO */
 footer p { 
 margin-bottom: 0.1em; }
+.signature {
+font: 1.2em 'Homemade Apple', Lucida Script, serif; }
 
 /* 14.GLOBAL OBJECTS */
-
 .flourish {
 font: 2em 'Arial Unicode MS', FreeSerif, OpenSymbol, sans-serif; /* 36 / 16 = 3 */
 text-align: center; 

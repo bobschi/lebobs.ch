@@ -19,18 +19,31 @@ URL: http://stuffandnonsense.co.uk/projects/320andup
 <meta name="description" content="">
 <meta name="author" content="{{ site.owner-name }}">
 
+{% if post.teaser != null %}
+  {% assign is_post = true %}
+{% else %}
+  {% assign is_post = false %}
+{% endif %}
 {% include boilerplate_css_scripts.html %}
 
 <body class="clearfix">
 
 <header role="banner" class="clearfix">
-	<h1>{{ page.title }}</h1>
-	<p class="tagline">{{ site.tagline }}</p>
+  <hgroup>
+  	<h1>{{ page.title }}</h1>
+  	<h2 class="tagline">
+      {% if is_post %}
+        {{ page.teaser | markdownify }}
+      {% else %}
+        {{ site.tagline }}
+      {% endif %}
+    </h2>
 	<div class="right ribbon-holder">
 		<a href="https://github.com/bobschi" class="darkgray ribbon">
 			<span class="text">Fork me on github</span>
 		</a>
 	</div>
+  </hgroup>
 </header>
 
 <div class="content clearfix">
@@ -42,12 +55,7 @@ URL: http://stuffandnonsense.co.uk/projects/320andup
 </article>
 
 <aside role="complementary">
-  <h1>Categories</h1> 
-  <ul> 
-    {% for category in site.categories %} 
-      <li><a href="#{{ category | first }}">{{ category | first }}</a></li> 
-    {% endfor %} 
-  </ul> 
+  <p><a href="http://lebobs.ch/">Take me back home!</a></p>
 </aside>
 </div>
 
@@ -56,7 +64,7 @@ URL: http://stuffandnonsense.co.uk/projects/320andup
 <footer role="contentinfo" class="clearfix">
   <p>This work is licensed under the <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/at/">Creative Commons Attribution-NonCommercial 3.0 Österreich License</a>.</p>
   <p>If you like this blog, feel free to suscribe to the RSS-feed, bookmark it, share the links with over your favourite social networks, etc.</p>
-  <p>Yours, <a href="{{ site.owner-page }}">{{ site.owner-name}}.</a></p>
+  <p>Yours,<br /><span class="signature">Florian Holzner</span></p>
   <p>P.S.: You can contact me in various ways, primarily via <a href="https://twitter.com/bobschi" title="my twitter profile">twitter</a>, and browse through my repositories on <a href="https://bitbucket.org/florianholzner" title="my bitbucket profile">bitbucket</a> or <a href="https://github.com/bobschi" title="my github profile">github</a>.</p>
 </footer>
 

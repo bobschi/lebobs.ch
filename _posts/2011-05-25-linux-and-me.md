@@ -2,8 +2,7 @@
 layout: post
 title: Linux and Me -- A Hatelove Story
 published: true
-teaser: T.B.A.
-teaser: After surfing around the world wide web for a little bit last night, I started looking at the pages of the biggest, most well known Austrian LAN parties. What I found made me sad and melancholic the same time.
+teaser: I don't like Linux all that much, and Linux doesn't like me. A rant, entirely personal and in no way objective.
 categories:
   - gaming
 ---

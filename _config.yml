@@ -9,8 +9,4 @@ maruku:
 
 exclude: ["README.md", "LICENSE.md", "TODO.md", "build", "test"]
 
-owner-name: Florian Holzner
-owner-page: http://lebobs.ch/
-owner-email: bobschi@lavabit.com
-
 tagline: The mostly interesting ramblings of me ...

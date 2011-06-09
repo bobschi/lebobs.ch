@@ -1,15 +1,27 @@
 ---
 layout: default
 ---
+
+<header>
+<hgroup>
+	<h1>Index</h1>
+	<div class="welcome-message">
+		{{content}}
+	</div>
+</hgroup>
+</header>
 {% for post in site.posts %}
 	<section>
-		<header class="post-header">
-			<hgroup>
-				<h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-				<time datetime="{{ post.date }}" pubdate>{{ post.date | date: "%Y-%M-%d %H:%M" }}</time>
-			</hgroup>
+		<header class="post-header clearfix">
+			<h1>
+				<span class="post-title">
+					<a href="{{ post.url }}">{{ post.title }}</a>
+				</span>
+				<span class="post-date">
+					<time datetime="{{ post.date }}" pubdate>{{ post.date | date: "%A, %B %d, %Y" }}</time>
+				</span>
+			</h1>
 		</header>
-		<p class="post-teaser">{{ post.teaser }}</p>
-		<p class="post-more"><a href="{{ post.url }}">[more &hellip;]</a></p>
+		<p class="post-teaser">{{ post.teaser | markdownify }}</p>
 	</section>
 {% endfor %}
