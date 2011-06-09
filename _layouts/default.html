@@ -25,24 +25,37 @@ URL: http://stuffandnonsense.co.uk/projects/320andup
 
 <header role="banner" class="clearfix">
 	<h1>{{ page.title }}</h1>
+	<p class="tagline">{{ site.tagline }}</p>
+	<div class="right ribbon-holder">
+		<a href="https://github.com/bobschi" class="darkgray ribbon">
+			<span class="text">Fork me on github</span>
+		</a>
+	</div>
 </header>
 
 <div class="content clearfix">
+
+<p class="flourish">❁</p>
 
 <article role="main">
 {{ content }}
 </article>
 
 <aside role="complementary">
+  <h1>Categories</h1> 
+  <ul> 
+    {% for category in site.categories %} 
+      <li><a href="#{{ category | first }}">{{ category | first }}</a></li> 
+    {% endfor %} 
+  </ul> 
 </aside>
-
 </div>
 
-<hr />
 
 <footer role="contentinfo" class="clearfix">
-  <p>{{ site.license }}</p>
-  <p>All content, if not otherwise stated, was created by me, <a href="{{ site.owner-page }}">{{ site.owner-name}}.</a></p>
+  <p>This work is licensed under the <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/at/">Creative Commons Attribution-NonCommercial 3.0 Österreich License</a>.</p>
+  <p>If you like this blog, feel free to suscribe to the RSS-feed, bookmark it, share the links with over your favourite social networks, etc.</p>
+  <p>Yours, <a href="{{ site.owner-page }}">{{ site.owner-name}}.</a></p>
 </footer>
 
 {% include boilerplate_analytics_scripts.html %}

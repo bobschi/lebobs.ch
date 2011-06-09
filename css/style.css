@@ -1,5 +1,10 @@
-/* @import url(mylibs/forms.css); */
-
+@import url(mylibs/forms.css);
+@import url(mylibs/githubribbon.css);
+/* ***GOOGLE WEBFONTS VIA GOOGLE FONT API*** */
+/* font-family: 'IM Fell DW Pica SC' */
+@import url(http://fonts.googleapis.com/css?family=IM+Fell+DW+Pica+SC);
+/* font-family: 'Inconsolata' */
+@import url(http://fonts.googleapis.com/css?family=Inconsolata);
 /* 320
 
 _____________________________________________________
@@ -31,7 +36,6 @@ _____________________________________________________
 17.MODERNIZR
 
 COLOURS 
-
 */
 
 html, body, div, span, applet, object, iframe,
@@ -108,7 +112,7 @@ body {
 margin : 0 auto;
 padding : 24px 0;
 width : 90% /* 252px */;
-font : 100%/1.4 Cambria, Georgia, Times, "Times New Roman";
+font : 100%/1.4 'Linux Libertine', Palatino, 'Palatino Linotype', 'Book Antiqua', Georgia, 'Times New Roman', serif;
 color : rgb(40,40,40); 
 background-color : transparent; }
 
@@ -120,7 +124,7 @@ h3,
 h4, 
 h5, 
 h6 {
-font-family : "Helvetica Neue", Helvetica, Arial;
+font-family : 'IM Fell DW Pica SC', 'Cambria', 'Georgia, Times', 'Times New Roman';
 font-weight : bold; }
 
 h1 { 
@@ -163,7 +167,7 @@ font-size : 1em; /* 16 / 16 = 1 */ }
 ul, 
 ol { 
 margin : 0 0 1.5em -24px; 
-padding-left : 24px; }
+padding-left : 48px; }
 
 ul { 
 list-style-type : disc; }
@@ -290,13 +294,44 @@ background-color : transparent; }
 /* 7.FORMS (See css/mylibs/forms.css) */
 
 /* 8.BANNER */
+header {
+text-align: center; 
+text-transform: uppercase; }
+.tagline {
+text-transform: none; }
+
+.ribbon-holder {
+text-align: left;
+text-transform: none;
+font-size: 1em; }
+.ribbon a,
+.ribbon a:visited,
+.ribbon a:hover,
+.ribbon a:active,
+.ribbon a:focus,
+.ribbon .text {
+color: #fff; }
+
 /* 9.NAVIGATION */
 /* 10.CONTENT */
+.content, footer, header {
+width: 50em; /* 800 / 16 = 50 */
+max-width: 900px;
+min-width: 320px;
+margin: 0 auto; }
+
 /* 11.MAIN */
 /* 12.COMPLIMENTARY */
 /* 13.CONTENTINFO */
+footer p { 
+margin-bottom: 0.1em; }
 
 /* 14.GLOBAL OBJECTS */
+
+.flourish {
+font: 2em 'Arial Unicode MS', FreeSerif, OpenSymbol, sans-serif; /* 36 / 16 = 3 */
+text-align: center; 
+line-height : 1.2; }
 
 .clearfix { 
 zoom : 1; }

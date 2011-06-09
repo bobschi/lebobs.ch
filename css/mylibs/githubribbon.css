@@ -1,23 +1,119 @@
-.ribbon {
-	z-index: +1;
-	background-color: #a00;
-	overflow: hidden;
-	position: absolute;
-	-moz-box-shadow: 0 0 1em #888;
-	-webkit-box-shadow: 0 0 1em #888;
-	-moz-transform: rotate(45deg);
-	-webkit-transform: rotate(45deg);
+/* via http://people.mozilla.com/~jbalogh/ribbon/ribbon.css */
+.ribbon-holder {
+  position: absolute;
+  top: 0;
+  overflow: hidden;
+  height: 10em;
 }
-.ribbon a {
-	z-index: +2;
-	border: 1px solid #faa;
-	color: #fff;
-	display: block;
-	font: bold 81.25% 'Helvetiva Neue', Helvetica, Arial, sans-serif;
-	margin: 0.05em 0 0.075em 0;
-	padding: 0.5em 3.5em;
-	text-align: center;
-	text-decoration: none;
-	/* shadow */
-	text-shadow: 0 0 0.5em #444;
+
+.right.ribbon-holder {
+  right: 0;
+}
+
+.left.ribbon-holder {
+  left: 0;
+}
+
+.ribbon,
+.ribbon:hover {
+  text-decoration: none;
+}
+
+.ribbon {
+  letter-spacing: -.1px;
+  opacity: 0.95;
+
+  padding: 0.25em 0;
+  position: relative;
+  top: 2.5em;
+
+  /* Defaults friendly for white pages. */
+  -moz-box-shadow: 0 0 13px #888;
+  -webkit-box-shadow: 0 0 13px #888;
+  color: #FFF;
+  display: block;
+  line-height: 1.35em;
+}
+
+.ribbon .text {
+  padding: 0.1em 3em;
+}
+
+.right .ribbon {
+  -moz-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  right: -2.8em;
+}
+
+.left .ribbon {
+  -moz-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  left: -2.8em;
+}
+
+.white.ribbon {
+  color: #111;
+  background-color: #F5F5F5;
+  background: -webkit-gradient(linear, left bottom, left top, from(#f3f3f3), to(#fff));
+  -moz-box-shadow: 0 0 13px #999;
+  -webkit-box-shadow: 0 0 13px #999;
+  text-shadow: 0 0 .05em;
+}
+
+.white.ribbon .text {
+  border: 1px solid #cecece;
+}
+
+.red.ribbon {
+  background-color: #9a0000;
+  background: -webkit-gradient(linear, left bottom, left top, from(#9a0000), to(#a90000));
+}
+
+.red.ribbon .text {
+  border: 1px solid #bf6060;
+}
+
+.green.ribbon {
+  background-color: #006e00;
+  background: -webkit-gradient(linear, left bottom, left top, from(#006e00), to(#007200));
+}
+
+.green.ribbon .text {
+  border: 1px solid #6bac6b;
+}
+
+.darkblue.ribbon {
+  background-color: #121621;
+  color: #ecedee;
+}
+
+.darkblue.ribbon .text {
+  border: 1px solid #53565e;
+}
+
+.orange.ribbon {
+  background-color: #E57504;
+  background: -webkit-gradient(linear, left bottom, left top, from(#dc7202), to(#ee7906));
+}
+
+.orange.ribbon .text {
+  border: 1px solid #ebaa65;
+}
+
+.gray.ribbon {
+  background-color: #6d6d6d;
+  background: -webkit-gradient(linear, left bottom, left top, from(#6a6a6a) to(#6d6d6d));
+}
+
+.gray.ribbon .text {
+  border: 1px solid #a4a4a4;
+}
+
+.darkgray.ribbon {
+  background-color: #282828;
+  background: -webkit-gradient(linear, left bottom, left top, from(#383838) to(#282828));
+}
+
+.darkgray.ribbon .text {
+  border: 1px solid #a4a4a4;
 }
