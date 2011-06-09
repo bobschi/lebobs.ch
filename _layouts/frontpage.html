@@ -18,7 +18,7 @@ layout: default
 					<a href="{{ post.url }}">{{ post.title | markdownify }}</a>
 				</span>
 				<span class="post-date">
-					<time datetime="{{ post.date }}" pubdate>{{ post.date | date: "%A, %B %d, %Y" }}</time>
+					<time datetime="{{ post.date | date_to_xmlschema }}" pubdate>{{ post.date | date: "%A, %B %d, %Y" }}</time>
 				</span>
 			</h1>
 		</header>
