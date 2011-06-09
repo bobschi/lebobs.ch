@@ -6,7 +6,7 @@ layout: default
 <hgroup>
 	<h1>Index</h1>
 	<div class="welcome-message">
-		{{content}}
+		{{ content }}
 	</div>
 </hgroup>
 </header>
@@ -15,7 +15,7 @@ layout: default
 		<header class="post-header clearfix">
 			<h1>
 				<span class="post-title">
-					<a href="{{ post.url }}">{{ post.title }}</a>
+					<a href="{{ post.url }}">{{ post.title | markdownify }}</a>
 				</span>
 				<span class="post-date">
 					<time datetime="{{ post.date }}" pubdate>{{ post.date | date: "%A, %B %d, %Y" }}</time>

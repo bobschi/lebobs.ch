@@ -30,12 +30,12 @@ URL: http://stuffandnonsense.co.uk/projects/320andup
 
 <header role="banner" class="clearfix">
   <hgroup>
-  	<h1>{{ page.title }}</h1>
+  	<h1>{{ page.title | markdownify }}</h1>
   	<h2 class="tagline">
       {% if is_post %}
         {{ page.teaser | markdownify }}
       {% else %}
-        {{ site.tagline }}
+        {{ site.tagline | markdownify }}
       {% endif %}
     </h2>
 	<div class="right ribbon-holder">
@@ -55,7 +55,7 @@ URL: http://stuffandnonsense.co.uk/projects/320andup
 </article>
 
 <aside role="complementary">
-  <p><a href="http://lebobs.ch/">Take me back home!</a></p>
+  {% if is_post %} <p><a href="{{ page.base-url }}">Take me back home!</a></p> {% endif %}
 </aside>
 </div>
 

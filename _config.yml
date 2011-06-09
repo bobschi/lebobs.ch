@@ -1,10 +1,16 @@
-auto: true
-pygments: true
-safe: true
-lsi: false
+safe:        true
+auto:        true
+server:      true
+base-url:    /
 
-markdown: rdiscount
-maruku:
+
+future:      true
+lsi:         false
+pygments:    true
+markdown:    rdiscount
+permalink:   :year/:month/:title.html
+
+rdiscount:
   extensions: [smart]
 
 exclude: ["README.md", "LICENSE.md", "TODO.md", "build", "test"]

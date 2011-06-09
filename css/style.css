@@ -335,13 +335,16 @@ margin: 0 auto; }
 float: right; }
 .post-header .post-title {
 float: left; }
-.post-header h1 {
-font-size: 1em;
-line-height: 1; }
-.post-date,
-.post-title: {
+.post-header .post-date,
+.post-header .post-title: {
 width: auto;
 display: block; }
+.post-header h1 {
+font-size: 1.2em;
+line-height: 1; }
+.post-header {
+background: url('') repeat-x top center; }
+
 .welcome-message {
 text-transform: none;
 font-size: 1em; }
@@ -352,7 +355,7 @@ font-size: 1em; }
 footer p { 
 margin-bottom: 0.1em; }
 .signature {
-font: 1.2em 'Homemade Apple', Lucida Script, serif; }
+font: 2em 'Homemade Apple', Lucida Script, serif; }
 
 /* 14.GLOBAL OBJECTS */
 .flourish {
