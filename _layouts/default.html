@@ -19,7 +19,7 @@ URL: http://stuffandnonsense.co.uk/projects/320andup
 <meta name="description" content="">
 <meta name="author" content="Florian Holzner">
 
-{% if post.teaser != null %}
+{% if page.teaser != null %}
   {% assign is_post = true %}
 {% else %}
   {% assign is_post = false %}
@@ -29,7 +29,7 @@ URL: http://stuffandnonsense.co.uk/projects/320andup
 <body class="clearfix">
 
 <header role="banner" class="clearfix">
-  <hgroup>
+  <hgroup{% if is_post %} class="hidden"{% endif %}>
   	<h1 class="hyphenate"><a href="{{ site.baseurl }}" title="Take me back home!">{{ page.title | markdownify }}</a></h1>
   	<h2 class="hyphenate">
       {% if is_post %}

@@ -300,6 +300,7 @@ background-color : transparent; }
 
 /* 8.BANNER */
 header {
+font-family : 'IM Fell DW Pica SC', 'Cambria', 'Georgia, Times', 'Times New Roman';
 text-align: center; 
 text-transform: uppercase; }
 .tagline {
@@ -353,14 +354,20 @@ padding-right: 0.3em; }
 .post-header .post-title {
 background: white; }
 .post-header h1 {
-font-size: 1.2em;
+font-size: 1em;
 display: inline;
 width: auto;
 margin: 0; }
 .post-header {
+font-size: 1.5em;
 background: url('/img/dot.png') repeat-x center center;
 margin: 1em 0 0 0; 
-padding: 0; }
+padding: 0;  
+line-height: 1.2;
+font-weight: bold; }
+
+#post .post-date {
+float: right;}
 
 .welcome-message {
 text-transform: none;

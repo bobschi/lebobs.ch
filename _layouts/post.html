@@ -1,6 +1,11 @@
 ---
 layout: default
 ---
-<div id="post">
+<header class="clearfix">
+	<h1 class="post-title">{{ post.title }}</h1>
+	<h2 class="post-author"><a href="{{ site.baseurl }}">Florian Holzner</a></h2>
+	<time class="post-date" datetime="{{ page.date }}" pubdate>{{ page.date | date: "%A, %B %d, %Y" }}</time>
+</header>
+<section id="post" class="hyphenate" lang="en">
 {{ content }}
-</div>
+</section>
