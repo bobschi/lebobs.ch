@@ -371,10 +371,13 @@ aside[role='complementary'] {
 font-size: 0.8em; }
 
 /* 13.CONTENTINFO */
+footer {
+color: rgb(145,145,145); 
+font-size: 0.8em; }
 footer p { 
 margin-bottom: 0.1em; }
 .signature {
-font: 2em 'Homemade Apple', Lucida Script, serif; }
+font: 1.25em 'Homemade Apple', Lucida Script, serif; }
 
 /* 14.GLOBAL OBJECTS */
 .flourish {
