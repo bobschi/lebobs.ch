@@ -14,12 +14,12 @@ layout: default
 	<section>
 		<header class="post-header clearfix">
 			<h1>
-				<span class="post-title">
-					<a href="{{ post.url }}">{{ post.title | markdownify }}</a>
-				</span>
-				<span class="post-date">
-					<time datetime="{{ post.date | date_to_xmlschema }}" pubdate>{{ post.date | date: "%A, %B %d, %Y" }}</time>
-				</span>
+			<span class="post-title">
+				<a href="{{ post.url }}">{{ post.title | markdownify }}</a>
+			</span>
+			<span class="post-date">
+				<time datetime="{{ post.date | date_to_xmlschema }}" pubdate>{{ post.date | date: "%A, %B %d, %Y" }}</time>
+			</span>
 			</h1>
 		</header>
 		<p class="post-teaser">{{ post.teaser | markdownify }}</p>

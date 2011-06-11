@@ -30,8 +30,8 @@ URL: http://stuffandnonsense.co.uk/projects/320andup
 
 <header role="banner" class="clearfix">
   <hgroup>
-  	<h1>{{ page.title | markdownify }}</h1>
-  	<h2 class="tagline">
+  	<h1 class="hyphenate">{{ page.title | markdownify }}</h1>
+  	<h2 class="hyphenate">
       {% if is_post %}
         {{ page.teaser | markdownify }}
       {% elsif page.tagline != null %}
@@ -55,8 +55,8 @@ URL: http://stuffandnonsense.co.uk/projects/320andup
 <nav role="navigation">
   <ul>
     <li><a href="{{ site.baseurl }}">Home</a></li>
-    <li><a href="{{ site.baseurl }}/about.html">About</a></li>
-    <li><a href="{{ site.baseurl }}/about.html#contact">Contact</a></li>
+    <li><a href="{{ site.baseurl }}about.html">About</a></li>
+    <li><a href="{{ site.baseurl }}about.html#contact">Contact</a></li>
   </ul>
 </nav>
 
@@ -65,7 +65,7 @@ URL: http://stuffandnonsense.co.uk/projects/320andup
 </article>
 
 <aside role="complementary">
-{% if is_post or page.url != site.base-url %} <p><a href="{{ site.base-url }}">Take me back home!</a></p> {% endif %}
+{% if is_post or page.url != site.base-url %} <p><a href="{{ site.baseurl }}">Take me back home!</a></p> {% endif %}
 </aside>
 
 <p class="flourish">❁</p>
@@ -74,8 +74,8 @@ URL: http://stuffandnonsense.co.uk/projects/320andup
 <footer role="contentinfo" class="clearfix">
   <p>This work is licensed under the <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/at/">Creative Commons Attribution-NonCommercial 3.0 Austria License</a>.</p>
   <p>If you like this blog, feel free to suscribe to the RSS-feed, bookmark it, share the links with over your favourite social networks, etc.</p>
-  <p>Yours,<br /><a href="{{ site.baseurl }}/about.html" class="signature">Florian Holzner</a></p>
-  <p>P.S.: If you have any comments, for the time being please let me know via <a href="https://twitter.com/bobschi" title="my twitter profile">twitter</a> or <script> document.write("<n uers=\"obofpuv\@yninovg.pbz\" ery=\"absbyybj\">".replace(/[a-zA-Z]/g, function(c){return String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);})); </script>email</a>, or look around the <a href="{{ site.baseurl }}/about.html">About</a>-page, to find out other ways to contact me.</p>
+  <p>Yours,<br /><a href="{{ site.baseurl }}about.html" class="signature">Florian Holzner</a></p>
+  <p>P.S.: If you have any comments, for the time being please let me know via <a href="https://twitter.com/bobschi" title="my twitter profile">twitter</a> or <script> document.write("<n uers=\"obofpuv\@yninovg.pbz\" ery=\"absbyybj\">".replace(/[a-zA-Z]/g, function(c){return String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);})); </script>email</a>, or look around the <a href="{{ site.baseurl }}about.html">About</a>-page, to find out other ways to contact me.</p>
 
 </footer>
 

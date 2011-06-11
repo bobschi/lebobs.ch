@@ -113,7 +113,9 @@ background : rgb(255,255,255) /* url(../img/tmp/grid.png) repeat-y 50% 0 */; }
 
 body { 
 margin : 0 auto;
-padding : 24px 0;
+padding : 0 1em;
+max-width: 45em;
+min-width: 8em; 
 width : 90% /* 252px */;
 font : 100%/1.4 'Linux Libertine', Palatino, 'Palatino Linotype', 'Book Antiqua', Georgia, 'Times New Roman', serif;
 color : rgb(40,40,40); 
@@ -336,15 +338,14 @@ display: inline-block; }
 .content,
 footer,
 header {
-width: 50em; /* 800 / 16 = 50 */
-max-width: 900px;
-min-width: 320px; 
-margin: 0 auto; }
+width: 100%; 
+margin: 0 auto; 
+padding: 1em 0; }
 
 /* 11.MAIN */
 .post-header .post-date {
 float: right; 
-padding-left: 0.5em; }
+padding-left: 0.2em; }
 .post-header .post-title {
 float: left; 
 padding-right: 0.3em; }
@@ -352,9 +353,7 @@ padding-right: 0.3em; }
 .post-header .post-title {
 background: white; }
 .post-header h1 {
-font-size: 1.2em;
-line-height: 1; 
-text-align: center; }
+font-size: 1.2em; }
 .post-header {
 background: url('/img/dot.png') repeat-x center center; }
 
