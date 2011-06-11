@@ -305,7 +305,7 @@ text-transform: uppercase; }
 .tagline {
 text-transform: none; }
 header[role='banner'] * h1 {
-font-size: 8em; }
+font-size: 7em; }
 header[role='banner'] * .tagline {
 font-size: 1.75em;
 margin-bottom: 2em; }
@@ -326,7 +326,7 @@ color: #fff; }
 nav[role='navigation'] ul {
 list-style: none; 
 margin: 0;
-padding: 0;
+padding: 0 0 2.5em 0;
 text-align: center; }
 nav[role='navigation'] li {
 display: inline; }

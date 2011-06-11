@@ -1,22 +1,26 @@
 ---
 layout: post
 title: LAN Party Nostalgia
-published: false
+published: published
 teaser: After surfing around the world wide web for a little bit last night, I started looking at the pages of the biggest, most well known Austrian LAN parties. What I found made me sad and melancholic the same time.
 categories:
   - gaming
 ---
 After surfing around the intertubes for a little bit last night, I started looking at the pages of the biggest, most well known Austrian LAN parties. What I found made me sad and melancholic the same time. I visited the, sometimes partly broken, pages of the [Days of Thunder][dot] LAN, [Dagor][dagor], [CityX][cityx], [nur48Stunden][n48h], [Detonation][det03], [Ennsomnia][ennsomn], [Freestyle Zero LAN][fs], [Detonation][det03] and a few others. I took the time to check the pages of the clans [Eagle Squad 7][es7] and [Defcon5][defcon5] as well -- I knew some people playing for those, but both are long gone as well. Some of those I just found by using the orga.nice IT LAN system's [references page][lscref].
 
-But I digress ... Back to LAN Parties
--------------------------------------
+## But I digress ... Back to LAN Parties
 Most of the old, big ones are gone. Namely *DoT* was discontinued after 2009, *City* last happened 2006, *Ennsomnia* was discontinued in 2005, *dagor*'s as well as *Detonation*'s last stands were in 2003 AFAIK. Only a few remain. There will be another [Hausruck-LAN][hrlan] and the [Wallhall 2][wh2] in June, another installment of the [KD-LAN][kd] in September, [nur48Stunden-LAN][n48h] in November, as well as another installment of the [Freestyle Zero LAN][fs] in the second half of this year. All in all, the future is not looking that bright, but also not as bleak as my rendition my sound. There are still some smaller LAN parties around, although I wonder how people should find them, since there is not LAN-portal like [lanscene.at][lsc] anymore. Even the information on the homepage of the [esvö][esvoe] is very limited, not including too many parties for this year.
 
 LAN parties are nice. I like them. Gamers and Nerds everywhere, people playing games and having fun. Paradise on earth. These might be the only parties on earth which young males attend without even hoping to meet women or get laid. As one of the visitors of the Detonation 2003 put it in a radio interview "I'm on a party with 300 man and one girl" (Thank you that anecdote, [Alex][pants] & Alex's Brother). 
 
-esvö
-----
-With lanscene.at gone, there is no central calender for LAN parties in Austria anymore. That, and the steads decline in the number of clans that has been observed in the last years. A strange development, considering that a lot more people have consoles and PC suitable for gaming.
+## Enter: esvö
+With lanscene.at gone, there is no central calender for LAN parties in Austria anymore. That, and the steady decline in the number of clans that has been observed over the past few years have turned the Austrian LAN-scene upside down. A strange development, considering that a lot more people have consoles and PC suitable for gaming, and gaming has become more "social".
+
+<hr />
+
+**WIP**
+
+<hr />
 
 [cityx]:	http://www.cityx.org/ (CityX "xTending Borders" '06)
 [dot]:		http://www.dot-lan.at/ (Days of Thunder '09)
