@@ -49,9 +49,9 @@ URL: http://stuffandnonsense.co.uk/projects/320andup
       {% endunless %}
     </h1>
     {% unless is_main %}
-      {% if is_post %}
+      {% if is_post and page.teaser != null %}
         <h2 class="hyphenate post-teaser">{{ page.teaser | markdownify }}</h2>
-      {% else %}
+      {% elsif page.tagline != null %}
         <h2 class="hyphenate page-tagline">{{ page.tagline | markdownify }}</h2>
       {% endif %}
     {% endunless %}

@@ -1,7 +1,6 @@
 ---
 layout: default
 title: (Out and) About
-tagline: Le Bobsch Blogs
 ---
 ## About Florian Holzner
 Hi, my name is Florian Holzner. I live in Vienna, Austria. I am currently studying Human Medicine and Medical Informatics. Those are two distinct studies, one at the Medical University of Vienna, the other at the Vienna University of Technology. My Blog is mostly about stuff that interests me: Computers, Medicine, Design, Photography, Typography, and so on. In neither of my studies nor my fields of interest am I a master, so please, feel free to <em>correct me when I make mistakes</em>, but also tell me when I did good.
