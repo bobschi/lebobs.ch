@@ -14,5 +14,3 @@ rdiscount:
   extensions: [smart]
 
 exclude: ["README.md", "LICENSE.md", "TODO.md", "build", "test"]
-
-tagline: The mostly interesting ramblings of me ...

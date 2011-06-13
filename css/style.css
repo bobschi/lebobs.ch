@@ -1,12 +1,4 @@
-@import url(mylibs/forms.css);
-@import url(mylibs/githubribbon.css);
-/* ***GOOGLE WEBFONTS VIA GOOGLE FONT API*** */
-/* font-family: 'IM Fell DW Pica SC' */
-@import url(http://fonts.googleapis.com/css?family=IM+Fell+DW+Pica+SC);
-/* font-family: 'Inconsolata' */
-@import url(http://fonts.googleapis.com/css?family=Inconsolata);
-/* font-family: 'Homemade Apple' */
-@import url(http://fonts.googleapis.com/css?family=Homemade+Apple);
+/* @import url(mylibs/forms.css); */
 
 /* 320
 
@@ -39,6 +31,7 @@ _____________________________________________________
 17.MODERNIZR
 
 COLOURS 
+
 */
 
 html, body, div, span, applet, object, iframe,
@@ -113,11 +106,9 @@ background : rgb(255,255,255) /* url(../img/tmp/grid.png) repeat-y 50% 0 */; }
 
 body { 
 margin : 0 auto;
-padding : 0 1em;
-max-width: 45em;
-min-width: 8em; 
+padding : 24px 0;
 width : 90% /* 252px */;
-font : 100%/1.4 'Linux Libertine', Palatino, 'Palatino Linotype', 'Book Antiqua', Georgia, 'Times New Roman', serif;
+font : 100%/1.4 Cambria, Georgia, Times, "Times New Roman";
 color : rgb(40,40,40); 
 background-color : transparent; }
 
@@ -129,31 +120,31 @@ h3,
 h4, 
 h5, 
 h6 {
-font-family : 'IM Fell DW Pica SC', 'Cambria', 'Georgia, Times', 'Times New Roman';
+font-family : "Helvetica Neue", Helvetica, Arial;
 font-weight : bold; }
 
 h1 { 
-margin-top : .75em;
+margin-bottom : .75em;
 font-size : 3em; /* 48 / 16 = 3 */
 line-height : 1.2; }
 
 h2 { 
-margin-top : .75em;
+margin-bottom : .75em;
 font-size : 2em; /* 36 / 16 = 2 */
 line-height : 1.2; }
 
 h3 { 
-margin-top : 1em;
+margin-bottom : 1em;
 font-size : 1.5em; /* 24 / 16 = 1.5 */
 line-height : 1.3; }
 
 h4 { 
-margin-top : 1.25em;
+margin-bottom : 1.25em;
 font-size : 1.25em; /* 20 / 16 = 1.25 */
 line-height : 1.25; }
 
 h5 { 
-margin-top : 1.5em;
+margin-bottom : 1.5em;
 font-size : 1em; /* 16 / 16 = 1 */ }
 
 h6 { 
@@ -172,7 +163,7 @@ font-size : 1em; /* 16 / 16 = 1 */ }
 ul, 
 ol { 
 margin : 0 0 1.5em -24px; 
-padding-left : 48px; }
+padding-left : 24px; }
 
 ul { 
 list-style-type : disc; }
@@ -299,91 +290,13 @@ background-color : transparent; }
 /* 7.FORMS (See css/mylibs/forms.css) */
 
 /* 8.BANNER */
-header {
-text-align: center; 
-text-transform: uppercase; }
-.tagline {
-text-transform: none; }
-header[role='banner'] h1 {
-font-size: 7em; }
-header[role='banner'] * .tagline {
-font-size: 1.75em;
-margin-bottom: 2em; }
-
-.ribbon-holder {
-text-align: left;
-text-transform: none;
-font-size: 1em; }
-.ribbon a,
-.ribbon a:visited,
-.ribbon a:hover,
-.ribbon a:active,
-.ribbon a:focus,
-.ribbon .text {
-color: #fff; }
-
 /* 9.NAVIGATION */
-nav[role='navigation'] ul {
-list-style: none; 
-margin: 0;
-padding: 0 0 1em 0;
-text-align: center; }
-nav[role='navigation'] li {
-display: inline; }
-nav[role='navigation'] a {
-width: 5em;
-display: inline-block; }
-
 /* 10.CONTENT */
-.content,
-footer,
-header {
-width: 100%; 
-margin: 0 auto; 
-padding: 1em 0; }
-
 /* 11.MAIN */
-.post-header .post-date {
-float: right; 
-padding-left: 0.2em; }
-.post-header .post-title {
-float: left; 
-padding-right: 0.3em; }
-.post-header .post-date,
-.post-header .post-title {
-background: white; }
-.post-header h1 {
-font-size: 1.2em;
-display: inline;
-width: auto;
-margin: 0; }
-.post-header {
-background: url('/img/dot.png') repeat-x center center;
-margin: 1em 0 0 0; 
-padding: 0; }
-
-.welcome-message {
-text-transform: none;
-font-size: 1em; }
-
 /* 12.COMPLIMENTARY */
-aside[role='complementary'] {
-font-size: 0.8em; }
-
 /* 13.CONTENTINFO */
-footer {
-color: rgb(145,145,145); 
-font-size: 0.8em; }
-footer p { 
-margin-bottom: 0.1em; }
-.signature {
-font: 1.25em 'Homemade Apple', Lucida Script, serif; }
 
 /* 14.GLOBAL OBJECTS */
-.flourish {
-font: 2em 'Arial Unicode MS', FreeSerif, OpenSymbol, sans-serif; /* 36 / 16 = 3 */
-text-align: center; 
-line-height : 1.2; }
 
 .clearfix { 
 zoom : 1; }

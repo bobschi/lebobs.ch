@@ -15,31 +15,49 @@ URL: http://stuffandnonsense.co.uk/projects/320andup
 <head>
 <meta charset="utf-8">
 
-<title>{{ page.title }}</title>
-<meta name="description" content="">
-<meta name="author" content="Florian Holzner">
-
-{% if post.teaser != null %}
+{% if page.teaser != null %}
   {% assign is_post = true %}
 {% else %}
   {% assign is_post = false %}
 {% endif %}
+
+{% if page.title == "Le Bobsch Blogsch" %}
+  {% assign is_main = true %}
+{% else %}
+  {% assign is_main = false %}
+{% endif %}
+
+<title>Le Bobsch Blogsch{% if is_post %} &ndash; {{ page.title }} {% endif %}</title>
+<meta name="description" content="The Blog of Florian Holzern">
+<meta name="author" content="Florian Holzner">
+
 {% include boilerplate_css_scripts.html %}
 
 <body class="clearfix">
 
 <header role="banner" class="clearfix">
   <hgroup>
-  	<h1 class="hyphenate"><a href="{{ site.baseurl }}" title="Take me back home!">{{ page.title | markdownify }}</a></h1>
-  	<h2 class="hyphenate">
+  	<h1 class="hyphenate">
+      <span class="sitetitle">
+        <a href="{{ site.baseurl }}" title="Take me back home!">Le Bobsch Blogsch</a>
+      </span> &ndash; 
+      <span class="tagline">
+        The Mostly Interesting Ramblings of Me &hellip;
+      </span>
+    </h1>
+    {% unless is_main %}
       {% if is_post %}
-        {{ page.teaser | markdownify }}
-      {% elsif page.tagline != null %}
-        {{ page.tagline | markdownify }}
+        <h2 class="hyphenate post-title">{{ page.title | markdownify }}</h3>
+        <p class="post-teaser">{{ page.teaser | markdownify }}</p>
       {% else %}
-        {{ site.tagline | markdownify }}
+        <h2 class="hyphenate page-title">{{ page.title | markdownify }}</h3>
+        <p class="page-tagline">{{ page.tagline | markdownify }}</p>
       {% endif %}
-    </h2>
+    {% endunless %}
+      <ul>
+        <li>is_post: {{ is_post }}</li>
+        <li>is_main: {{ is_main }}</li>
+      </ul>
 	<div class="right ribbon-holder">
 		<a href="https://github.com/bobschi" class="darkgray ribbon">
 			<span class="text">Fork me on github</span>
