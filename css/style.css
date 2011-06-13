@@ -109,7 +109,7 @@ body {
 margin : 0 auto;
 padding : 24px 0;
 width : 90% /* 252px */;
-font : 100%/1.4 Cambria, Georgia, Times, "Times New Roman";
+font : 100%/1.4 'Vollkorn', 'Linux Libertine', Palatino, 'Palatino Linotype', 'Book Antiqua', Georgia, 'Times New Roman', serif;
 color : rgb(40,40,40); 
 background-color : transparent; }
 
@@ -121,8 +121,9 @@ h3,
 h4, 
 h5, 
 h6 {
-font-family : "Helvetica Neue", Helvetica, Arial;
-font-weight : bold; }
+font-weight : bold; 
+font-family: 'IM Fell DW Pica SC', 'Linux Libertine', Palatino, 'Palatino Linotype', 'Book Antiqua', Georgia, 'Times New Roman', serif;
+color: crimson; }
 
 h1 { 
 margin-bottom : .75em;
@@ -239,7 +240,7 @@ font-size : 1em; /* 16 / 16 = 1 */ }
 a, 
 a:visited {
 outline : none;
-color : red;
+color : crimson;
 text-decoration : none; }
 
 a:hover { 
@@ -292,18 +293,30 @@ background-color : transparent; }
 
 /* 8.BANNER */
 header[role='banner'] {
-text-align: center; }
+text-align: center; 
+font-family: 'IM Fell DW Pica SC', 'Linux Libertine', Palatino, 'Palatino Linotype', 'Book Antiqua', Georgia, 'Times New Roman', serif; }
+
+header[role='banner'] .ribbon-holder {
+font-size: 1em; }
+
 header[role='banner'] .flourish {
 font-size: 1em; 
-color: red; }
+color: crimson; }
+
+header[role='banner'] h1,
+header[role='banner'] h2 {
+color: rgb(40,40,40); }
+
 header[role='banner'] h1 a {
 color: rgb(40,40,40); }
+
 header[role='banner'] .site-title, 
 header[role='banner'] .flourish, 
 header[role='banner'] .post-title,
 header[role='banner'] .page-title {
 display: block;
 width: 100%; }
+
 header[role='banner'] .post-teaser,
 header[role='banner'] .page-tagline {
 font-size: 1.5em;
@@ -325,7 +338,7 @@ display: inline-block; }
 .flourish {
 text-align: center; 
 font-size: 1.5em; 
-color: red; }
+font-family: "Arial Unicode MS", Arial, FreeSans, sans-serif; }
 
 .clearfix { 
 zoom : 1; }

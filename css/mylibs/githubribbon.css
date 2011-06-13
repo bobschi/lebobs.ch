@@ -1,4 +1,8 @@
 /* via http://people.mozilla.com/~jbalogh/ribbon/ribbon.css */
+@font-face {
+font-family: Collegiate;
+src: url("../../fonts/Collegiate.ttf"); }
+
 .ribbon-holder {
   position: absolute;
   top: 0;
@@ -20,6 +24,7 @@
 }
 
 .ribbon {
+  font-family: 'Collegiate', sans-serif !important;
   letter-spacing: -.1px;
   opacity: 0.95;
 
