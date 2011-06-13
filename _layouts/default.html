@@ -50,9 +50,9 @@ URL: http://stuffandnonsense.co.uk/projects/320andup
     </h1>
     {% unless is_main %}
       {% if is_post and page.teaser != null %}
-        <h2 class="hyphenate post-teaser">{{ page.teaser | markdownify }}</h2>
+        <h2 class="hyphenate post-teaser">&ldquo;{{ page.teaser | markdownify }}&rdquo;</h2>
       {% elsif page.tagline != null %}
-        <h2 class="hyphenate page-tagline">{{ page.tagline | markdownify }}</h2>
+        <h2 class="hyphenate page-tagline">&ldquo;{{ page.tagline | markdownify }}&rdquo;</h2>
       {% endif %}
     {% endunless %}
 	 <div class="right ribbon-holder">	

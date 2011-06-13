@@ -301,8 +301,7 @@ header[role='banner'] .ribbon-holder {
 font-size: 1em; }
 
 header[role='banner'] .flourish {
-font-size: 1em; 
-color: crimson; }
+font-size: 0.5em; }
 
 header[role='banner'] h1,
 header[role='banner'] h2 {
@@ -317,6 +316,10 @@ header[role='banner'] .post-title,
 header[role='banner'] .page-title {
 display: block;
 width: 100%; }
+
+header[role='banner'] .post-title,
+header[role='banner'] .page-title {
+color: crimson; }
 
 header[role='banner'] .post-teaser,
 header[role='banner'] .page-tagline {
@@ -337,7 +340,6 @@ display: inline-block; }
 footer[role='contentinfo'] {
 font-size: 0.85em;
 color: rgb(145,145,145); }
-
 footer[role='contentinfo'] p {
 margin: 0.2em 0; }
 
@@ -463,6 +465,10 @@ margin-bottom : 1.5em; }
 
 /* 17.MODERNIZR */
 /* 18.POST INDEX */
+.post-index .post-header h1,
+.post-index .post-header p {
+margin-bottom: 0.35em; }
+
 .post-index .post-title,
 .post-index .post-date,
 .post-index .flourish {
