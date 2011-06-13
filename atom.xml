@@ -10,8 +10,8 @@ layout: nil
  <updated>{{ site.time | date_to_xmlschema }}</updated>
  <id>http://lebobs.ch/<id>
  <author>
-   <name>site.owner-name</name>
-   <email>site.owner-email</email>
+   <name>Florian Holzner</name>
+   <email>bobschi@lavabit.com</email>
  </author>
 
  {% for post in site.posts %}

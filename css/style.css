@@ -31,6 +31,7 @@ _____________________________________________________
 16.TEMPLATE SPECIFICS
 17.MODERNIZR
 18.POST INDEX
+19.POST
 
 COLOURS 
 
@@ -481,6 +482,35 @@ font-family: 'IM Fell DW Pica SC', 'Linux Libertine', Palatino, 'Palatino Linoty
 .post-index .post-date {
 /*float: right;*/
 color: rgb(145,145,145); }
+
+/* 19.POST */
+.info {
+color: rgb(145, 145, 145);
+font-size: 0.9; }
+
+.signature .post-author,
+.signature .post-date {
+display: block; }
+
+.signature a {
+color: rgb(145, 145, 145); }
+
+.category-heading,
+.category-list li {
+font-size: 1em;
+font-weight: normal;
+font-family:  'Vollkorn', 'Linux Libertine', Palatino, 'Palatino Linotype', 'Book Antiqua', Georgia, 'Times New Roman', serif;
+color: rgb(145, 145, 145);
+margin: 0 1em 0 0 ;
+width: 5.5375em; /* 88.6 / 16 = 5.5375 */ } }
+
+.category-list {
+margin-left: 0;
+padding: 0; }
+
+.category-list li {
+list-style: none;}
+
 
 /* 
 Sources: 

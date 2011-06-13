@@ -33,8 +33,9 @@ src: url("../../fonts/Collegiate.ttf"); }
   top: 2.5em;
 
   /* Defaults friendly for white pages. */
-  -moz-box-shadow: 0 0 13px #888;
-  -webkit-box-shadow: 0 0 13px #888;
+     -moz-box-shadow: 0px 0px 13px #888; /* FF3.5+ */
+  -webkit-box-shadow: 0px 0px 13px #888; /* Saf3.0+, Chrome */
+          box-shadow: 0px 0px 13px #888; /* Opera 10.5, IE9, Chrome 10+ */
   color: #FFF;
   display: block;
   line-height: 1.35em;
@@ -45,14 +46,22 @@ src: url("../../fonts/Collegiate.ttf"); }
 }
 
 .right .ribbon {
-  -moz-transform: rotate(45deg);
-  -webkit-transform: rotate(45deg);
+     -moz-transform: rotate(45deg);  /* FF3.5+ */
+       -o-transform: rotate(45deg);  /* Opera 10.5 */
+  -webkit-transform: rotate(45deg);  /* Saf3.1+, Chrome */
+      -ms-transform: rotate(45deg);  /* IE9 */
+          transform: rotate(45deg);  
+               zoom: 1;
   right: -2.8em;
 }
 
 .left .ribbon {
-  -moz-transform: rotate(-45deg);
-  -webkit-transform: rotate(-45deg);
+     -moz-transform: rotate(-45deg);  /* FF3.5+ */
+       -o-transform: rotate(-45deg);  /* Opera 10.5 */
+  -webkit-transform: rotate(-45deg);  /* Saf3.1+, Chrome */
+      -ms-transform: rotate(-45deg);  /* IE9 */
+          transform: rotate(-45deg);  
+               zoom: 1;
   left: -2.8em;
 }
 
