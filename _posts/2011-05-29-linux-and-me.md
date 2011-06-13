@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Linux and Me
-published: true
+published: false
 teaser: I don't like Linux all that much, and Linux doesn't like me. A rant, entirely personal and in no way objective.
 categories:
   - gaming
