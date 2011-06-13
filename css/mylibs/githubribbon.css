@@ -116,4 +116,5 @@
 
 .darkgray.ribbon .text {
   border: 1px solid #a4a4a4;
+  color: white !important;
 }

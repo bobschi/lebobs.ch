@@ -40,35 +40,30 @@ URL: http://stuffandnonsense.co.uk/projects/320andup
   	<h1 class="hyphenate">
       <span class="sitetitle">
         <a href="{{ site.baseurl }}" title="Take me back home!">Le Bobsch Blogsch</a>
-      </span> &ndash; 
-      <span class="tagline">
-        The Mostly Interesting Ramblings of Me &hellip;
       </span>
+      {% unless is_main %}
+       <span class="flourish">❧</span> 
+      <span class="{% if is_post %}post-title{% else %}page-title{% endif %}">
+        {{ page.title | markdownify }}
+      </span>
+      {% endunless %}
     </h1>
     {% unless is_main %}
       {% if is_post %}
-        <h2 class="hyphenate post-title">{{ page.title | markdownify }}</h3>
-        <p class="post-teaser">{{ page.teaser | markdownify }}</p>
+        <h2 class="hyphenate post-teaser">{{ page.teaser | markdownify }}</h2>
       {% else %}
-        <h2 class="hyphenate page-title">{{ page.title | markdownify }}</h3>
-        <p class="page-tagline">{{ page.tagline | markdownify }}</p>
+        <h2 class="hyphenate page-tagline">{{ page.tagline | markdownify }}</h2>
       {% endif %}
     {% endunless %}
-      <ul>
-        <li>is_post: {{ is_post }}</li>
-        <li>is_main: {{ is_main }}</li>
-      </ul>
-	<div class="right ribbon-holder">
-		<a href="https://github.com/bobschi" class="darkgray ribbon">
-			<span class="text">Fork me on github</span>
-		</a>
-	</div>
+	 <div class="right ribbon-holder">	
+      <a href="https://github.com/bobschi" class="darkgray ribbon">
+	 		<span class="text">Fork me on github</span>
+	 	</a>
+	 </div>
   </hgroup>
 </header>
 
 <div class="content clearfix">
-
-<p class="flourish">❁</p>
 
 <nav role="navigation">
   <ul>
@@ -78,15 +73,15 @@ URL: http://stuffandnonsense.co.uk/projects/320andup
   </ul>
 </nav>
 
-<article role="main">
+<div role="main">
 {{ content }}
-</article>
+</div>
 
 <aside role="complementary">
 {% if is_post or page.url != site.base-url %} <p><a href="{{ site.baseurl }}">Take me back home!</a></p> {% endif %}
 </aside>
 
-<p class="flourish">❁</p>
+<p class="flourish">❦</p>
 </div>
 
 <footer role="contentinfo" class="clearfix">
