@@ -30,6 +30,7 @@ _____________________________________________________
 15.VENDOR-SPECIFIC 
 16.TEMPLATE SPECIFICS
 17.MODERNIZR
+18.POST INDEX
 
 COLOURS 
 
@@ -333,6 +334,12 @@ display: inline-block; }
 /* 11.MAIN */
 /* 12.COMPLIMENTARY */
 /* 13.CONTENTINFO */
+footer[role='contentinfo'] {
+font-size: 0.85em;
+color: rgb(145,145,145); }
+
+footer[role='contentinfo'] p {
+margin: 0.2em 0; }
 
 /* 14.GLOBAL OBJECTS */
 .flourish {
@@ -455,6 +462,19 @@ list-style-type : none; }
 margin-bottom : 1.5em; }
 
 /* 17.MODERNIZR */
+/* 18.POST INDEX */
+.post-index .post-title,
+.post-index .post-date,
+.post-index .flourish {
+display: inline-block;
+font-size: 1.5em;
+font-family: 'IM Fell DW Pica SC', 'Linux Libertine', Palatino, 'Palatino Linotype', 'Book Antiqua', Georgia, 'Times New Roman', serif; }
+
+.post-index .post-title {
+/*float: left; */}
+.post-index .post-date {
+/*float: right;*/
+color: rgb(145,145,145); }
 
 /* 
 Sources: 

@@ -78,7 +78,9 @@ URL: http://stuffandnonsense.co.uk/projects/320andup
 </div>
 
 <aside role="complementary">
-{% if is_post or page.url != site.base-url %} <p><a href="{{ site.baseurl }}">Take me back home!</a></p> {% endif %}
+{% unless is_main %}
+<p><a href="{{ site.baseurl }}">Take me back home!</a></p>
+{% endunless %}
 </aside>
 
 <p class="flourish">❦</p>
