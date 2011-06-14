@@ -111,4 +111,24 @@ if(this.console) console.log( Array.prototype.slice.call(arguments) );
 		$('.placeholder').val('');
 	});
 
+	// EMail-Obfuscation
+	$.rotate13 = function(s) {
+        var b = [],c,i = s.length,a = 'a'.charCodeAt(),z = a + 26,A = 'A'.charCodeAt(),Z = A + 26;
+        while (i--) {
+            c = s.charCodeAt(i);
+            if (c >= a && c < z) { b[i] = String.fromCharCode(((c - a + 13) % (26)) + a); }
+            else if (c >= A && c < Z) { b[i] = String.fromCharCode(((c - A + 13) % (26)) + A); }
+            else { b[i] = s.charAt(i); }
+        }
+        return b.join('');
+    };
+	$(function() {
+	    $('.contact-em').attr('href', $.rotate13('znvygb:obofpuv\@yninovg.pbz')).text('email');
+	    });
+
+	$(function() {
+	    $('.contact-full').attr('href', $.rotate13('znvygb:obofpuv\@yninovg.pbz')).text(
+	        $.rotate13('obofpuv\@yninovg.pbz'));
+	    });
+
 }(jQuery));
