@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Hello World!
-published: true
 teaser: I finally went through with the plan to buy the domain lebobs.ch and setup a blog for myself. This is still very much a WIP, so don't expect too much.
 categories:
   - personal

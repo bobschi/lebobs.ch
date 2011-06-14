@@ -336,6 +336,18 @@ display: inline-block; }
 
 /* 10.CONTENT */
 /* 11.MAIN */
+div[role='main'] p,
+div[role='main'] ul,
+div[role='main'] ol,
+div[role='main'] blockquote {
+font-size: 1.1em; }
+div[role='main'] ul,
+div[role='main'] ol,
+div[role='main'] dd {
+padding-left: 4em; }
+div[role='main'] dt {
+font-weight: bold; }
+
 /* 12.COMPLIMENTARY */
 /* 13.CONTENTINFO */
 footer[role='contentinfo'] {
@@ -486,7 +498,7 @@ color: rgb(145,145,145); }
 /* 19.POST */
 .info {
 color: rgb(145, 145, 145);
-font-size: 0.9; }
+font-size: 0.9em; }
 
 .signature .post-author,
 .signature .post-date {
