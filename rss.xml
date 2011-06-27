@@ -1,0 +1,27 @@
+---
+layout: nil
+---
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+ 
+<channel>
+  <title>Le Bobsch Blogsch</title>
+  <link>http://lebobs.ch/</link>
+  <description>Le Bobsch Blogs</description>
+  <language>en-US</language>
+  <copyright>Florian Holzner</copyright>
+  <pubDate>Mon, 27 Jun 2011 22:04:00</pubDate>
+ 
+  {% for post in site.posts %}
+  <item>
+    <title>{{ post.title }}</title>
+      <description>{{ post.teaser }}</description>
+      <link>http://lebobs.ch{{ post.url }}</link>
+      <author>Florian Holzner, bobschi@lavabit.com</author>
+      <guid>{{ post.id }}</guid>
+      <pubDate>{{ post.date | date_to_xmlschema }}</pubDate>
+    </item>
+  {% endfor %}
+  </channel>
+ 
+</rss>
