@@ -361,6 +361,26 @@ padding-left: 4em; }
 div[role='main'] dt {
 font-weight: bold; }
 
+.page p a, 
+.page p a:visited,
+.post p a, 
+.post p a:visited {
+padding: 0 0.2em 0 0.2em;
+color : black;
+background: rgba(255,255,0,0.5); }
+
+.page p a:hover,
+.post p a:hover { 
+color : crimson; 
+text-decoration : none; }
+ 
+.page p a:active, 
+.page p a:focus,
+.post p a:active, 
+.post p a:focus { 
+outline : none;
+color : rgb(0,0,0); }
+
 /* 12.COMPLIMENTARY */
 aside[role='complementary'] h1 {
 width: auto;
