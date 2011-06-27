@@ -15,7 +15,7 @@ layout: nil
  
   {% for post in site.posts %}
   <item>
-    <title><![CDATA[{{ post.title }]]></title>
+    <title><![CDATA[{{ post.title }}]]></title>
       <description><![CDATA[{{ post.teaser }}]]></description>
       <link>http://lebobs.ch{{ post.url }}</link>
       <author>bobschi@lavabit.com (Florian Holzner)</author>
