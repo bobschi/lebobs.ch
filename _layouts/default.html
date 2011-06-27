@@ -51,7 +51,7 @@ URL: http://stuffandnonsense.co.uk/projects/320andup
     </h1>
     {% unless is_main %}
       {% if is_post and page.teaser != null %}
-        <h2 class="hyphenate post-teaser">&ldquo;{{ page.teaser | markdownify }}&rdquo;</h2>
+        <h2 class="hyphenate post-teaser">{{ page.teaser | markdownify }}</h2>
       {% elsif page.tagline != null %}
         <h2 class="hyphenate page-tagline">&ldquo;{{ page.tagline | markdownify }}&rdquo;</h2>
       {% endif %}
@@ -62,26 +62,29 @@ URL: http://stuffandnonsense.co.uk/projects/320andup
       <span class="text">Fork me on GitHub</span>
     </a>
    </div>
+   <nav role="navigation" class="visuallyhidden">
+      <ul>
+        <li><a href="{{ site.baseurl }}">Home</a></li>
+        <li><a href="{{ site.baseurl }}about.html">About</a></li>
+        <li><a href="{{ site.baseurl }}about.html#contact">Contact</a></li>
+      </ul>
+    </nav>
 </header>
 
 <div class="content clearfix">
+<div role="main">
+{{ content }}
+</div>
 
-<nav role="navigation">
+<hr />
+
+<aside role="complementary">
+  <h1>Quicklinks:</h1>
   <ul>
     <li><a href="{{ site.baseurl }}">Home</a></li>
     <li><a href="{{ site.baseurl }}about.html">About</a></li>
     <li><a href="{{ site.baseurl }}about.html#contact">Contact</a></li>
   </ul>
-</nav>
-
-<div role="main">
-{{ content }}
-</div>
-
-<aside role="complementary">
-{% unless is_main %}
-<p><a href="{{ site.baseurl }}">Take me back home!</a></p>
-{% endunless %}
 </aside>
 
 <p class="flourish">❦</p>
@@ -91,7 +94,6 @@ URL: http://stuffandnonsense.co.uk/projects/320andup
   <p>This work is licensed under the <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/at/">Creative Commons Attribution-NonCommercial 3.0 Austria License</a>.</p>
   <p>If you like this blog, feel free to subscribe to the <a href="http://feeds.feedburner.com/LeBobschBlogsch">RSS-feed</a>, bookmark it, share the links with over your favourite social networks, etc.</p>
   <p>If you have any comments, for the time being please let me know via <a href="https://twitter.com/bobschi" title="my twitter profile">twitter</a> or <a href="ygb:obofpuv\@yninovg.pbz" class="contact-em">email (run through rot13 first)</a>, or look around the <a href="{{ site.baseurl }}about.html">About</a>-page, to find out other ways to contact me.</p>
-
 </footer>
 
 {% include boilerplate_analytics_scripts.html %}

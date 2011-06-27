@@ -41,10 +41,9 @@ _____________________________________________________
 /* 9.NAVIGATION */
 nav[role='navigation'] li {
 display: inline-block;
-width: 5.5375em; /* 88.6 / 16 = 5.5375 */
-margin-left: 0.5em;
-margin-right: 0.5em;
-margin-bottom: 0; }
+width: 5.538em; /* 88.6 / 16 = 5.538 */
+margin: 0 0.5em 0 0.5em;
+padding: 0; }
 
 /* 10.CONTENT */
 /* 11.MAIN */
