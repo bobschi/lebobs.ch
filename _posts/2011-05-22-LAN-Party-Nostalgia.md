@@ -4,9 +4,9 @@ title: LAN Party Nostalgia
 published: true
 teaser: After surfing around the world wide web for a little bit last night, I started looking at the pages of the biggest, most well known Austrian LAN parties. What I found made me sad and melancholic the same time.
 categories:
-  - gaming
+  - Gaming
+  - LAN Party Nostalgia
 ---
-## Prelude
 After surfing around the intertubes for a little bit last night, I started looking at the pages of the biggest, most well known Austrian LAN parties. What I found made me sad and melancholic the same time. I visited the, sometimes partly broken, pages of the [Days of Thunder][dot] LAN, [Dagor][dagor], [CityX][cityx], [nur48Stunden][n48h], [Detonation][det03], [Ennsomnia][ennsomn], [Freestyle Zero LAN][fs], [Detonation][det03] and a few others. I took the time to check the pages of the clans [Eagle Squad 7][es7] and [Defcon5][defcon5] as well -- I knew some people playing for those, but both are long gone as well. Some of those I just found by using the orga.nice IT LAN system's [references page][lscref].
 
 ## But I digress ... Back to LAN Parties
@@ -29,6 +29,13 @@ That's their mission statement. For those of you who don't understand German, le
 >
 > -- Stefan Baloh, Präsident esvö, translated by Florian Holzner
 
+I have somewhat limited hopes that the esvö will change the Austrian LAN Party scene. To host a party with more than 50 people, you simply need sponsors, and even for smaller parties sponsors are definitely a plus. And you don't just need prizes in-kind for the tournaments, you need money up front for the venue, the catering, cleaning, damages that might occur during the party as well as the equipment -- servers, switches, cables, tables, etc. pp. -- that you either need to rent or purchase. And the interest in sponsoring LAN parties has simply declined, from what I take.
+
+Another problem that the esvö will not be able to fix is people. Many of the people that organized LAN Parties some time back have grown up, gotten jobs and created families, which means they simply don't have the time any more. And new blood is sparse in the orgnizer-scene. I don't really know why. Some people say that it's "the internet". While definitively being involved in the decline of LAN Parties, I do not think that "the internet" is at fault alone. This seems to easy to me. Maybe the players' taste in and style of games has shifted from competitive to casual gaming. That in conjunction with the ease of finding people to play over the web might be responsible for the downfall of LAN-parties in Austria. Maybe it's the fact that Austria is too little of a country to attract the attention of companies willing to sponsor eSports events of the necessary size to host tournaments with big enough prize-pools for Pro-gaming teams. Maybe LAN-Parties no longer work alone, but need to be combined with some kind of I fair and a supporting program like concerts and parties. It has been tried in Austria in 2010 in the Festpielhaus in St. Pölten under the name of [CyberLab 2010][cyberl]. The project has gotten some media attention, and was moderately successful, I would say, and impressively so for a first timer, but is nothing close in size to [Dreamhack][dh] or [GamesCom]. (I was unable to attend Cyberlab 2010 due to exams at that time, so I have to rely on reports. Please correct me if I am wrong on the Cyberlab.)
+
+## Closing Words
+While I am kinda sad to observe a steady decline in LAN-Parties in Austria, and annoyed by the fact that there is not really some kind of central spot to look for LANs on the world wide web, I still think that there is hope and great potential. The parties that are still around are proof of that, and I look forward to attending one or the other this year. I will turn this into a series of posts, possibly even with interviews -- *wink*, pants -- with some of the inactive or still active orgas, since I am not satisfied at all with what I have found out. I have the feeling that this account is incomplete at least, but okay as a starting point for a more detailed investigation. Thank you for your attention.
+
 [cityx]:	http://www.cityx.org/ (CityX "xTending Borders" '06)
 [dot]:		http://www.dot-lan.at/ (Days of Thunder '09)
 [dagor]:	http://organiceit.lanscene.at/cgi-bin/onit/onIT.cgi%3FMODULE%3DNavigation%3BACTION%3DShow%3BNavigation.ID%3D2%3BSITE%3D2 (Dagor.net-LAN, broken)
@@ -45,3 +52,5 @@ That's their mission statement. For those of you who don't understand German, le
 [hrlan]:	http://hausruck-lan.org/ (Hausruck-KAN 11.1 June '11)
 [wh2]:		http://www.arom.org/index.php?option=com_wrapper&view=wrapper&Itemid=14 (Wallhall 2 -- Time to say goodbye? June '11)
 [pants]:	http://www.twitter.com/pants9 (Alex' Twitter Profile)
+[dh]:		http://dreamhack.se/
+[cyberl]:	http://cyberlab2010.wordpress.com/

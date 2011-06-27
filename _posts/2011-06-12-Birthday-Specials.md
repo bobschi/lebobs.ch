@@ -2,7 +2,9 @@
 layout: post
 title: Birthday-Specials in Vienna
 published: true
-teaser: We all get older. To ease the pain of aging, some restaurants, caf&eacute;s, pubs and bars, as well as some shops or other POIs in and around Vienna offer birthday special. I've compiled a list of the few I tried or at least read about.
+teaser: We all get older. To ease the pain of aging, some restaurants, caf&eacute;s, pubs and bars, as well as some shops or other points of interest in and around Vienna offer birthday special. I've compiled a list of the few I tried or at least read about.
+categories:
+  - Personal
 ---
 We get older. Depending on how old we are, we get a less older every year, relatively speaking. If you're ten, a year is a tenth of your life! If you're eighty, that one year suddenly doesn't matter as much. So turning *83* doesn't hurt as much as turning *35* or *23*, right? Another thing I've got to get out of the way before we can start: why do people complain about getting older so much? Being young sucks infinitely more: a lot of stuff you don't get to do because you're too young, you're not allowed to or you simply don't understand. Compared to that, turning 16 (you're allowed to drink beer now), turning 18 (you're suddenly allowed to drive a car, if you've got your driver's license, and buy liquor), turning 25 (you no longer need to pay extra insurance fees when renting a car in the USA) or turning 35 (you may run for [Bundespräsident][bp] in Austria).
 
