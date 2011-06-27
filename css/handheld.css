@@ -1,4 +1,4 @@
-/* Handheld 
+/* handheld 
 
 _____________________________________________________
 
@@ -30,6 +30,8 @@ _____________________________________________________
 
 */
 
+body { background: yellow; }
+
 /* 1.ROOT */
 /* 2.HEADINGS */
 /* 3.TYPOGRAPHY */
@@ -38,6 +40,27 @@ _____________________________________________________
 /* 6.TABLES */
 /* 7.FORMS (See css/mylibs/forms.css) */
 /* 8.BANNER */
+header[role='banner'] .ribbon-holer {
+	position: absolute; 
+}
+header[role='banner'] .right .ribbon {
+	 -moz-transform: rotate(-45deg);  /* FF3.5+ */
+       -o-transform: rotate(-45deg);  /* Opera 10.5 */
+  -webkit-transform: rotate(-45deg);  /* Saf3.1+, Chrome */
+      -ms-transform: rotate(-45deg);  /* IE9 */
+          transform: rotate(-45deg);  
+               zoom: 1;
+  right: -2.8em;
+}
+header[role='banner'] .left .ribbon {
+     -moz-transform: rotate(45deg);  /* FF3.5+ */
+       -o-transform: rotate(45deg);  /* Opera 10.5 */
+  -webkit-transform: rotate(45deg);  /* Saf3.1+, Chrome */
+      -ms-transform: rotate(45deg);  /* IE9 */
+          transform: rotate(45deg);  
+               zoom: 1;
+  left: -2.8em;
+}
 /* 9.NAVIGATION */
 /* 10.CONTENT */
 /* 11.MAIN */

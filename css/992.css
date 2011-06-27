@@ -43,9 +43,6 @@ padding: 0 1em; }
 /* 7.FORMS (See css/mylibs/forms.css) */
 /* 8.BANNER */
 /* 9.NAVIGATION */
-nav[role='navigation'] li {
-margin: 0 0.5em;
-width: 5.5375em; /* 88.6 / 16 = 5.5375 */ }
 /* 10.CONTENT */
 /* 11.MAIN */
 /* 12.COMPLIMENTARY */

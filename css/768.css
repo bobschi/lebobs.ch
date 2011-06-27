@@ -38,6 +38,27 @@ _____________________________________________________
 /* 6.TABLES */
 /* 7.FORMS (See css/mylibs/forms.css) */
 /* 8.BANNER */
+.ribbon-holder {
+width: auto;
+height: 10em;
+margin-bottom: 0; }
+
+.right.ribbon {
+right: 0; }
+
+.ribbon {
+position: relative;
+top: 2.5em; }
+
+.right .ribbon {
+-moz-transform: rotate(45deg);  /* FF3.5+ */
+-o-transform: rotate(45deg);  /* Opera 10.5 */
+-webkit-transform: rotate(45deg);  /* Saf3.1+, Chrome */
+-ms-transform: rotate(45deg);  /* IE9 */
+transform: rotate(45deg);  
+zoom: 1;
+right: -2.8em; }
+
 /* 9.NAVIGATION */
 /* 10.CONTENT */
 /* 11.MAIN */

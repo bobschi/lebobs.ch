@@ -11,9 +11,9 @@ layout: default
 			<header class="post-header clearfix">
 				<h1 class="post-title"><a href="{{ post.url }}">{{ post.title | markdownify }}</a></h1>
 				<p class="flourish"> ❧ </p>
-				<time class="post-date" datetime="{{ post.date | date_to_xmlschema }}" pubdate>{{ post.date | date: "%A, %B %d, %Y" }}</time>
+				<time class="post-date" datetime="{{ post.date | date_to_xmlschema }}" pubdate>{{ post.date | date: "%B %d, %Y" }}</time>
 			</header>
-			<p class="post-teaser">{{ post.teaser | markdownify }}</p>
+			<p class="post-teaser hyphenate">{{ post.teaser | markdownify }}</p>
 		</section>
 	{% endfor %}
 </article>

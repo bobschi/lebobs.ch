@@ -298,9 +298,6 @@ header[role='banner'] {
 text-align: center; 
 font-family: 'IM Fell DW Pica SC', 'Linux Libertine', Palatino, 'Palatino Linotype', 'Book Antiqua', Georgia, 'Times New Roman', serif; }
 
-header[role='banner'] .ribbon-holder {
-font-size: 1em; }
-
 header[role='banner'] .flourish {
 font-size: 0.5em; }
 
@@ -328,11 +325,14 @@ font-size: 1.5em;
 font-weight: normal;
 font-style: italic; }
 
+/* RIBBON */
+.ribbon-holder {
+font-size: 1em; }
+
+
 /* 9.NAVIGATION */
 nav[role='navigation'] {
 text-align: center; }
-nav[role='navigation'] li {
-display: inline-block; }
 
 /* 10.CONTENT */
 /* 11.MAIN */
@@ -469,7 +469,6 @@ width : auto; }
 visibility : hidden; }
 
 /* 16.TEMPLATE SPECIFICS */
-
 #goog-fixurl ul  {
 list-style-type : none; }
 
@@ -477,11 +476,8 @@ list-style-type : none; }
 margin-bottom : 1.5em; }
 
 /* 17.MODERNIZR */
-/* 18.POST INDEX */
-.post-index .post-header h1,
-.post-index .post-header p {
-margin-bottom: 0.35em; }
 
+/* 18.POST INDEX */
 .post-index .post-title,
 .post-index .post-date,
 .post-index .flourish {
@@ -489,10 +485,7 @@ display: inline-block;
 font-size: 1.5em;
 font-family: 'IM Fell DW Pica SC', 'Linux Libertine', Palatino, 'Palatino Linotype', 'Book Antiqua', Georgia, 'Times New Roman', serif; }
 
-.post-index .post-title {
-/*float: left; */}
 .post-index .post-date {
-/*float: right;*/
 color: rgb(145,145,145); }
 
 /* 19.POST */
@@ -522,7 +515,6 @@ padding: 0; }
 
 .category-list li {
 list-style: none;}
-
 
 /* 
 Sources: 

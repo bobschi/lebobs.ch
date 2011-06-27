@@ -39,6 +39,13 @@ _____________________________________________________
 /* 7.FORMS (See css/mylibs/forms.css) */
 /* 8.BANNER */
 /* 9.NAVIGATION */
+nav[role='navigation'] li {
+display: inline-block;
+width: 5.5375em; /* 88.6 / 16 = 5.5375 */
+margin-left: 0.5em;
+margin-right: 0.5em;
+margin-bottom: 0; }
+
 /* 10.CONTENT */
 /* 11.MAIN */
 /* 12.COMPLIMENTARY */
@@ -47,3 +54,17 @@ _____________________________________________________
 /* 15.VENDOR-SPECIFIC */
 /* 16.TEMPLATE SPECIFICS */
 /* 17.MODERNIZR */
+/* 18.POST INDEX */
+.post-index .post-header h1,
+.post-index .post-header p {
+margin-bottom: 0.35em; }
+
+.post-index .post-title,
+.post-index .post-date,
+.post-index .flourish {
+display: inline-block;
+font-size: 1.5em; }
+
+
+section.single-post {
+border-bottom: 0;}
