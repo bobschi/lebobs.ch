@@ -34,3 +34,5 @@ I did, and I still feel it was the right decision.
 I'm still processing what happened, so this will mostly likely extend into a series. More to come, later.
 
 I started to write this in June, but postponed publishing it because I wanted to use the summer to think this through again carefully. Now I feel confident enough to put it out there.
+
+*A big thanks to [david](https://twitter.com/#!/americanandertu david's twitter profile) for hunting down all those nasty mistakes in this post!*
