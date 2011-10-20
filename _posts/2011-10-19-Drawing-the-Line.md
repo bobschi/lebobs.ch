@@ -35,4 +35,4 @@ I'm still processing what happened, so this will mostly likely extend into a ser
 
 I started to write this in June, but postponed publishing it because I wanted to use the summer to think this through again carefully. Now I feel confident enough to put it out there.
 
-*A big thanks to [David](https://twitter.com/#!/americanandertu "david's twitter profile") for hunting down all those nasty mistakes in this post!*
+*A big thanks to [David](https://twitter.com/#!/americanandertu "david's twitter profile") for hunting down all those nasty mistakes in this post! He didn't read the last paragraphs of this post because I wrote them this morning. If you find any mistakes in those, it's not his fault.*
