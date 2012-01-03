@@ -7,4 +7,3 @@ categories:
 teaser: A new year has started. Let's try to pick up this blogging thing again.
 ---
 
-Yadda yadda yadda.
