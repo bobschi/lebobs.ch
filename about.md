@@ -2,8 +2,8 @@
 layout: default
 title: (Out and) About
 ---
-## About Florian Holzner
-Hi, my name is Florian Holzner. I live in Vienna, Austria. I am currently studying Human Medicine and Medical Informatics. Those are two distinct studies, one at the Medical University of Vienna, the other at the Vienna University of Technology. My blog is mostly about stuff that interests me: computers, medicine, design, photography, typography, and so on. In neither of my studies nor my fields of interest I am a master, so please, feel free to <em>correct me when I make mistakes</em>, but also tell me when I did good. ;-)
+
+Hi, my name is Florian Holzner. I live in Vienna, Austria. I am currently studying Human Medicine and Medical Informatics. Those are two distinct studies, one at the Medical University of Vienna, the other at the Vienna University of Technology. My blog is mostly about stuff that interests me: computers, medicine, design, photography, typography, and so on. In neither of my studies nor my fields of interest I am a master, so please, feel free to correct me when I make mistakes, but also tell me when I did good. ;-)
 
 <h2 id="contact">Contact</h2>
 *  You'll reach me the fastest via [twitter][] ...
