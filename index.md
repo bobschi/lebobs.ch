@@ -1,4 +1,4 @@
 ---
-layout: frontpage
+layout: index
 title: Le Bobsch Blogsch
 ---

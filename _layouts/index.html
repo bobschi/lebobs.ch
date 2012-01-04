@@ -13,7 +13,8 @@ layout: default
 				<p class="flourish"> ❧ </p>
 				<time class="post-date" datetime="{{ post.date | date_to_xmlschema }}" pubdate>{{ post.date | date: "%B %d, %Y" }}</time>
 			</header>
-			<p class="post-teaser hyphenate">{{ post.teaser | markdownify }}</p>
+			<p class="post-teaser hyphenate">{{ post.teaser | markdownify | strip_html }}</p>
+			{{ post.content }}
 		</section>
 	{% endfor %}
 </article>
