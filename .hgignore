@@ -30,6 +30,7 @@ glob:.komodotools
 
 # Folders to ignore
 glob:.hg
+glob:.git
 glob:.svn
 glob:publish
 glob:.idea
