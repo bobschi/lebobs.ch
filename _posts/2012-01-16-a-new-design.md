@@ -53,4 +53,4 @@ I want the following categories:
 * hci
 * design
 
-While I am pretty sure about the post types---they are pretty standard ones---I am not too sure about the categories. They still don't feel right to me. And I need to find a way to get content online without the need to be at my workstation. Why can there be no comprise? A blog software or CMS that uses a DVCS and that I can edit via a web interface and in my favourite editor. Like github or bitbucket wikis allows me to. :(
+While I am pretty sure about the post types--they are pretty standard ones--I am not too sure about the categories. They still don't feel right to me. And I need to find a way to get content online without the need to be at my workstation. Why can there be no comprise? A blog software or CMS that uses a DVCS and that I can edit via a web interface and in my favourite editor. Like github or bitbucket wikis allows me to. :(
