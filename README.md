@@ -1,3 +1,3 @@
-# le bobsch blogsch blog posts
+# My Blog
 
-you get the idea.
+It's pretty obvious what this is, aight? It be mah blargh, stupid! you get the idea.

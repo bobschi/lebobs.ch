@@ -34,6 +34,7 @@ glob:.git
 glob:.svn
 glob:publish
 glob:.idea
+glob:.git
 
 # HTML5 Boiler Plate build script local files
 glob:build/buildinfo.properties
