@@ -14,4 +14,4 @@ rdiscount:
   extensions: [smart]
 
 exclude: ["README.md", "LICENSE.md", "TODO.md", "build", "test"]
-include: ["D0-Hollow's_Last_Hope"]
+include: [""]
