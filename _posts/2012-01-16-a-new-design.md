@@ -17,6 +17,7 @@ I have started working on a new design for this blog. I've made some very unluck
 * posts without teasers looked stupid
 * lists are ugly
 * headings are ugly
+* too little space between the paragraphs
 
 And here's some of the ideas I'm toying around with:
 
