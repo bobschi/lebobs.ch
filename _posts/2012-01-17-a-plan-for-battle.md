@@ -9,3 +9,5 @@ teaser: What I need to do to finish this.
 2. Colour scheme
 3. Typography
 4. Party
+
+Unsure factors: language. German? English? Both? Or should I maybe learn Klingon?
