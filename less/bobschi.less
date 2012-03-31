@@ -1,15 +1,55 @@
-@import "normalize.less";
-@import "typography.less";
+//simpless:!minify
+@import "normalize";
+@import "typography";
+@import "frameless";
+@import "helpfull";
+
+// Colours & Backgrounds
+
+@black: #000;
+@white: #fff;
+@red: #dc143c;
+
+@textColor: lighten(@black,10%);
+@textColorMuted: lighten(@textColor,33%);
+@primaryColor: @red;
+@primaryColorMuted: lighten(@red,33%);
+@linkColor: @red;
+@linkColorMuted: lighten(@linkColor,33%);
+@linkHover: lighten(@linkColor,10%);
+@linkHoverMuted: lighten(@linkHover,33%);
 
 body {
+	color: @textColor;
 	background: url("../img/beige-paper.png") repeat;
 }
+
+h1,h2,h3,h4,h5,h6 {
+	color: @primaryColor;
+	&.mute {color: @textColorMuted;}
+}
+a 				{ color: @linkColor;
+	&:link  { color: @linkColor; }
+	&:hover { color: @linkHover; }
+}
+
+.mute {
+	color: @textColorMuted;
+	a, a:link {
+		color: @linkColorMuted;
+	}
+	a:hover {
+		color: @linkHoverMuted;
+	}
+	h1,h2,h3,h4,h5,h6 {
+		color: @textColorMuted;
+	}
+}
+
+// Responsiveness
+
+// Misc
 .flourish {
-	display: block;
-}
-.container {
-	margin-top: @baseLineHeight*2;
-}
-header[role="banner"] {
-	background: rgba(0,0,0,0.5);
+	text-align: center;
+	font-family: "Arial Unicode MS", Arial, FreeSans, sans-serif;
 }
