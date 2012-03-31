@@ -3,7 +3,8 @@
 @em: @font-size*1em;	// Shorthand for outputting ems, e.g. "12/@em"
 @mainFont: 'Vollkorn', Palatino, 'Palatino Linotype', 'Book Antiqua', Georgia, 'Times New Roman', serif;
 @altFont: 'IM Fell DW Pica SC', Palatino, 'Palatino Linotype', 'Book Antiqua', Georgia, 'Times New Roman', serif;
-
+@codeFont: monospace;
+@unicodeFont: "Arial Unicode MS", Arial, FreeSans, sans-serif;
 
 @import url("http://fonts.googleapis.com/css?family=IM+Fell+DW+Pica+SC|Vollkorn:400italic,700italic,400,700");
 
@@ -29,4 +30,9 @@ a, a:link {
 
 a:hover {
 	text-decoration: underline;
+}
+
+.flourish {
+	text-align: center;
+	font-family: @unicodeFont;
 }
