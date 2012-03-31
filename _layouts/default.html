@@ -1,76 +1,56 @@
 <!doctype html>
-<!--[if lt IE 9]><html class="ie"><![endif]-->
-<!--[if gte IE 9]><!--><html><!--<![endif]-->
-
 <head>
 <meta charset="utf-8">
 {% assign is_post = false %}{% assign is_main = false %}{% if page.teaser != null %}{% assign is_post = true %}{% endif %}{% if page.title == "Le Bobsch Blogsch" %}{% assign is_main = true %}{% endif %}<title>Le Bobsch Blogsch{% if is_post %} &ndash; {{ page.title }} {% endif %}</title>
 {% include head.html %}
 <body lang="en">
 
-<header role="banner">
-  <hgroup>
-  	<h1>
-      <span class="sitetitle">
-        <a href="{{ site.baseurl }}" title="Take me back home!">Le Bobsch Blogsch</a>
-      </span>
-      {% unless is_main %}
-       <span class="flourish">❦</span> 
+<div class="container">
+<header role="banner" class="row">
+  <div class="span3">
+    <h1><a href="{{ site.baseurl }}" title="Take me back home!">Le Bobsch Blogsch</a>
+    {% unless is_main %}
+      <span class="flourish">❦</span> 
       <span class="{% if is_post %}post-title{% else %}page-title{% endif %}">
-        {{ page.title | markdownify }}
+      {{ page.title }}
       </span>
       {% endunless %}
     </h1>
     {% unless is_main %}
       {% if is_post and page.teaser != null %}
-        <h2 class="hyphenate post-teaser">{{ page.teaser | markdownify }}</h2>
+      <h2 class="hyphenate post-teaser">{{ page.teaser | markdownify }}</h2>
       {% elsif page.tagline != null %}
-        <h2 class="hyphenate page-tagline">&ldquo;{{ page.tagline | markdownify }}&rdquo;</h2>
+      <h2 class="hyphenate page-tagline">&ldquo;{{ page.tagline | markdownify }}&rdquo;</h2>
       {% endif %}
     {% endunless %}
-  </hgroup>
-   <div class="right ribbon-holder">  
+    <div class="right ribbon-holder">  
       <a href="https://github.com/bobschi" class="darkgray ribbon">
       <span class="text">Fork me on GitHub</span>
     </a>
-   </div>
-   <nav role="navigation" class="visuallyhidden">
+    </div>
+    <nav role="navigation" class="hidden-desktop">
       <ul>
-        <li><a href="{{ site.baseurl }}">Home</a></li>
-        <li><a href="{{ site.baseurl }}about.html">About</a></li>
-        <li><a href="{{ site.baseurl }}about.html#contact">Contact</a></li>
+      <li><a href="{{ site.baseurl }}">Home</a></li>
+      <li><a href="{{ site.baseurl }}about.html">About</a></li>
+      <li><a href="{{ site.baseurl }}about.html#contact">Contact</a></li>
       </ul>
     </nav>
+  </div>
 </header>
-
-<div class="content">
-<div role="main" class="wrapper">
-  {{ content }}
+<div class="row">
+  <div role="main" class="span6 offset3 main">
+    {{ content }}
+  </div>
 </div>
-
-<hr />
-
-<aside role="complementary">
-  <header>
-    <h1>Quicklinks:</h1>
-  </header>
-  <ul>
-    <li><a href="{{ site.baseurl }}">Home</a></li>
-    <li><a href="{{ site.baseurl }}about.html">About</a></li>
-    <li><a href="{{ site.baseurl }}about.html#contact">Contact</a></li>
-  </ul>
-</aside>
-
-<p class="flourish">❦</p>
-</div>
-
-<footer role="contentinfo">
-  <p>This work is licensed under the <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/at/">Creative Commons Attribution-NonCommercial 3.0 Austria License</a>.</p>
-  <p>If you like this blog, feel free to subscribe to the <a href="http://feeds.feedburner.com/LeBobschBlogsch">RSS-feed</a>, bookmark it, share the links with over your favourite social networks, etc.</p>
-  <p>If you have any comments, for the time being please let me know via <a href="https://twitter.com/bobschi" title="my twitter profile">twitter</a> or <a href="ygb:obofpuv\@yninovg.pbz" class="contact-em">email (run through rot13 first)</a>, or look around the <a href="{{ site.baseurl }}about.html">About</a>-page, to find out other ways to contact me.</p>
+<footer role="contentinfo" class="row">
+  <div class="offset3 span3">
+    <p>This work is licensed under the <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/at/">Creative Commons Attribution-NonCommercial 3.0 Austria License</a>.</p>
+  </div>
+  <div class="span3">
+    <p>If you like this blog, feel free to subscribe to the <a href="http://feeds.feedburner.com/LeBobschBlogsch">RSS-feed</a>, bookmark it, share the links with over your favourite social networks, etc.</p>
+    <p>If you have any comments, for the time being please let me know via <a href="https://twitter.com/bobschi" title="my twitter profile">twitter</a> or <a href="ygb:obofpuv\@yninovg.pbz" class="contact-em">email (run through rot13 first)</a>, or look around the <a href="{{ site.baseurl }}about.html">About</a>-page, to find out other ways to contact me.</p>
+  </div>
 </footer>
-
-{% include foot.html %}
-
+</div>
 </body>
 </html>
