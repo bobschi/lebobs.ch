@@ -1,24 +1,57 @@
 ---
 layout: default
 ---
+<!--Layout: Index-->
 {% if content %}
 <article id="featured">
-	{{ content }}
+{{ content }}
 </article>
 {% endif %}
+
+<p>start pagination</p>
+<p>num of pages: {{ paginator.total_pages }}</p>
+{% for post in paginator.posts %}
+  <article>
+    <header>
+      <h1><a href="{{ post.url }}">{{ post.title | mardownify }}</a></h1>
+    </header>
+    {{ post.content }}
+  </article>
+{% endfor %}
+
+<div class="pagination">
+  <ul>
+    <li><a href="">Previous</a></li>
+    <li class="active"><a href="">1</a></li>
+    <li><a href="">2</a></li>
+    <li><a href="">3</a></li>
+    <li><a href="">Next</a></li>
+  </ul>
+</div>
+
+<!-- Pagination links 
+  <span class="page_number btn">Page: {{paginator.page}} of {{paginator.total_pages}}</span>
+  {% if paginator.next_page %}
+    <a href="/page{{paginator.next_page}}" class="next btn">Next</a>
+  {% else %}
+    <span class="next btn">Next</span>
+  {% endif %}
+</div>
+
 <article id="postindex">
-	<header class="visuallyhidden">
-		<h1>Post-Index</h1>
-	</header>
-	{% for post in site.posts %}
-		<section class="single-post">
-			<header class="post-header">
-				<h1 class="post-title"><a href="{{ post.url }}">{{ post.title | markdownify }}</a></h1>
-				<p class="flourish"> ❧ </p>
-				<time class="post-date" datetime="{{ post.date | date_to_xmlschema }}" pubdate>{{ post.date | date: "%B %d, %Y" }}</time>
-			</header>
-			<p class="post-teaser">{{ post.teaser | markdownify | strip_html }}</p>
-			{{ post.content }}
-		</section>
-	{% endfor %}
+  <header class="visuallyhidden">
+    <h1>Post-Index</h1>
+  </header>
+  {% for post in site.posts %}
+    <section class="single-post">
+      <header class="post-header">
+        <h1 class="post-title"><a href="{{ post.url }}">{{ post.title | markdownify }}</a></h1>
+        <p class="flourish"> ❧ </p>
+        <time class="post-date" datetime="{{ post.date | date_to_xmlschema }}" pubdate>{{ post.date | date: "%B %d, %Y" }}</time>
+      </header>
+      <p class="post-teaser">{{ post.teaser | markdownify | strip_html }}</p>
+      {{ post.content }}
+    </section>
+  {% endfor %}
 </article>
+-->

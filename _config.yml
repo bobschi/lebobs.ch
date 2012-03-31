@@ -15,3 +15,5 @@ rdiscount:
 
 exclude: ["README.md", "LICENSE.md", "TODO.md", "build", "test"]
 include: [""]
+
+paginate: 3
