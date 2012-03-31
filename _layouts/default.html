@@ -4,24 +4,11 @@
 
 <head>
 <meta charset="utf-8">
-{% assign is_post = false %}
-{% assign is_main = false %}
-
-{% if page.teaser != null %}
-  {% assign is_post = true %}
-{% endif %}
-
-{% if page.title == "Le Bobsch Blogsch" %}
-  {% assign is_main = true %}
-{% endif %}
-
-<title>Le Bobsch Blogsch{% if is_post %} &ndash; {{ page.title }} {% endif %}</title>
-
+{% assign is_post = false %}{% assign is_main = false %}{% if page.teaser != null %}{% assign is_post = true %}{% endif %}{% if page.title == "Le Bobsch Blogsch" %}{% assign is_main = true %}{% endif %}<title>Le Bobsch Blogsch{% if is_post %} &ndash; {{ page.title }} {% endif %}</title>
 {% include head.html %}
+<body lang="en">
 
-<body class="clearfix">
-
-<header role="banner" class="clearfix">
+<header role="banner">
   <hgroup>
   	<h1>
       <span class="sitetitle">
@@ -57,14 +44,16 @@
 </header>
 
 <div class="content">
-<div role="main" class="hyphenate{% if is_post %} post{% elsif is_main != true %} page{% endif %}">
-{{ content }}
+<div role="main" class="wrapper">
+  {{ content }}
 </div>
 
 <hr />
 
 <aside role="complementary">
-  <h1>Quicklinks:</h1>
+  <header>
+    <h1>Quicklinks:</h1>
+  </header>
   <ul>
     <li><a href="{{ site.baseurl }}">Home</a></li>
     <li><a href="{{ site.baseurl }}about.html">About</a></li>
