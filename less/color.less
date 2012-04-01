@@ -1,0 +1,57 @@
+// Colours & Backgrounds
+
+@black: #000;
+@white: #fff;
+@red: #dc143c;
+
+@textColor: lighten(@black,10%);
+@textColorMuted: lighten(@textColor,50%);
+@primaryColor: @red;
+@primaryColorMuted: lighten(@red,33%);
+@linkColor: @primaryColor;
+@linkColorMuted: @primaryColorMuted;
+@linkHover: lighten(@linkColor,10%);
+@linkHoverMuted: lighten(@linkHover,33%);
+ 
+body {
+  color: @textColor;
+  background: @white url("../img/bg.png") repeat;
+}
+
+h1,h2,h3,h4,h5,h6   { color: @primaryColor;
+  &.mute            { color: @primaryColorMuted; }
+}
+a, a:link { color: @linkColor;
+  &:hover { color: @linkHover; }
+}
+
+.mute {
+  color: @textColorMuted;
+  a, a:link {
+    color: @linkColorMuted;
+  }
+  a:hover {
+    color: @linkHoverMuted;
+  }
+  h1,h2,h3,h4,h5,h6 {
+    color: @primaryColorMuted;
+  }
+}
+
+#pagination {
+  a, a:link {
+    color: @linkColorMuted;
+  }
+  a:hover {
+    color: @linkHoverMuted;
+  }
+  ul {
+    &.active a {
+      border-bottom: 2px solid @linkColorMuted;
+    }
+    &.active a:hover {
+      border-bottom: 2px solid @linkHoverMuted;
+    }
+  }
+}
+header nav, footer, aside { .mute; }

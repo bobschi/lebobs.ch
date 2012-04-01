@@ -1,0 +1,14 @@
+//
+// type defaults
+//
+@font-size: 16;                          // base font-size in pixels
+@line-factor: 1.5;                       // line-height in relation to font-size, 1.5 for something like garamond, 1.4 for something like palatino
+@line-height: @font-size * @line-factor; // line-height in pixels
+@em: @font-size*1em;                     // shorthand for calculating ems, like 12/@em;
+
+a {
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}
