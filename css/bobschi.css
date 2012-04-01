@@ -507,7 +507,13 @@ h5,
   margin-bottom: 1.3333333333333333333333333333333em;
 }
 /* 18px / 24px */
-h6,
+h6 {
+  margin: 0;
+  font-size: 1em;
+  line-height: 1.5em;
+  margin-bottom: 1.5em;
+}
+/* 16px / 24px */
 p,
 ul,
 blockquote,
@@ -517,11 +523,9 @@ th,
 label {
   margin: 0;
   font-size: 1em;
-  font-weight: 400;
   line-height: 1.5em;
   margin-bottom: 1.5em;
 }
-/* 16px / 24px */
 small,
 .small {
   margin: 0;
@@ -541,6 +545,9 @@ small,
 }
 .ragged-right {
   text-align: right;
+}
+.center {
+  text-align: center;
 }
 header {
   margin-bottom: 1.5em;
@@ -578,6 +585,41 @@ div[role="main"] ul,
 div[role="main"] ol,
 div[role="main"] dl {
   padding-left: 3em;
+}
+div[role="main"] blockquote {
+  margin: 0;
+  font-size: 1.3125em;
+  line-height: 1.1428571428571428571428571428571em;
+  margin-bottom: 1.1428571428571428571428571428571em;
+  padding-left: 1em;
+  border-left: 3px solid #999999;
+}
+div[role="main"] blockquote small {
+  color: #999999;
+}
+div[role="main"] blockquote small a,
+div[role="main"] blockquote small a:link {
+  color: #f7a2b3;
+}
+div[role="main"] blockquote small a:hover {
+  color: #fbd1d9;
+}
+div[role="main"] blockquote small h1,
+div[role="main"] blockquote small h2,
+div[role="main"] blockquote small h3,
+div[role="main"] blockquote small h4,
+div[role="main"] blockquote small h5,
+div[role="main"] blockquote small h6 {
+  color: #f7a2b3;
+}
+div[role="main"] blockquote small:before {
+  content: "—";
+}
+div[role="main"] blockquote p {
+  margin-bottom: 0;
+}
+aside p {
+  margin: 0;
 }
 /* CSS Resets */
 html,
@@ -985,7 +1027,7 @@ h3.mute,
 h4.mute,
 h5.mute,
 h6.mute {
-  color: light(#dc143c, 33%);
+  color: #f7a2b3;
 }
 a {
   color: #dc143c;
@@ -997,11 +1039,11 @@ a:hover {
   color: #ed365b;
 }
 .mute {
-  color: #6e6e6e;
+  color: #999999;
 }
 .mute a,
 .mute a:link {
-  color: light(#dc143c, 33%);
+  color: #f7a2b3;
 }
 .mute a:hover {
   color: #fbd1d9;
@@ -1012,7 +1054,7 @@ a:hover {
 .mute h4,
 .mute h5,
 .mute h6 {
-  color: light(#dc143c, 33%);
+  color: #f7a2b3;
 }
 #featured {
   border-left: 0;
@@ -1025,7 +1067,7 @@ a:hover {
 }
 #pagination a,
 #pagination a:link {
-  color: light(#dc143c, 33%);
+  color: #f7a2b3;
 }
 #pagination a:hover {
   color: #fbd1d9;
@@ -1036,8 +1078,11 @@ a:hover {
 #pagination ul li {
   display: inline;
 }
-#pagination #active {
-  border-top: 1px solid #dc143c;
+#pagination ul.active a {
+  border-bottom: 2px solid #f7a2b3;
+}
+#pagination ul.active a:hover {
+  border-bottom: 2px solid #fbd1d9;
 }
 .visuallyhidden {
   display: none;
@@ -1045,39 +1090,39 @@ a:hover {
 }
 header nav,
 footer,
-article aside {
-  color: #6e6e6e;
+aside {
+  color: #999999;
 }
 header nav a,
 footer a,
-article aside a,
+aside a,
 header nav a:link,
 footer a:link,
-article aside a:link {
-  color: light(#dc143c, 33%);
+aside a:link {
+  color: #f7a2b3;
 }
 header nav a:hover,
 footer a:hover,
-article aside a:hover {
+aside a:hover {
   color: #fbd1d9;
 }
 header nav h1,
 footer h1,
-article aside h1,
+aside h1,
 header nav h2,
 footer h2,
-article aside h2,
+aside h2,
 header nav h3,
 footer h3,
-article aside h3,
+aside h3,
 header nav h4,
 footer h4,
-article aside h4,
+aside h4,
 header nav h5,
 footer h5,
-article aside h5,
+aside h5,
 header nav h6,
 footer h6,
-article aside h6 {
-  color: light(#dc143c, 33%);
+aside h6 {
+  color: #f7a2b3;
 }

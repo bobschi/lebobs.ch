@@ -12,9 +12,9 @@
 @red: #dc143c;
 
 @textColor: lighten(@black,10%);
-@textColorMuted: lighten(@textColor,33%);
+@textColorMuted: lighten(@textColor,50%);
 @primaryColor: @red;
-@primaryColorMuted: light(@red,33%);
+@primaryColorMuted: lighten(@red,33%);
 @linkColor: @primaryColor;
 @linkColorMuted: @primaryColorMuted;
 @linkHover: lighten(@linkColor,10%);
@@ -53,7 +53,7 @@ a 				{ color: @linkColor;
 }
 
 #pagination {
-	text-align:center;
+	.center;
 	padding: @line-height/@em 0;
 	a, a:link {
 		color: @linkColorMuted;
@@ -66,12 +66,13 @@ a 				{ color: @linkColor;
 		li {
 			display: inline;
 		}
-	}
-	#active {
-		border-top: 1px solid @red;
+		&.active a {
+			border-bottom: 2px solid @linkColorMuted;
+		}
+		&.active a:hover {
+			border-bottom: 2px solid @linkHoverMuted;
+		}
 	}
 }
-
 .visuallyhidden { display: none; visibility: hidden; }
-
-header nav, footer, article aside { .mute; }
+header nav, footer, aside { .mute; }
