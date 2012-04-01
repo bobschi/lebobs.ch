@@ -1,38 +1,86 @@
-@font-size: 16; 		// Your base font-size in pixels
-@line: 24;
-@em: @font-size*1em;	// Shorthand for outputting ems, e.g. "12/@em"
-@mainFont: 'Vollkorn', Palatino, 'Palatino Linotype', 'Book Antiqua', Georgia, 'Times New Roman', serif;
-@altFont: 'IM Fell DW Pica SC', Palatino, 'Palatino Linotype', 'Book Antiqua', Georgia, 'Times New Roman', serif;
-@codeFont: monospace;
-@unicodeFont: "Arial Unicode MS", Arial, FreeSans, sans-serif;
+@font-size: 16;     // Your base font-size in pixels
+@line-height: 24;
+@em: @font-size*1em;  // Shorthand for outputting ems, e.g. "12/@em"
+@mainFont: "Helvetica Neue", Arial, Helvetica, sans-serif;
+@altFont: Helvetica, "Helvetica Neue", Arial, sans-serif;
+@codeFont: Menlo, Consolas, 'DejaVu Sans Mono', Monaco, monospace;
 
-@import url("http://fonts.googleapis.com/css?family=IM+Fell+DW+Pica+SC|Vollkorn:400italic,700italic,400,700");
-
-body {
-	font-family: @mainFont;
+body, button, input, select, textarea {
+  font: 100%/1.5 @mainFont; // 16/24
+  *font-size: 1em;
 }
 
-header,
 h1, h2, h3, h4, h5, h6 {
-	font-family: @altFont;
-	text-align: center;
+  font-family: @altFont;
+  font-weight: 700;
 }
 
-header ul {
-	margin: 0;
-	padding: 0;
-	list-style-type: none;
-}
+h1 {
+  margin: 0;
+  font-size: 3em; 
+  line-height: 1em;
+  margin-bottom: 0.5em;
+} /* 48px / 48px */
 
+h2 {
+  margin: 0;
+  font-size: 2.25em;
+  line-height: 1.3333333333333333333333333333333em;
+  margin-bottom: 0.6667em;
+} /* 36px / 48px */ 
+
+h3 {
+  margin: 0;
+  font-size: 1.5em;
+  line-height: 1em;
+  margin-bottom: 1em;
+} /* 24px / 24px */
+
+h4 {
+  margin: 0;
+  font-size: 1.3125em;
+  line-height: 1.1428571428571428571428571428571em;
+  margin-bottom: 1.1428571428571428571428571428571em;
+} /* 21px / 24px */
+
+h5 {
+  margin: 0;
+  font-size: 1.125em;
+  line-height: 1.3333333333333333333333333333333em;
+  margin-bottom: 1.3333333333333333333333333333333em;
+} /* 18px / 24px */
+
+h6, p, ul, blockquote, pre, td, th, label {
+  margin: 0;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.5em;
+  margin-bottom: 1.5em
+} /* 16px / 24px */
+
+small, p.small {
+  margin: 0;
+  font-size: 0.875em;
+  line-height: 1.7142857142857142857142857142857em;
+  margin-bottom: 1.7142857142857142857142857142857em;
+} /* 14px / 24px */
+
+
+
+header {
+ ul {
+    padding-left: 0;
+    list-style-type: none;
+  }
+  h1 {
+    margin: 0;
+  }
+  padding-top: @line-height/@em;
+  margin-bottom: 1.5em;
+}
 a, a:link {
-	text-decoration: none;
+  text-decoration: none;
 }
-
 a:hover {
-	text-decoration: underline;
-}
-
-.flourish {
-	text-align: center;
-	font-family: @unicodeFont;
+  text-decoration: underline;
 }

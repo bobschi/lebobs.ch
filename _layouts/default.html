@@ -6,14 +6,16 @@
 <body lang="en">
 
 <header role="banner">
-    <h1><a href="{{ site.baseurl }}" title="Take me back home!">Le Bobsch Blogsch</a>
-    {% unless is_main %}
-      <span class="flourish">❦</span> 
-      <span class="{% if is_post %}post-title{% else %}page-title{% endif %}">
-      {{ page.title }}
-      </span>
-      {% endunless %}
-    </h1>
+    <div id="masthead">
+      <h1><a href="{{ site.baseurl }}" title="Take me back home!">Le Bobsch Blogsch</a>
+      {% unless is_main %}
+        <span class="flourish">❦</span> 
+        <span class="{% if is_post %}post-title{% else %}page-title{% endif %}">
+        {{ page.title }}
+        </span>
+        {% endunless %}
+      </h1>
+    </div>
     {% unless is_main %}
       {% if is_post and page.teaser != null %}
       <h2 class="hyphenate post-teaser">{{ page.teaser | markdownify }}</h2>
@@ -22,7 +24,7 @@
       {% endif %}
     {% endunless %}
     <div class="right ribbon-holder">  
-      <a href="https://github.com/bobschi" class="darkgray ribbon">
+      <a href="https://github.com/bobschi" class="bobschi ribbon">
       <span class="text">Fork me on GitHub</span>
     </a>
     </div>
@@ -34,52 +36,12 @@
       </ul>
     </nav>
 </header>
-
-      <figure id="grid">
-        <div class="col col1"></div>
-        <div class="col col2"></div>
-        <div class="col col3"></div>
-        <div class="col col4"></div>
-        <div class="col col5"></div>
-        <div class="col col6"></div>
-        <div class="col col7"></div>
-        <div class="col col8"></div>
-        <div class="col col9"></div>
-        <div class="col col10"></div>
-        <div class="col col11"></div>
-        <div class="col col12"></div>
-        <div class="col col13"></div>
-        <div class="col col14"></div>
-        <div class="col col15"></div>
-        <div class="col col16"></div>
-        <div class="col col17"></div>
-        <div class="col col18"></div>
-        <div class="col col19"></div>
-        <div class="col col20"></div>
-        <div class="col col21"></div>
-        <div class="col col22"></div>
-        <div class="col col23"></div>
-        <div class="col col24"></div>
-        <div class="col col25"></div>
-        <div class="col col26"></div>
-        <div class="col col27"></div>
-        <div class="col col28"></div>
-        <div class="col col29"></div>
-        <div class="col col30"></div>
-        <div class="col col31"></div>
-        <div class="col col32"></div>
-        <div class="col col33"></div>
-        <div class="col col34"></div>
-        <div class="col col35"></div>
-        <div class="col col36"></div>
-      </figure>
-
 <div role="main">
   <!--Layout: Default-->
   {{ content }}
 </div>
 
-<footer role="contentinfo" class="mute">
+<footer role="contentinfo">
   <p>This work is licensed under the <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/at/">Creative Commons Attribution-NonCommercial 3.0 Austria License</a>.</p>
   <p>If you like this blog, feel free to subscribe to the <a href="http://feeds.feedburner.com/LeBobschBlogsch">RSS-feed</a>, bookmark it, share the links with over your favourite social networks, etc.</p>
   <p>If you have any comments, for the time being please let me know via <a href="https://twitter.com/bobschi" title="my twitter profile">twitter</a> or <a href="ygb:obofpuv\@yninovg.pbz" class="contact-em">email (run through rot13 first)</a>, or look around the <a href="{{ site.baseurl }}about.html">About</a>-page, to find out other ways to contact me.</p>

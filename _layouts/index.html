@@ -8,26 +8,53 @@ layout: default
 </article>
 {% endif %}
 
-<p>start pagination</p>
-<p>num of pages: {{ paginator.total_pages }}</p>
 {% for post in paginator.posts %}
-  <article>
-    <header>
-      <h1><a href="{{ post.url }}">{{ post.title | mardownify }}</a></h1>
-    </header>
-    {{ post.content }}
-  </article>
+<article>
+  <header>
+    <h1><a href="{{ post.url }}">{{ post.title | escape }}</a></h1>
+    <time class="mute" datetime="{{ post.date | date_to_xmlschema }}" pubdate>{{ post.date | date: "%B %d, %Y" }}</time>
+  </header>
+  {{ post.content }}
+</article>
 {% endfor %}
 
-<div class="pagination">
+<aside id="pagination">
   <ul>
-    <li><a href="">Previous</a></li>
-    <li class="active"><a href="">1</a></li>
-    <li><a href="">2</a></li>
-    <li><a href="">3</a></li>
-    <li><a href="">Next</a></li>
+    {% if paginator.previous_page %}
+      <li>
+        <a href="{{ site.baseurl }}page{{ paginator.previous_page }}">&larr;<span class="visuallyhidden"> Previous</span></a>
+      </li>
+      <li>
+        <a href="{{ site.baseurl }}">1</a>
+      </li>
+      {% if paginator.previous_page > 2 %}
+        <li class="mute">&hellip;</li>
+      {% endif %}
+      {% if paginator.previous_page > 1%}
+        <li>
+          <a href="{{ site.baseurl }}page{{ paginator.previous_page }}">{{ paginator.previous_page }}</a>
+        </li>
+      {% endif %}
+      <li class="active">
+        <a href="{{ site.baseurl }}page{{ paginator.page }}">{{ paginator.page }}</a>
+      </li>
+    {% else %}
+      <li class="mute">&larr;<span class="visuallyhidden"> No Previous</span></li>
+      <li class="active">
+        <a href="{{ site.baseurl }}">{{ paginator.page }}</a>
+      </li>
+    {% endif %}
+    {% if paginator.next_page %}
+      <li><a href="{{ site.baseurl }}page{{ paginator.next_page }}">{{ paginator.next_page }}</a></li>
+      {% unless paginator.next_page == paginator.total_pages %}
+        <li class="mute">&hellip;</li>
+      {% endunless %}
+      <li><a href="{{ site.baseurl }}page{{ paginator.next_page }}"><span class="visuallyhidden">Next </span>&rarr;</a></li>
+    {% else %}
+      <li class="mute"><span class="visuallyhidden">No Next </span>&rarr;</li>
+    {% endif %}
   </ul>
-</div>
+</aside>
 
 <!-- Pagination links 
   <span class="page_number btn">Page: {{paginator.page}} of {{paginator.total_pages}}</span>
@@ -46,8 +73,7 @@ layout: default
     <section class="single-post">
       <header class="post-header">
         <h1 class="post-title"><a href="{{ post.url }}">{{ post.title | markdownify }}</a></h1>
-        <p class="flourish"> ❧ </p>
-        <time class="post-date" datetime="{{ post.date | date_to_xmlschema }}" pubdate>{{ post.date | date: "%B %d, %Y" }}</time>
+        
       </header>
       <p class="post-teaser">{{ post.teaser | markdownify | strip_html }}</p>
       {{ post.content }}

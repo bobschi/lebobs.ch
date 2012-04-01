@@ -1,4 +1,8 @@
 //simpless:!minify
+@import "normalize";
+@import "typography";
+@import "helpfull";
+@import "ribbon";
 
 // Colours & Backgrounds
 
@@ -9,20 +13,20 @@
 @textColor: lighten(@black,10%);
 @textColorMuted: lighten(@textColor,33%);
 @primaryColor: @red;
-@primaryColorMuted: lighten(@red,33%);
-@linkColor: @red;
-@linkColorMuted: lighten(@linkColor,33%);
+@primaryColorMuted: light(@red,33%);
+@linkColor: @primaryColor;
+@linkColorMuted: @primaryColorMuted;
 @linkHover: lighten(@linkColor,10%);
 @linkHoverMuted: lighten(@linkHover,33%);
-
+ 
 body {
 	color: @textColor;
-	background: url("../img/beige-paper.png") repeat;
+	background: @white url("../img/bg.png") repeat;
 }
 
 h1,h2,h3,h4,h5,h6 {
 	color: @primaryColor;
-	&.mute {color: @textColorMuted;}
+	&.mute {color: @primaryColorMuted;}
 }
 a 				{ color: @linkColor;
 	&:link  { color: @linkColor; }
@@ -38,8 +42,37 @@ a 				{ color: @linkColor;
 		color: @linkHoverMuted;
 	}
 	h1,h2,h3,h4,h5,h6 {
-		color: @textColorMuted;
+		color: @primaryColorMuted;
 	}
 }
+
+#featured {
+	border: 1px solid fade(@textColorMuted,33%);
+	border-left: 0; border-right: 0;
+	padding-top: @line-height/@em;
+}
+
+#pagination {
+	text-align:center;
+	a, a:link {
+		color: @linkColorMuted;
+	}
+	a:hover {
+		color: @linkHoverMuted;
+	}
+	ul {
+		list-style-type: none;
+		li {
+			display: inline;
+		}
+	}
+	#active {
+		border-top: 1px solid @red;
+	}
+}
+
+.visuallyhidden { display: none; visibility: hidden; }
+
+footer, header nav { .mute; }
 
 // Responsiveness
