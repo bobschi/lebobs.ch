@@ -5,7 +5,7 @@
 @altFont: Helvetica, "Helvetica Neue", Arial, sans-serif;
 @codeFont: Menlo, Consolas, 'DejaVu Sans Mono', Monaco, monospace;
 
-body, button, input, select, textarea {
+body, button, input, select, textarea, p, ul, blockquote, pre, td, th, label {
   font: 100%/1.5 @mainFont; // 16/24
   *font-size: 1em;
 }
@@ -15,35 +15,35 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
 }
 
-h1 {
+h1, .too-big {
   margin: 0;
   font-size: 3em; 
   line-height: 1em;
   margin-bottom: 0.5em;
 } /* 48px / 48px */
 
-h2 {
+h2, .gargantuan {
   margin: 0;
   font-size: 2.25em;
   line-height: 1.3333333333333333333333333333333em;
   margin-bottom: 0.6667em;
 } /* 36px / 48px */ 
 
-h3 {
+h3, .gigantic {
   margin: 0;
   font-size: 1.5em;
   line-height: 1em;
   margin-bottom: 1em;
 } /* 24px / 24px */
 
-h4 {
+h4, .huge {
   margin: 0;
   font-size: 1.3125em;
   line-height: 1.1428571428571428571428571428571em;
   margin-bottom: 1.1428571428571428571428571428571em;
 } /* 21px / 24px */
 
-h5 {
+h5, .large {
   margin: 0;
   font-size: 1.125em;
   line-height: 1.3333333333333333333333333333333em;
@@ -58,29 +58,46 @@ h6, p, ul, blockquote, pre, td, th, label {
   margin-bottom: 1.5em
 } /* 16px / 24px */
 
-small, p.small {
+small, .small {
   margin: 0;
   font-size: 0.875em;
   line-height: 1.7142857142857142857142857142857em;
   margin-bottom: 1.7142857142857142857142857142857em;
 } /* 14px / 24px */
 
+.tiny {
+  margin: 0;
+  font-size: 0.750em;
+  line-height: 2.0em;
+} /* 12px / 24px */
 
+.ragged-left {
+  text-align: left;
+}
+.ragged-right {
+  text-align: right;
+}
 
 header {
- ul {
-    padding-left: 0;
-    list-style-type: none;
-  }
   h1 {
     margin: 0;
   }
-  padding-top: @line-height/@em;
-  margin-bottom: 1.5em;
+  margin-bottom: @line-height/@em;
 }
-a, a:link {
-  text-decoration: none;
+nav {
+ ul {
+    padding-left: 0;
+    padding-top: @line-height/@em;
+    list-style: none;
+  }
 }
-a:hover {
-  text-decoration: underline;
+header[role="banner"] { padding: @line-height/@em 0;
+  h1                  { .ragged-right; }
+}
+a, a:link { text-decoration: none; }
+a:hover { text-decoration: underline; }
+footer { .tiny; }
+.post { margin-bottom: (2*@line-height)/@em; }
+div[role="main"] {
+  ul, ol, dl { padding-left: (2*@line-height)/@em; }
 }

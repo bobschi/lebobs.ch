@@ -1,25 +1,42 @@
 ---
 layout: default
 ---
-<!--Layout: Index-->
 {% if content %}
-<article id="featured">
-{{ content }}
+<article id="featured" class="row">
+  <div class="six-colum offset-three">
+    {{ content }}
+  </div>
 </article>
 {% endif %}
 
 {% for post in paginator.posts %}
-<article>
-  <header>
-    <h1><a href="{{ post.url }}">{{ post.title | escape }}</a></h1>
-    <time class="mute" datetime="{{ post.date | date_to_xmlschema }}" pubdate>{{ post.date | date: "%B %d, %Y" }}</time>
-  </header>
-  {{ post.content }}
+<article class="post" class="row">
+    <div class="row twelve-column">
+      <header class="six-column offset-three">
+        <h1><a href="{{ post.url }}">{{ post.title | escape }}</a></h1>
+      </header>
+    </div>
+    <div class="row twelve-column">
+      <section class="six-column offset-three">
+        {{ post.content }}
+      </section>
+      <aside class="three-column last">
+        <p><time datetime="{{ post.date | date_to_xmlschema }}" pubdate>{{ post.date | date: "%B %d, %Y" }}</time></p>
+        <p>Written by <strong>bobschi</strong>, filed in:</p>
+        {% if post.categories %}
+        <ul class="categories">
+          {% for category in post.categories %}
+            <li>{{ category }}</li>
+          {% endfor %}
+        </ul>
+        {% endif %}
+      </aside>
+    </div>
 </article>
 {% endfor %}
 
-<aside id="pagination">
-  <ul>
+<aside id="pagination" class="row">
+  <ul class="twelve-column">
     {% if paginator.previous_page %}
       <li>
         <a href="{{ site.baseurl }}page{{ paginator.previous_page }}">&larr;<span class="visuallyhidden"> Previous</span></a>
@@ -55,29 +72,3 @@ layout: default
     {% endif %}
   </ul>
 </aside>
-
-<!-- Pagination links 
-  <span class="page_number btn">Page: {{paginator.page}} of {{paginator.total_pages}}</span>
-  {% if paginator.next_page %}
-    <a href="/page{{paginator.next_page}}" class="next btn">Next</a>
-  {% else %}
-    <span class="next btn">Next</span>
-  {% endif %}
-</div>
-
-<article id="postindex">
-  <header class="visuallyhidden">
-    <h1>Post-Index</h1>
-  </header>
-  {% for post in site.posts %}
-    <section class="single-post">
-      <header class="post-header">
-        <h1 class="post-title"><a href="{{ post.url }}">{{ post.title | markdownify }}</a></h1>
-        
-      </header>
-      <p class="post-teaser">{{ post.teaser | markdownify | strip_html }}</p>
-      {{ post.content }}
-    </section>
-  {% endfor %}
-</article>
--->

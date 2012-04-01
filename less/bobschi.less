@@ -1,6 +1,7 @@
 //simpless:!minify
 @import "normalize";
 @import "typography";
+@import "grid";
 @import "helpfull";
 @import "ribbon";
 
@@ -47,13 +48,13 @@ a 				{ color: @linkColor;
 }
 
 #featured {
-	border: 1px solid fade(@textColorMuted,33%);
 	border-left: 0; border-right: 0;
 	padding-top: @line-height/@em;
 }
 
 #pagination {
 	text-align:center;
+	padding: @line-height/@em 0;
 	a, a:link {
 		color: @linkColorMuted;
 	}
@@ -73,6 +74,4 @@ a 				{ color: @linkColor;
 
 .visuallyhidden { display: none; visibility: hidden; }
 
-footer, header nav { .mute; }
-
-// Responsiveness
+header nav, footer, article aside { .mute; }
