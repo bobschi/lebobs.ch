@@ -12,14 +12,8 @@
 @linkColorMuted: @primaryColorMuted;
 @linkHover: lighten(@linkColor,10%);
 @linkHoverMuted: lighten(@linkHover,33%);
-@headerBorder: 2;
-@footerBorder: 2;
-
-.border (@color:fadeout(@white,50%)) {
-  border-color: @color;
-  border-style: solid;
-  border-width: 0;
-}
+@headerBorder: 1;
+@footerBorder: 1;
 
 body {
   color: @textColor;
@@ -49,8 +43,7 @@ a, a:link { color: @linkColor;
 header nav, footer, aside { .mute; }
 
 header[role="banner"] {
-  .border;
-  border-bottom: @headerBorder /@em;
+  border-bottom: @footerBorder /@em solid fadeout(@textColorMuted,66.6666666%);
 
   hgroup {
     h1, h2 {
@@ -89,8 +82,7 @@ div[role="main"] {
 }
 
 footer[role="contentinfo"] {
-  .border;
-  border-bottom: @footerBorder /@em;
+  border-top: @footerBorder /@em solid fadeout(@textColorMuted,66.6666666%);
 }
 
 .debug {

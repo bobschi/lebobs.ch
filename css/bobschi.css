@@ -602,6 +602,12 @@ a:hover {
 .flushRight {
   text-align: right;
 }
+.fleshLeft {
+  text-align: left;
+}
+.center {
+  text-align: center;
+}
 header[role="banner"] hgroup {
   text-align: right;
 }
@@ -609,11 +615,11 @@ header[role="banner"] nav ul {
   padding-left: 0;
 }
 div[role="main"] article#featured .decoration {
-  margin-top: -1.5em;
+  padding-top: 0.5em;
 }
 div[role="main"] article#featured .decoration .flourish {
   font-size: 2em;
-  line-height: 1;
+  line-height: 0;
 }
 div[role="main"] article .decoration {
   text-align: right;
@@ -639,6 +645,9 @@ div[role="main"] article aside ul ul li:after {
 }
 div[role="main"] article aside ul ul li:last-child:after {
   content: "";
+}
+div[role="main"] aside#pagination {
+  text-align: center;
 }
 div[role="main"] aside#pagination ul {
   list-style: none;
@@ -878,7 +887,7 @@ footer[role="contentinfo"]:after {
   clear: both;
 }
 header[role="banner"] {
-  margin-bottom: 1.375em;
+  margin-bottom: 1.4375em;
 }
 header[role="banner"] hgroup {
   float: left;
@@ -971,8 +980,11 @@ div[role="main"] article header .decoration {
   margin-left: 1em;
   width: 4em;
 }
+div[role="main"] #pagination {
+  margin-top: 1.5em;
+}
 footer[role="contentinfo"] {
-  margin-top: 1.375em;
+  margin-top: 1.4375em;
 }
 footer[role="contentinfo"] #license,
 footer[role="contentinfo"] #feed,
@@ -1069,10 +1081,7 @@ aside h6 {
   color: #f7a2b3;
 }
 header[role="banner"] {
-  border-color: rgba(255, 255, 255, 0.5);
-  border-style: solid;
-  border-width: 0;
-  border-bottom: 0.125em;
+  border-bottom: 0.0625em solid rgba(153, 153, 153, 0.333333334);
 }
 header[role="banner"] hgroup h1,
 header[role="banner"] hgroup h2 {
@@ -1099,10 +1108,7 @@ div[role="main"] aside#pagination ul.active a:hover {
   border-bottom: 2px solid #fbd1d9;
 }
 footer[role="contentinfo"] {
-  border-color: rgba(255, 255, 255, 0.5);
-  border-style: solid;
-  border-width: 0;
-  border-bottom: 0.125em;
+  border-top: 0.0625em solid rgba(153, 153, 153, 0.333333334);
 }
 .debug {
   background: rgba(220, 20, 60, 0.25);

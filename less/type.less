@@ -3,7 +3,7 @@
 //
 @fontSize: 16;                          // base fontSize in pixels
 @lineFactor: 1.5;                       // lineHeight in relation to fontSize, 1.5 for something like garamond, 1.4 for something like palatino
-@lineHeight: @fontSize * @lineFactor; // lineHeight in pixels
+@lineHeight: @fontSize * @lineFactor;   // lineHeight in pixels
 @em: @fontSize*1em;                     // shorthand for calculating ems, like 12/@em;
 
 @unicodeFont: "Arial Unicode MS", Arial, FreeSans, sans-serif;
@@ -22,10 +22,10 @@ a {
   text-align: right;
 }
 .fleshLeft {
-
+  text-align: left;
 }
 .center {
-
+  text-align: center;
 }
 
 header[role="banner"] {
@@ -43,10 +43,10 @@ div[role="main"] {
   article {
     &#featured {
       .decoration {
-        margin-top: -1 * @lineFactor * @fontSize /@em;
+        padding-top: 0.5 * @fontSize /@em;
         .flourish {
           font-size: 2 * @fontSize /@em;
-          line-height: 1;
+          line-height: 0;
         }
       }
     }
