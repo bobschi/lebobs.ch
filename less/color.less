@@ -55,3 +55,27 @@ a, a:link { color: @linkColor;
   }
 }
 header nav, footer, aside { .mute; }
+header[role="banner"] {
+  hgroup {
+    h1, h2 {
+      color: fadeout(@primaryColor, 66.6666666%);
+    }
+    a, a:link {
+        color: fadeout(@linkColor, 66.6666666%);
+      }
+  }
+}
+
+#featured {
+  border-bottom: 1px solid fadeout(@textColorMuted,75%);
+}
+footer[role="contentinfo"] {
+  border-top: 1px solid fadeout(@textColorMuted,75%);
+}
+
+.debug {
+  background: fadeout(@primaryColor,75%);
+}
+.debug2 {
+  background: fadeout(@primaryColor,88%);
+}

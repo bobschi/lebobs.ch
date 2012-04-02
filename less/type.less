@@ -6,9 +6,72 @@
 @line-height: @font-size * @line-factor; // line-height in pixels
 @em: @font-size*1em;                     // shorthand for calculating ems, like 12/@em;
 
+@unicodeFont: "Arial Unicode MS", Arial, FreeSans, sans-serif;
+
 a {
   text-decoration: none;
   &:hover {
     text-decoration: underline;
+  }
+}
+
+.flourish {
+  font-family: @unicodeFont;
+}
+.flushRight {
+  text-align: right;
+}
+.fleshLeft {
+
+}
+.center {
+
+}
+
+header[role="banner"] {
+  hgroup {
+    .flushRight;
+  }
+  nav {
+    ul {
+      padding-left: 0;
+    }
+  }
+}
+
+div[role="main"] {
+  article[id*="post"] {
+    .permalink {
+      margin-top: (1.4 * @line-height) /@em;
+      .flushRight;
+    }
+    aside {
+      .flushRight;
+      //.tiny;
+      ul {
+        .unstyledList;
+          ul {
+            .inlineList;
+            height: @line-height;
+            li:after {
+              content: ",";
+            }
+            li:last-child:after {
+              content: "";
+            }
+        }
+      }
+    }
+  }
+
+  aside#pagination {
+    text-align: center;
+    ul {
+      .inlineList;
+    }
+  }
+
+  .asterisk {
+    text-align:center;
   }
 }

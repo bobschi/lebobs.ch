@@ -1,39 +1,54 @@
 ---
 layout: default
 ---
+<div class="span10 offset1">
 {% if content %}
 <article id="featured">
-  {{ content }}
+<div class="span6 offset2">
+{{ content | markdownify }}
+</div>
 </article>
+<div class="clearfix"></div>
 {% endif %}
 
 {% for post in paginator.posts %}
-<article class="post">
-    <header class="six-column offset-three">
-      <h1><a href="{{ post.url }}">{{ post.title | escape }}</a></h1>
-    </header>
-    <section>
-      {{ post.content }}
-    </section>
-    <aside>
-      <p><time datetime="{{ post.date | date_to_xmlschema }}" pubdate>{{ post.date | date: "%B %d, %Y" }}</time></p>
-      <p>Written by <strong>bobschi</strong>, filed in:</p>
+<article id="post-{{ post.id | remove_first:'/' | replace:'/','-' }}">
+  <header>
+    <div class="row">
+      <hgroup>
+        <h1>{{ post.title | escape }}</h1>
+      </hgroup>
+      <div class="permalink pull7">
+        <a class="flourish" href="{{ post.url }}">&#9776;</a>
+      </div>
+    </div>
+  </header>
+  <section>
+    {{ post.content }}
+  </section>
+  <aside class="pull8">
+    <ul>
+      <li class="date-published"><span class="visuallyHidden">Published on: </span><time datetime="{{ post.date | date_to_xmlschema }}" pubdate>{{ post.date | date: "%B %d, %Y" }}</time></li>
+      <li class="categories">
       {% if post.categories %}
-      <ul class="categories">
-        {% for category in post.categories %}
-          <li>{{ category }}</li>
-        {% endfor %}
-      </ul>
+          <ul>
+            {% for category in post.categories %}
+              <li>{{ category }}</li>
+            {% endfor %}
+          </ul>
       {% endif %}
-    </aside>
+      </li>
+    </ul>
+  </aside>
 </article>
+<div class="flourish asterisk">&#8258;</div>
 {% endfor %}
 
-<aside id="pagination" class="row">
-  <ul class="six-column offset-three">
+<aside id="pagination">
+  <ul>
     {% if paginator.previous_page %}
       <li>
-        <a href="{{ site.baseurl }}page{{ paginator.previous_page }}">&larr;<span class="visuallyhidden"> Previous</span></a>
+        <a href="{{ site.baseurl }}page{{ paginator.previous_page }}">&larr;<span class="visuallyHidden"> Previous</span></a>
       </li>
       <li>
         <a href="{{ site.baseurl }}">1</a>
@@ -50,7 +65,7 @@ layout: default
         <a href="{{ site.baseurl }}page{{ paginator.page }}">{{ paginator.page }}</a>
       </li>
     {% else %}
-      <li class="mute">&larr;<span class="visuallyhidden"> No Previous</span></li>
+      <li class="mute">&larr;<span class="visuallyHidden"> No Previous</span></li>
       <li class="active">
         <a href="{{ site.baseurl }}">{{ paginator.page }}</a>
       </li>
@@ -60,9 +75,10 @@ layout: default
       {% unless paginator.next_page == paginator.total_pages %}
         <li class="mute">&hellip;</li>
       {% endunless %}
-      <li><a href="{{ site.baseurl }}page{{ paginator.next_page }}"><span class="visuallyhidden">Next </span>&rarr;</a></li>
+      <li><a href="{{ site.baseurl }}page{{ paginator.next_page }}"><span class="visuallyHidden">Next </span>&rarr;</a></li>
     {% else %}
-      <li class="mute"><span class="visuallyhidden">No Next </span>&rarr;</li>
+      <li class="mute"><span class="visuallyHidden">No Next </span>&rarr;</li>
     {% endif %}
   </ul>
 </aside>
+</div>

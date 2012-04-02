@@ -6,8 +6,9 @@
 <body lang="en">
 
 <div class="container">
-  <header role="banner" class="row">
-      <h1 class="three-column"><a href="{{ site.baseurl }}" title="Take me back home!">Le Bobsch Blogsch</a>
+  <header role="banner">
+    <hgroup>
+      <h1><a href="{{ site.baseurl }}" title="Take me back home!">Le Bobsch Blogsch</a>
       {% unless is_main %}
         <span class="flourish">❦</span> 
         <span class="{% if is_post %}post-title{% else %}page-title{% endif %}">
@@ -22,30 +23,66 @@
         <h2 class="hyphenate page-tagline">&ldquo;{{ page.tagline | markdownify }}&rdquo;</h2>
         {% endif %}
       {% endunless %}
-      <div class="right ribbon-holder">  
-        <a href="https://github.com/bobschi" class="bobschi ribbon">
-        <span class="text">Fork me on GitHub</span>
-      </a>
-      </div>
-      <nav role="navigation" class="three-column">
-        <ul>
+    </hgroup>
+    <div class="right ribbon-holder">  
+      <a href="https://github.com/bobschi" class="bobschi ribbon">
+      <span class="text">Fork me on GitHub</span>
+    </a>
+    </div>
+    <nav role="navigation">
+      <div class="row">
+        <ul id="sitenav">
           <li><a href="{{ site.baseurl }}">Home</a></li>
           <li><a href="{{ site.baseurl }}about.html">About</a></li>
           <li><a href="{{ site.baseurl }}about.html#contact">Contact</a></li>
         </ul>
-      </nav>
+        <ul id="social">
+          <li><a href="https://twitter.com/bobschi">@bobschi</a></li>
+        </ul>
+      </div>
+    </nav>
   </header>
+
+  <figure id="demo">
+    <div class="row">
+      <div class="span1"></div>
+      <div class="span1"></div>
+      <div class="span1"></div>
+      <div class="span1"></div>
+      <div class="span1"></div>
+      <div class="span1"></div>
+      <div class="span1"></div>
+      <div class="span1"></div>
+      <div class="span1"></div>
+      <div class="span1"></div>
+      <div class="span1"></div>
+      <div class="span1"></div>
+    </div>
+    <div class="clearfix"></div>
+    <div class="row">
+      <div class="span6 offset3"></div>
+    </div>
+    <div class="clearfix"></div>
+    <div class="row">
+      <div class="span6 offset3"></div>
+      <div class="span1 pull7"></div>
+    </div>
+  </figure>
 
   <div role="main">
       {{ content }}
   </div>
 
-  <footer role="contentinfo" class="row">
-    <div class="six-column offset-three">
+  <footer role="contentinfo" >
+    <section id="license">
       <p>This work is licensed under the <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/at/">Creative Commons Attribution-NonCommercial 3.0 Austria License</a>.</p>
+    </section>
+    <section id="feed">
       <p>If you like this blog, feel free to subscribe to the <a href="http://feeds.feedburner.com/LeBobschBlogsch">RSS-feed</a>, bookmark it, share the links with over your favourite social networks, etc.</p>
-      <p>If you have any comments, for the time being please let me know via <a href="https://twitter.com/bobschi" title="my twitter profile">twitter</a> or <a href="ygb:obofpuv\@yninovg.pbz" class="contact-em">email (run through rot13 first)</a>, or look around the <a href="{{ site.baseurl }}about.html">About</a>-page, to find out other ways to contact me.</p>
-    </div>
+    </section>
+    <section id="about">
+      <p>This blog is the playingfield of Florian "bobschi" Holzner. Check out the <a href="{{ site.baseurl }}about.html">About</a>-page, to find out more about him and how to get in touch.</p>
+    </section>
   </footer>
 </div>
 {% include foot.html %}

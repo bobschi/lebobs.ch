@@ -28,3 +28,19 @@
   background:      -o-linear-gradient(@from, @fromColor @fromOpacity,@toColor @toOpacity);
   background:         linear-gradient(@from, @fromColor @fromOpacity,@toColor @toOpacity);
 }
+
+.visuallyHidden {
+  display: none;
+  visibility: hidden;
+}
+
+.unstyledList {
+  list-style: none;
+  padding-left: 0;
+}
+.inlineList {
+  .unstyledList;
+  &,li {
+    display: inline;
+  }
+}
