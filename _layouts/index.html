@@ -7,7 +7,7 @@ layout: default
   <header>
     <div class="row">
       <hgroup>
-        <h1>{{ page.featured }}</h1>
+        <h1>{{ page.featured | markdownify | strip_html }}</h1>
       </hgroup>
       <div class="decoration pull7">
         <p class="flourish huge">&#9758;</p>
@@ -25,7 +25,7 @@ layout: default
   <header>
     <div class="row">
       <hgroup>
-        <h1>{{ post.title | escape }}</h1>
+        <h1>{{ post.title | markdownify | strip_html }}</h1>
       </hgroup>
       <div class="decoration pull7 mute">
         <p><a class="flourish" href="{{ post.url }}">&#9776;</a></p>
@@ -33,7 +33,7 @@ layout: default
     </div>
   </header>
   <section>
-    {{ post.content }}
+    {{ post.content | markdownify }}
   </section>
   <aside class="pull8">
     <ul>
