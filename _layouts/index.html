@@ -1,14 +1,23 @@
 ---
 layout: default
 ---
-<div class="span10 offset1">
-{% if content %}
+<div class="span12">
+{% if page.featured %}
 <article id="featured">
-<div class="span6 offset2">
+  <header>
+    <div class="row">
+      <hgroup>
+        <h1>{{ page.featured }}</h1>
+      </hgroup>
+      <div class="decoration pull7">
+        <p class="flourish huge">&#9758;</p>
+      </div>
+    </div>
+  </header>
+<section>
 {{ content | markdownify }}
-</div>
+</section>
 </article>
-<div class="clearfix"></div>
 {% endif %}
 
 {% for post in paginator.posts %}
@@ -18,8 +27,8 @@ layout: default
       <hgroup>
         <h1>{{ post.title | escape }}</h1>
       </hgroup>
-      <div class="permalink pull7">
-        <a class="flourish" href="{{ post.url }}">&#9776;</a>
+      <div class="decoration pull7 mute">
+        <p><a class="flourish" href="{{ post.url }}">&#9776;</a></p>
       </div>
     </div>
   </header>

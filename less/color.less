@@ -12,7 +12,15 @@
 @linkColorMuted: @primaryColorMuted;
 @linkHover: lighten(@linkColor,10%);
 @linkHoverMuted: lighten(@linkHover,33%);
- 
+@headerBorder: 2;
+@footerBorder: 2;
+
+.border (@color:fadeout(@white,50%)) {
+  border-color: @color;
+  border-style: solid;
+  border-width: 0;
+}
+
 body {
   color: @textColor;
   background: @white url("../img/bg.png") repeat;
@@ -38,39 +46,51 @@ a, a:link { color: @linkColor;
   }
 }
 
-#pagination {
-  a, a:link {
-    color: @linkColorMuted;
-  }
-  a:hover {
-    color: @linkHoverMuted;
-  }
-  ul {
-    &.active a {
-      border-bottom: 2px solid @linkColorMuted;
-    }
-    &.active a:hover {
-      border-bottom: 2px solid @linkHoverMuted;
-    }
-  }
-}
 header nav, footer, aside { .mute; }
+
 header[role="banner"] {
+  .border;
+  border-bottom: @headerBorder /@em;
+
   hgroup {
     h1, h2 {
       color: fadeout(@primaryColor, 66.6666666%);
     }
+
     a, a:link {
         color: fadeout(@linkColor, 66.6666666%);
       }
   }
+
 }
 
-#featured {
-  border-bottom: 1px solid fadeout(@textColorMuted,75%);
+div[role="main"] {
+  header {
+    .decoration {
+      color: @primaryColor;
+    }
+  }
+  aside#pagination {
+    a, a:link {
+      color: @linkColorMuted;
+    }
+    a:hover {
+      color: @linkHoverMuted;
+    }
+    ul {
+      &.active a {
+        border-bottom: 2px solid @linkColorMuted;
+      }
+      &.active a:hover {
+        border-bottom: 2px solid @linkHoverMuted;
+      }
+    }
+  }
 }
+
 footer[role="contentinfo"] {
-  border-top: 1px solid fadeout(@textColorMuted,75%);
+  .border;
+  border-bottom: @footerBorder /@em;
 }
 
 .debug {

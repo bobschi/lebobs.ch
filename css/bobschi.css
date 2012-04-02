@@ -608,34 +608,37 @@ header[role="banner"] hgroup {
 header[role="banner"] nav ul {
   padding-left: 0;
 }
-div[role="main"] article[id*="post"] .permalink {
-  margin-top: 2.0999999999999996em;
+div[role="main"] article#featured .decoration {
+  margin-top: -1.5em;
+}
+div[role="main"] article#featured .decoration .flourish {
+  font-size: 2em;
+  line-height: 1;
+}
+div[role="main"] article .decoration {
   text-align: right;
 }
-div[role="main"] article[id*="post"] aside {
+div[role="main"] article aside {
   text-align: right;
 }
-div[role="main"] article[id*="post"] aside ul {
+div[role="main"] article aside ul {
   list-style: none;
   padding-left: 0;
 }
-div[role="main"] article[id*="post"] aside ul ul {
+div[role="main"] article aside ul ul {
   list-style: none;
   padding-left: 0;
   height: 24;
 }
-div[role="main"] article[id*="post"] aside ul ul,
-div[role="main"] article[id*="post"] aside ul ul li {
+div[role="main"] article aside ul ul,
+div[role="main"] article aside ul ul li {
   display: inline;
 }
-div[role="main"] article[id*="post"] aside ul ul li:after {
+div[role="main"] article aside ul ul li:after {
   content: ",";
 }
-div[role="main"] article[id*="post"] aside ul ul li:last-child:after {
+div[role="main"] article aside ul ul li:last-child:after {
   content: "";
-}
-div[role="main"] aside#pagination {
-  text-align: center;
 }
 div[role="main"] aside#pagination ul {
   list-style: none;
@@ -874,6 +877,9 @@ div[role="main"]:after,
 footer[role="contentinfo"]:after {
   clear: both;
 }
+header[role="banner"] {
+  margin-bottom: 1.375em;
+}
 header[role="banner"] hgroup {
   float: left;
   margin-left: 1em;
@@ -907,66 +913,66 @@ div[role="main"]:after {
 div[role="main"]:after {
   clear: both;
 }
-div[role="main"] #featured,
 div[role="main"] .asterisk,
 div[role="main"] #pagination {
   margin-left: -1em;
   *zoom: 1;
 }
-div[role="main"] #featured:before,
 div[role="main"] .asterisk:before,
 div[role="main"] #pagination:before,
-div[role="main"] #featured:after,
 div[role="main"] .asterisk:after,
 div[role="main"] #pagination:after {
   display: table;
   content: "";
 }
-div[role="main"] #featured:after,
 div[role="main"] .asterisk:after,
 div[role="main"] #pagination:after {
   clear: both;
 }
-div[role="main"] article[id*="post"] {
+div[role="main"] article {
   margin-left: -1em;
   *zoom: 1;
 }
-div[role="main"] article[id*="post"]:before,
-div[role="main"] article[id*="post"]:after {
+div[role="main"] article:before,
+div[role="main"] article:after {
   display: table;
   content: "";
 }
-div[role="main"] article[id*="post"]:after {
+div[role="main"] article:after {
   clear: both;
 }
-div[role="main"] article[id*="post"] header {
+div[role="main"] article header {
   float: left;
   margin-left: 1em;
   width: 39em;
-  margin-left: 6em;
+  margin-left: 11em;
 }
-div[role="main"] article[id*="post"] section,
-div[role="main"] article[id*="post"] footer {
+div[role="main"] article section,
+div[role="main"] article footer {
   float: left;
   margin-left: 1em;
   width: 29em;
-  margin-left: 11em;
+  margin-left: 16em;
 }
-div[role="main"] article[id*="post"] aside {
+div[role="main"] article aside {
   float: left;
   margin-left: 1em;
   width: 9em;
 }
-div[role="main"] article[id*="post"] header hgroup {
+div[role="main"] article header hgroup {
   float: left;
   margin-left: 1em;
   width: 29em;
   margin-left: 6em;
 }
-div[role="main"] article[id*="post"] header .permlink {
+div[role="main"] article header .decoration {
+  padding-top: 1em;
   float: left;
   margin-left: 1em;
   width: 4em;
+}
+footer[role="contentinfo"] {
+  margin-top: 1.375em;
 }
 footer[role="contentinfo"] #license,
 footer[role="contentinfo"] #feed,
@@ -1024,19 +1030,6 @@ a:link:hover {
 .mute h6 {
   color: #f7a2b3;
 }
-#pagination a,
-#pagination a:link {
-  color: #f7a2b3;
-}
-#pagination a:hover {
-  color: #fbd1d9;
-}
-#pagination ul.active a {
-  border-bottom: 2px solid #f7a2b3;
-}
-#pagination ul.active a:hover {
-  border-bottom: 2px solid #fbd1d9;
-}
 header nav,
 footer,
 aside {
@@ -1075,6 +1068,12 @@ footer h6,
 aside h6 {
   color: #f7a2b3;
 }
+header[role="banner"] {
+  border-color: rgba(255, 255, 255, 0.5);
+  border-style: solid;
+  border-width: 0;
+  border-bottom: 0.125em;
+}
 header[role="banner"] hgroup h1,
 header[role="banner"] hgroup h2 {
   color: rgba(220, 20, 60, 0.333333334);
@@ -1083,11 +1082,27 @@ header[role="banner"] hgroup a,
 header[role="banner"] hgroup a:link {
   color: rgba(220, 20, 60, 0.333333334);
 }
-#featured {
-  border-bottom: 1px solid rgba(153, 153, 153, 0.25);
+div[role="main"] header .decoration {
+  color: #dc143c;
+}
+div[role="main"] aside#pagination a,
+div[role="main"] aside#pagination a:link {
+  color: #f7a2b3;
+}
+div[role="main"] aside#pagination a:hover {
+  color: #fbd1d9;
+}
+div[role="main"] aside#pagination ul.active a {
+  border-bottom: 2px solid #f7a2b3;
+}
+div[role="main"] aside#pagination ul.active a:hover {
+  border-bottom: 2px solid #fbd1d9;
 }
 footer[role="contentinfo"] {
-  border-top: 1px solid rgba(153, 153, 153, 0.25);
+  border-color: rgba(255, 255, 255, 0.5);
+  border-style: solid;
+  border-width: 0;
+  border-bottom: 0.125em;
 }
 .debug {
   background: rgba(220, 20, 60, 0.25);

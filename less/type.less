@@ -1,10 +1,10 @@
 //
 // type defaults
 //
-@font-size: 16;                          // base font-size in pixels
-@line-factor: 1.5;                       // line-height in relation to font-size, 1.5 for something like garamond, 1.4 for something like palatino
-@line-height: @font-size * @line-factor; // line-height in pixels
-@em: @font-size*1em;                     // shorthand for calculating ems, like 12/@em;
+@fontSize: 16;                          // base fontSize in pixels
+@lineFactor: 1.5;                       // lineHeight in relation to fontSize, 1.5 for something like garamond, 1.4 for something like palatino
+@lineHeight: @fontSize * @lineFactor; // lineHeight in pixels
+@em: @fontSize*1em;                     // shorthand for calculating ems, like 12/@em;
 
 @unicodeFont: "Arial Unicode MS", Arial, FreeSans, sans-serif;
 
@@ -40,11 +40,21 @@ header[role="banner"] {
 }
 
 div[role="main"] {
-  article[id*="post"] {
-    .permalink {
-      margin-top: (1.4 * @line-height) /@em;
+  article {
+    &#featured {
+      .decoration {
+        margin-top: -1 * @lineFactor * @fontSize /@em;
+        .flourish {
+          font-size: 2 * @fontSize /@em;
+          line-height: 1;
+        }
+      }
+    }
+
+    .decoration {
       .flushRight;
     }
+
     aside {
       .flushRight;
       //.tiny;
@@ -52,7 +62,7 @@ div[role="main"] {
         .unstyledList;
           ul {
             .inlineList;
-            height: @line-height;
+            height: @lineHeight;
             li:after {
               content: ",";
             }
@@ -65,7 +75,7 @@ div[role="main"] {
   }
 
   aside#pagination {
-    text-align: center;
+    .center;
     ul {
       .inlineList;
     }

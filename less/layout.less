@@ -1,4 +1,4 @@
-@width: (960/@font-size)*1em;
+@width: (960/@fontSize)*1em;
 @columnWidth: 64;
 @gutterWidth: 16;
 @columnNumber: 12;
@@ -12,7 +12,7 @@
     height: 100%;
   }
   .row {
-    height: @font-size/@em;
+    height: @fontSize/@em;
     background: fadeout(@primaryColor, 90%);
   }
   .visuallyHidden;
@@ -39,7 +39,7 @@
   margin-left: (@gutterWidth) /@em;
   width: ((@columnWidth * @columns) + (@gutterWidth * (@columns - 1))) /@em;
 }
-.makeOffset(@columns:1) {
+.offset(@columns:1) {
   margin-left: ((@columnWidth * @columns) + (@gutterWidth * (@columns - 1)) + (2* @gutterWidth)) /@em;
 }
 #grid {
@@ -126,12 +126,15 @@ footer[role="contentinfo"] {
 }
 
 header[role="banner"] {
+  margin-bottom: (@lineHeight - @headerBorder) /@em;
+
   hgroup {
     .makeColumn(3);
   }
+
   nav[role="navigation"] {
     .makeColumn(3);
-    .makeOffset(6);
+    .offset(6);
     #sitenav { .makeColumn(1); }
     #social  { .makeColumn(2); }
   }
@@ -139,19 +142,20 @@ header[role="banner"] {
 
 div[role="main"] {
   .makeRow();
-  #featured, .asterisk, #pagination  {
+  .asterisk, #pagination  {
     .makeRow();
   }
-  article[id*="post"] {
+
+  article {
     .makeRow();
 
     header {
       .makeColumn(8);
-      .makeOffset(1);
+      .offset(2);
     }
     section, footer{
       .makeColumn(6);
-      .makeOffset(2);
+      .offset(3);
     }
 
     aside {
@@ -161,9 +165,10 @@ div[role="main"] {
     header {
       hgroup {
         .makeColumn(6);
-        .makeOffset(1);
+        .offset(1);
       }
-      .permlink {
+      .decoration {
+        padding-top: @lineHeight /@lineFactor /@em;
         .makeColumn(1);
       }
     }
@@ -171,12 +176,14 @@ div[role="main"] {
 }
 
 footer[role="contentinfo"] {
+  margin-top: (@lineHeight - @footerBorder) /@em;
+
   #license,
   #feed, 
   #about {
     .makeColumn(2);
   }
   #license {
-    .makeOffset(3);
+    .offset(3);
   }
 }
