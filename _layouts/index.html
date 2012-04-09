@@ -9,7 +9,7 @@ layout: default
       <hgroup>
         <h1>{{ page.featured | markdownify | strip_html }}</h1>
       </hgroup>
-      <div class="decoration pull7">
+      <div class="decoration pull10">
         <div><span class="flourish">&#9758;</span></div>
       </div>
     </div>
@@ -27,7 +27,7 @@ layout: default
       <hgroup>
         <h1>{{ post.title | markdownify | strip_html }}</h1>
       </hgroup>
-      <div class="decoration pull7 mute">
+      <div class="decoration pull10 mute">
         <p><a class="flourish" href="{{ post.url }}">&#9776;</a></p>
       </div>
     </div>
@@ -35,7 +35,7 @@ layout: default
   <section>
     {{ post.content | markdownify }}
   </section>
-  <aside class="pull8">
+  <aside class="pull10">
     <ul>
       <li class="date-published"><span class="visuallyHidden">Published on: </span><time datetime="{{ post.date | date_to_xmlschema }}" pubdate>{{ post.date | date: "%B %d, %Y" }}</time></li>
       <li class="categories">
