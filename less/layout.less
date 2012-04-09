@@ -152,6 +152,15 @@ div[role="main"] {
     header {
       .makeColumn(8);
       .offset(2);
+
+      hgroup {
+        .makeColumn(6);
+        .offset(1);
+      }
+      .decoration {
+        display: box;
+        .makeColumn(1);
+      }
     }
     section, footer{
       .makeColumn(6);
@@ -160,16 +169,6 @@ div[role="main"] {
 
     aside {
       .makeColumn(2);
-    }
-
-    header {
-      hgroup {
-        .makeColumn(6);
-        .offset(1);
-      }
-      .decoration {
-        .makeColumn(1);
-      }
     }
   }
 
