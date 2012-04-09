@@ -1,0 +1,23 @@
+{
+	"folders":
+	[
+		{
+			"path": "./_posts/",
+			"name": "Posts"
+		},
+		{
+			"path": "./less/",
+			"name": "Styles"
+		},
+		{
+			"path": "./_layouts/",
+			"name": "Templates"
+		},
+		{
+			"path": "./",
+			"name": "Blog",
+			"folder_exclude_patterns": ["css", "_site", "_posts", "less", "_layouts"],
+			"file_exclude_patterns": [".hgtags"]
+		}
+	]
+}
