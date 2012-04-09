@@ -133,8 +133,11 @@ header[role="banner"] {
   }
 
   nav[role="navigation"] {
+    display: block;
+    padding-top: 1.75em; // 32px
+    line-height: 3; // 48
     .makeColumn(3);
-    .offset(6);
+    // .offset(6);
     #sitenav { .makeColumn(1); }
     #social  { .makeColumn(2); }
   }

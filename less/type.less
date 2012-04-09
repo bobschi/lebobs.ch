@@ -2,7 +2,7 @@
 // type defaults
 //
 @fontSize: 16;                          // base fontSize in pixels
-@lineFactor: 1.4;                       // lineHeight in relation to fontSize, 1.5 for something like garamond, 1.4 for something like palatino
+@lineFactor: 1.5;                       // lineHeight in relation to fontSize, 1.5 for something like garamond, 1.4 for something like palatino
 @lineHeight: @fontSize * @lineFactor;   // lineHeight in pixels
 @em: @fontSize*1em;                     // shorthand for calculating ems, like 12/@em;
 
@@ -20,8 +20,8 @@ body {
 }
 p, ul, ol, dl, blockquote {
   font-family: @bodyFont;
-  font-size: 1em; // 16px
-  line-height: 1.5; // 24px
+  font-size: @fontSize /@em; // 16px
+  line-height: @lineFactor; // 24px
   margin: 0 0 1.5em 0;
   vertical-align: baseline;
 
@@ -138,9 +138,10 @@ div[role="main"] {
       .flushRight;
 
       .flourish {
-        display: block;
-        padding-top: 1.75em; // 32px
-        line-height: 3; // 48
+        display: inline-block;
+        margin-top: 1.5em; // 24px
+        padding-top: 0.5em; // 8px
+        line-height: 2;
       }
     }
 
