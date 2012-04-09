@@ -2,12 +2,79 @@
 // type defaults
 //
 @fontSize: 16;                          // base fontSize in pixels
-@lineFactor: 1.5;                       // lineHeight in relation to fontSize, 1.5 for something like garamond, 1.4 for something like palatino
+@lineFactor: 1.4;                       // lineHeight in relation to fontSize, 1.5 for something like garamond, 1.4 for something like palatino
 @lineHeight: @fontSize * @lineFactor;   // lineHeight in pixels
 @em: @fontSize*1em;                     // shorthand for calculating ems, like 12/@em;
 
+@bodyFont: sans-serif;
+@headingFont: sans-serif;
 @unicodeFont: "Arial Unicode MS", Arial, FreeSans, sans-serif;
+@monoFont: monospace;
 
+//
+// Fonts and Vertical Rhytmn
+//
+body {
+  font-size: @fontSize;
+  line-height: @lineFactor;
+}
+p, ul, ol, dl, blockquote {
+  font-family: @bodyFont;
+  font-size: 1em; // 16px
+  line-height: 1.5; // 24px
+  margin: 0 0 1.5em 0;
+
+}
+h1,h2,h3,h4,h5,h6 {
+  margin: 0;
+  font-family: @headingFont;
+}
+pre, code {
+  font-family: @monoFont;
+}
+.flourish {
+  font-family: @unicodeFont;
+}
+
+h1, .gigantic {
+  font-size: 2em; // 32px
+  line-height: 1.5; // 48px
+  margin: 0.75em 0 0 0;
+}
+/* 28px - The quick brown fox jumps over the lazy dog */
+h2, .huge {
+  font-size: 1.75em; // 28px
+  line-height: 1.7143; // 48px
+  margin: 0.8571em 0 0 0;
+}
+/* 24px - The quick brown fox jumps over the lazy dog */
+h3, .xxxlarge {
+  font-size: 1.5em; // 24px
+  line-height: 1; // 24px
+  margin-top: 1em 0 0 0;
+}
+/* 22px - The quick brown fox jumps over the lazy dog */
+h4, .xxlarge {
+  font-size: 1.375em; // 22px
+  line-height: 1.0909; // 24px
+  margin-top: 1.0909em 0 0 0;
+}
+/* 20px - The quick brown fox jumps over the lazy dog */
+.xlarge {
+  font-size: 1.25em; // 20px
+  line-height: 1.2; // 24px
+  margin-top: 1.2em 0 0 0;
+}
+/* 18px - The quick brown fox jumps over the lazy dog */
+.large {
+  font-size: 1.125em; // 18p
+  line-height: 1.3333; // 24px
+  margin-top: 1.3333em 0 0 0;
+}
+
+//
+// Shared Styles
+//
 a {
   text-decoration: none;
   &:hover {
@@ -15,9 +82,9 @@ a {
   }
 }
 
-.flourish {
-  font-family: @unicodeFont;
-}
+//
+// Special Styles
+//
 .flushRight {
   text-align: right;
 }
@@ -43,21 +110,20 @@ div[role="main"] {
   article {
     &#featured {
       .decoration {
-        padding-top: 0.5 * @fontSize /@em;
         .flourish {
-          font-size: 2 * @fontSize /@em;
-          line-height: 0;
+          .gigantic;
         }
       }
     }
 
-    .decoration {
-      .flushRight;
-    }
-
     aside {
       .flushRight;
-      //.tiny;
+      .decoration {
+        .flourish {
+          display: block;
+          .large;
+        }
+      }
       ul {
         .unstyledList;
           ul {
