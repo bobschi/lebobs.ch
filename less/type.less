@@ -113,14 +113,10 @@ a {
 }
 
 header[role="banner"] {
-  hgroup {
-    #masthead, #deco, #pagetitle {
-      .flushRight;
-    }
-  }
+  .center;
   nav {
     ul {
-      padding-left: 0;
+      .inlineList;
     }
   }
 }
@@ -173,5 +169,12 @@ div[role="main"] {
 
   .asterisk {
     text-align:center;
+  }
+}
+footer[role="contentinfo"] {
+  margin: @lineHeight/@em 0 0 0;
+  padding: (@lineHeight - @footerBorder) /@em 0;
+  #social { 
+    .unstyledList;
   }
 }

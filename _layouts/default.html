@@ -7,36 +7,30 @@
 
 <div class="container">
   <header role="banner">
-    <hgroup>
-      <div class="row">
-        <h1 id="masthead"><a href="{{ site.baseurl }}" title="Take me back home!">Le Bobsch Blogsch</a></h1>
-        <div id="deco" class="flourish">❦</div>
+    <div class="span12">
+      <hgroup>
+        <h1 id="masthead"><a href="{{ site.baseurl }}" title="Take me back home!">Le Bobsch Blogsch</a>
+        <span id="deco" class="flourish mute">❦</span>
         {% unless is_main %}
-
           <span class="{% if is_post %}post-title{% else %}page-title{% endif %}">
           {{ page.title }}
           </span>
         {% endunless %}
-
+        </h1>
         {% if page.tagline != null %}
           <h2 class="hyphenate page-tagline">&ldquo;{{ page.tagline | markdownify }}&rdquo;</h2>
         {% endif %}
-      </div>
-    </hgroup>
-    <nav role="navigation">
-      <div class="row">
-        <ul id="sitenav">
-          <li><a href="{{ site.baseurl }}">Home</a></li>
-          <li><a href="{{ site.baseurl }}about.html">About</a></li>
-          <li><a href="{{ site.baseurl }}about.html#contact">Contact</a></li>
+      </hgroup>
+      <nav role="navigation">             <!-- row -->
+        <ul id="sitenav">             
+          <div class="row">
+            <li><a href="{{ site.baseurl }}">Home</a></li>
+            <li><a href="{{ site.baseurl }}about.html">About</a></li>
+            <li><a href="{{ site.baseurl }}about.html#contact">Contact</a></li>
+          </div>
         </ul>
-        <ul id="social">
-          <li><a href="https://twitter.com/bobschi">Twitter</a></li>
-          <li><a href="https://github.com/bobschi">Github</a></li>
-          <li><a href="https://github.com/bobschi">Fork Me</a></li>
-        </ul>
-      </div>
-    </nav>
+      </nav>
+    </div>
   </header>
 
   <div role="main">
