@@ -120,17 +120,18 @@ footer[role="contentinfo"] {
 header[role="banner"] {
   padding-bottom: (@lineHeight - 5 * @headerBorder) /@em;
 
-  hgroup {
-    .makeColumn(3);
+  hgroup        { .makeColumn(9);
+    #masthead   { .makeColumn(4); }
+    #deco       { .makeColumn(1); }
+    .pageTitle  { .makeColumn(4); }
   }
 
   nav[role="navigation"] {
     display: block;
     padding-top: 1.75em; // 32px
-    .makeColumn(4);
-    .offset(5);
-    #sitenav { .makeColumn(2); }
-    #social  { .makeColumn(2); }
+    .makeColumn(3);
+    #sitenav { .makeColumn(1); .offset(1); }
+    #social  { .makeColumn(1); }
   }
 }
 

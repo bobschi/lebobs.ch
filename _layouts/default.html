@@ -8,21 +8,20 @@
 <div class="container">
   <header role="banner">
     <hgroup>
-      <h1><a href="{{ site.baseurl }}" title="Take me back home!">Le Bobsch Blogsch</a>
-      {% unless is_main %}
-        <span class="flourish">❦</span> 
-        <span class="{% if is_post %}post-title{% else %}page-title{% endif %}">
-        {{ page.title }}
-        </span>
+      <div class="row">
+        <h1 id="masthead"><a href="{{ site.baseurl }}" title="Take me back home!">Le Bobsch Blogsch</a></h1>
+        <div id="deco" class="flourish">❦</div>
+        {% unless is_main %}
+
+          <span class="{% if is_post %}post-title{% else %}page-title{% endif %}">
+          {{ page.title }}
+          </span>
         {% endunless %}
-      </h1>
-      {% unless is_main %}
-        {% if is_post and page.teaser != null %}
-        <h2 class="hyphenate post-teaser">{{ page.teaser | markdownify }}</h2>
-        {% elsif page.tagline != null %}
-        <h2 class="hyphenate page-tagline">&ldquo;{{ page.tagline | markdownify }}&rdquo;</h2>
+
+        {% if page.tagline != null %}
+          <h2 class="hyphenate page-tagline">&ldquo;{{ page.tagline | markdownify }}&rdquo;</h2>
         {% endif %}
-      {% endunless %}
+      </div>
     </hgroup>
     <nav role="navigation">
       <div class="row">

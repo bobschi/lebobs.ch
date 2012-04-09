@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=IM+Fell+English);
+
 //
 // type defaults
 //
@@ -7,7 +9,7 @@
 @em: @fontSize*1em;                     // shorthand for calculating ems, like 12/@em;
 
 @bodyFont: Georgia, Cambria, "Times New Roman", Times, serif;
-@headingFont: "Helvetica Neue", Helvetica, Arial, sans-serif;
+@headingFont: 'IM Fell English', Georgia, Cambria, "Times New Roman", Times, serif;
 @unicodeFont: "Arial Unicode MS", Arial, FreeSans, sans-serif;
 @monoFont: monospace;
 
@@ -112,7 +114,9 @@ a {
 
 header[role="banner"] {
   hgroup {
-    .flushRight;
+    #masthead, #deco, #pagetitle {
+      .flushRight;
+    }
   }
   nav {
     ul {
