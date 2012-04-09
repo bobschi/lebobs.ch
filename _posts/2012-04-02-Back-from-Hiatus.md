@@ -1,4 +1,5 @@
 ---
+layout: post
 title: You look stunning today, if I may be so forward ...
 category: meta
 ---

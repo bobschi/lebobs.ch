@@ -1,7 +1,6 @@
 ---
 layout: post
 title: BarCraft Austria Newsletter Lottery
-published: true
 categories:
   - BarCraft
   - Starcraft

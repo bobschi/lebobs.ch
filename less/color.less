@@ -44,39 +44,13 @@ header nav, footer, aside { .mute; }
 
 header[role="banner"] {
   border-bottom: @footerBorder /@em solid fadeout(@textColorMuted,66.6666666%);
-
-  hgroup {
-    h1, h2 {
-      color: fadeout(@primaryColor, 66.6666666%);
-    }
-
-    a, a:link {
-        color: fadeout(@linkColor, 66.6666666%);
-      }
-  }
-
+  background: fade(@textColorMuted,10%);
 }
 
 div[role="main"] {
   header {
     .decoration {
       color: @primaryColor;
-    }
-  }
-  aside#pagination {
-    a, a:link {
-      color: @linkColorMuted;
-    }
-    a:hover {
-      color: @linkHoverMuted;
-    }
-    ul {
-      &.active a {
-        border-bottom: 2px solid @linkColorMuted;
-      }
-      &.active a:hover {
-        border-bottom: 2px solid @linkHoverMuted;
-      }
     }
   }
 }
