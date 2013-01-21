@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: Fuck yeah!
 date:2013-01-21
 ---
