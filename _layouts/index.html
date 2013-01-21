@@ -37,7 +37,7 @@ layout: default
   </section>
   <aside class="pull10">
     <ul>
-      <li class="date-published"><span class="visuallyHidden">Published on: </span><time datetime="{{ post.date | date_to_xmlschema }}" pubdate>{{ post.date | date: "%B %d, %Y" }}</time></li>
+      <li class="date-published"><span class="visuallyHidden">Published on: </span><time datetime="{{ post.date }}" pubdate>{{ post.date | date: "%B %d, %Y" }}</time></li>
       <li class="categories">
       {% if post.categories %}
           <ul>
