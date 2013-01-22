@@ -1,0 +1,629 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"border-",
+				"border-style"
+			],
+			[
+				"ul",
+				"ul"
+			],
+			[
+				"b",
+				"inline-block"
+			],
+			[
+				"listy",
+				"list-style"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "_posts/2013-01-22-kindle-paperwhite.md",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Florian/AppData/Roaming/Sublime Text 2/Packages/Git/Git.sublime-settings",
+			"settings":
+			{
+				"buffer_size": 1367,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 86.0,
+		"selected_items":
+		[
+			[
+				"upgrad",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"control",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"git",
+				"Git: Add Current File"
+			],
+			[
+				"brow",
+				"Preferences: Browse Packages"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"pref",
+				"Preferences: Package Control Settings – Default"
+			],
+			[
+				"syntax: todo",
+				"Set Syntax: Todo.txt"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"todo",
+				"Todo: List Active"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"pdf",
+				"Pandoc: Convert a Pandoc file to PDF"
+			],
+			[
+				"pand",
+				"Pandoc: Convert a Pandoc file to PDF"
+			],
+			[
+				"pandoc",
+				"Pandoc: Convert a Pandoc file to HTML"
+			],
+			[
+				"fold all",
+				"Code Folding: Unfold All"
+			],
+			[
+				"fold",
+				"Code Folding: Fold Tag Attributes"
+			],
+			[
+				"pando",
+				"Set Syntax: Pandoc"
+			],
+			[
+				"quic",
+				"Git: Quick Commit"
+			],
+			[
+				"git status",
+				"Git: Status"
+			],
+			[
+				"pandoc: pdf",
+				"Pandoc: Convert a Pandoc file to PDF"
+			],
+			[
+				"pandoc:",
+				"Pandoc: Convert a Pandoc file to HTML"
+			],
+			[
+				"remove ",
+				"Package Control: Remove Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"pandoc html",
+				"Pandoc: Render Markdown to temp HTML and View"
+			],
+			[
+				"git qui",
+				"Git: Quick Commit"
+			],
+			[
+				"pan",
+				"Pandoc: Render Markdown to temp HTML and View"
+			],
+			[
+				"pack re",
+				"Package Control: Remove Package"
+			],
+			[
+				"mark",
+				"Set Syntax: Markdown"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"git commit ",
+				"Git: Commit"
+			],
+			[
+				"git add ",
+				"Git: Add Current File"
+			],
+			[
+				"git add",
+				"Git: Add..."
+			],
+			[
+				"removce",
+				"Package Control: Remove Package"
+			],
+			[
+				"package control:",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"pack list",
+				"Package Control: List Packages"
+			],
+			[
+				"markdown",
+				"Pandoc: Render Markdown to temp HTML and View"
+			],
+			[
+				"pack inst	",
+				"Package Control: Install Package"
+			],
+			[
+				"pack remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"open",
+				"Git: Open..."
+			],
+			[
+				"pack in",
+				"Package Control: Install Package"
+			],
+			[
+				"them",
+				"Themr: Soda Dark"
+			],
+			[
+				"themr",
+				"Themr: Soda Light"
+			],
+			[
+				"themr: def",
+				"Themr: Default"
+			],
+			[
+				"themor",
+				"Themr: Phoenix Dark"
+			],
+			[
+				"themr:",
+				"Themr: Phoenix Light"
+			],
+			[
+				"themr:soda",
+				"Themr: Soda Dark"
+			],
+			[
+				"themr:night",
+				"Themr: Night"
+			],
+			[
+				"temr:refresh",
+				"Themr: Refresh"
+			],
+			[
+				"themr:ay",
+				"Themr: Ayin"
+			],
+			[
+				"themr:nexus",
+				"Themr: Nexus"
+			],
+			[
+				"themr:nil",
+				"Themr: Nil"
+			],
+			[
+				"themr: ",
+				"Themr: Reload themes"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"instal ",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Remove Package"
+			],
+			[
+				"schemr: a",
+				"Schemr: Anatomy of Grey Light"
+			]
+		],
+		"width": 498.0
+	},
+	"console":
+	{
+		"height": 498.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": false,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/E/Blog/_posts/2012-01-22-kindle-paperwhite.md",
+		"/C/Users/Florian/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Florian/AppData/Roaming/Sublime Text 2/Packages/Package Control/Package Control.sublime-settings",
+		"/e/Blog/_layouts/post.html",
+		"/e/Blog/_layouts/index.html",
+		"/e/Blog/_layouts/default.html",
+		"/C/Users/Florian/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/Florian/AppData/Roaming/Sublime Text 2/Packages/User/Distraction Free.sublime-settings",
+		"/E/Dropbox/Texte & Notizen/Untitled.txt",
+		"/E/Dropbox/Texte & Notizen/Flo ♥ Thery.txt",
+		"/c/Users/Florian/.ssh/github_rsa.pub",
+		"/E/Documents/Blog/.gitignore",
+		"/E/Documents/Blog/.git/config",
+		"/C/Users/Florian/.ssh/id_rsa.pub",
+		"/C/Users/Florian/AppData/Local/Programs/Git/doc/git/html/git-show.html",
+		"/E/Documents/Blog/_posts/2011-05-01-Hello-World.md",
+		"/E/Documents/Blog/_posts/2011-05-29-Linux-and-Me.md",
+		"/E/Documents/Blog/_posts/2011-10-19-Using-Responsive-Design.md",
+		"/E/Documents/Blog/_posts/2011-05-22-LAN-Party-Nostalgia.md",
+		"/E/Documents/Blog/_posts/2011-06-12-Birthday-Specials.md",
+		"/E/Documents/Blog/_posts/2011-10-19-Drawing-the-Line.md",
+		"/E/Documents/Blog/_posts/2012-01-21-choosing-a-responsive-boilerplate.md",
+		"/E/Documents/Blog/_posts/2012-01-17-a-plan-for-battle.md",
+		"/E/Dropbox/Selfquanitfication/2013-01-07.txt",
+		"/E/Dropbox/Selfquanitfication/2013-01 DONE.txt",
+		"/E/Dropbox/Selfquanitfication/2013-01-18.txt",
+		"/E/Dropbox/Selfquanitfication/2013-01 TODO.txt",
+		"/E/Documents/Blog/_posts/2012-01-17-a-little-log-of-my-struggles.md",
+		"/E/Dropbox/Selfquanitfication/2013-01-08.txt",
+		"/E/Dropbox/Texte & Notizen/Male Elf Rogue 10.txt",
+		"/C/Users/Florian/AppData/Local/Temp/7zOEB92.tmp/skse_readme.txt",
+		"/C/Users/Florian/SkyDrive/2012 Wintersemester/Softwarequalitätssicherung/UE4/1 Testreview/.gitignore",
+		"/E/Documents/D&D/_site/index.html",
+		"/C/Users/Florian/SkyDrive/2012 Wintersemester/Softwarequalitätssicherung/UE4/1 Testreview/notes.txt",
+		"/C/Users/Florian/AppData/Local/Temp/7zO1E85.tmp/IMG_08-01-13_18-38-31_CAPTION.txt",
+		"/C/Users/Florian/AppData/Local/Temp/7zO12F0.tmp/IMG_20130108_172343_CAPTION.txt",
+		"/E/Desktop/todo.txt",
+		"/E/Desktop/wishlist.txt",
+		"/C/Users/Florian/AppData/Local/Temp/2a4ff6ac-3739-4b88-8a4a-5c18daeb8026/sites/default/_sites_default_settings.php",
+		"/C/Users/Florian/AppData/Local/Temp/2a4ff6ac-3739-4b88-8a4a-5c18daeb8026/sites/all/modules/_sites_all_modules_README.txt",
+		"/E/Downloads/petercsaratdb2.sql",
+		"/C/Users/Florian/AppData/Local/Temp/2a4ff6ac-3739-4b88-8a4a-5c18daeb8026/themes/_themes_README.txt",
+		"/C/Users/Florian/AppData/Local/Temp/2a4ff6ac-3739-4b88-8a4a-5c18daeb8026/_.htpasswd",
+		"/C/Users/Florian/AppData/Local/Temp/2a4ff6ac-3739-4b88-8a4a-5c18daeb8026/_.group",
+		"/C/Users/Florian/AppData/Roaming/Cyberduck/Bookmarks/78c06707-a9d6-4e7c-8016-b48eb7f1ebc3.duck",
+		"/C/Users/Florian/AppData/Roaming/Cyberduck/Bookmarks/15d05637-3ea6-4530-bd1d-87b43718c00d.duck",
+		"/C/Users/Florian/AppData/Roaming/Cyberduck/Bookmarks/b947d0df-2501-4caf-af40-9b4484c458e7.duck",
+		"/C/Users/Florian/AppData/Roaming/Cyberduck/Bookmarks/2a4ff6ac-3739-4b88-8a4a-5c18daeb8026.duck",
+		"/C/Users/Florian/AppData/Roaming/Cyberduck/Bookmarks/2a7c4827-3ee8-465f-a09a-b094308db4c2.duck",
+		"/C/Users/Florian/AppData/Roaming/Cyberduck/Bookmarks/4f46e18c-13b1-4772-b7ec-79a47305ad19.duck",
+		"/C/Users/Florian/AppData/Local/Temp/2a4ff6ac-3739-4b88-8a4a-5c18daeb8026/_.htaccess",
+		"/C/Users/Florian/AppData/Local/Temp/2a4ff6ac-3739-4b88-8a4a-5c18daeb8026/_web.config",
+		"/C/Users/Florian/AppData/Local/Temp/2a4ff6ac-3739-4b88-8a4a-5c18daeb8026/error_logs/_error_logs_petercsar.at_error_log.e5cdc.txt",
+		"/C/Users/Florian/AppData/Local/Temp/2a4ff6ac-3739-4b88-8a4a-5c18daeb8026/_CHANGELOG.txt",
+		"/C/Users/Florian/AppData/Local/Temp/3b5cd4ae-54d7-4e79-ba55-1506fe224c6e",
+		"/C/Users/Florian/AppData/Local/Temp/441a6350-7212-446e-adbc-6fd98f630ab3",
+		"/C/Users/Florian/AppData/Local/Temp/eb8dca7d-c10a-4c31-80bb-8a0fb8b4ae3c",
+		"/E/Dropbox/Texte & Notizen/praktikum sommer.txt",
+		"/C/Users/Florian/AppData/Local/Temp/2a4ff6ac-3739-4b88-8a4a-5c18daeb8026/index.php",
+		"/C/Users/Florian/AppData/Local/Temp/2a4ff6ac-3739-4b88-8a4a-5c18daeb8026/sites/default/settings.php",
+		"/C/Users/Florian/AppData/Local/Temp/2a4ff6ac-3739-4b88-8a4a-5c18daeb8026/index.html",
+		"/C/Users/Florian/AppData/Local/Temp/2a4ff6ac-3739-4b88-8a4a-5c18daeb8026/error/500-internal-server-error.html",
+		"/E/Desktop/web.config",
+		"/E/Desktop/index.html",
+		"/C/Users/Florian/AppData/Local/Temp/2a4ff6ac-3739-4b88-8a4a-5c18daeb8026/UPGRADE.txt",
+		"/C/Users/Florian/AppData/Local/Temp/7zOC112.tmp/Read_TU.txt",
+		"/H/pornos_acl.txt",
+		"/C/Users/Florian/SkyDrive/2012 Wintersemester/Softwarequalitätssicherung/UE3/4 Testisolation/ChristmasCounter.java",
+		"/C/Users/Florian/SkyDrive/2012 Wintersemester/Softwarequalitätssicherung/UE3/4 Testisolation/TimeService.java",
+		"/C/Users/Florian/SkyDrive/2012 Wintersemester/Softwarequalitätssicherung/UE3/4 Testisolation/TimeServiceImpl.java",
+		"/E/Dropbox/advanced optimization/presentation.tex",
+		"/E/Dropbox/advanced optimization/#zusammenfassung.tex",
+		"/E/Desktop/brauerei_todo.txt",
+		"/E/Dropbox/Texte & Notizen/handy.txt",
+		"/C/Users/Florian/SkyDrive/2012 Wintersemester/Beyond the Desktop & Building Interaction Interfaces/Exercises/PR02_Arduino/documentation.md",
+		"/C/Users/Florian/SkyDrive/2012 Wintersemester/Beyond the Desktop & Building Interaction Interfaces/Exercises/VU02 Context Analysis/documentation.md",
+		"/C/Users/Florian/SkyDrive/2012 Wintersemester/Beyond the Desktop & Building Interaction Interfaces/.gitignore",
+		"/C/Users/Florian/SkyDrive/2012 Wintersemester/Beyond the Desktop & Building Interaction Interfaces/Exercises/VU02 Context Analysis/instructions.md",
+		"/C/Users/Florian/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/Florian/AppData/Roaming/Sublime Text 2/Packages/Pandoc Academic/PandocConvertor.py",
+		"/C/Users/Florian/AppData/Roaming/Sublime Text 2/Packages/User/Git.sublime-settings",
+		"/C/Users/Florian/AppData/Roaming/Sublime Text 2/Packages/Git/Git.sublime-settings",
+		"/C/Users/Florian/AppData/Roaming/Sublime Text 2/Packages/Pandoc (Markdown)/PandocRender.py",
+		"/C/Users/Florian/AppData/Roaming/Sublime Text 2/Packages/User/Pandoc.sublime-settings",
+		"/C/Users/Florian/AppData/Roaming/Sublime Text 2/Packages/Pandoc/Pandoc.sublime-settings",
+		"/C/Users/Florian/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/Florian/AppData/Roaming/Sublime Text 2/Packages/Pandoc Academic/Default.sublime-commands",
+		"/C/Users/Florian/AppData/Roaming/Sublime Text 2/Packages/Pandoc Academic/Main.sublime-menu",
+		"/C/Users/Florian/AppData/Roaming/Sublime Text 2/Packages/Pandoc Academic/Keymap/Default.sublime-keymap",
+		"/C/Users/Florian/SkyDrive/2012 Wintersemester/Beyond the Desktop & Building Interaction Interfaces/Exercises/VU02 Context Analysis/inst",
+		"/C/Users/Florian/AppData/Roaming/Sublime Text 2/Packages/Pandoc Academic/readme.md",
+		"/C/Users/Florian/AppData/Roaming/Sublime Text 2/Packages/Pandoc (Markdown)/Main.sublime-menu",
+		"/C/Users/Florian/AppData/Roaming/Sublime Text 2/Packages/Pandoc (Markdown)/README.md",
+		"/c/Users/Florian/SkyDrive/2012 Wintersemester/Beyond the Desktop & Building Interaction Interfaces/Exercises/VU02 Context Analysis/documentation.md",
+		"/C/Users/Florian/AppData/Roaming/Sublime Text 2/Packages/Pandoc (Markdown)/Default (Windows).sublime-keymap",
+		"/C/Users/Florian/AppData/Roaming/Sublime Text 2/Packages/User/SmartMarkdown.sublime-settings",
+		"/C/Users/Florian/SkyDrive/2012 Wintersemester/Beyond the Desktop & Building Interaction Interfaces/Documentation/documentation.txt",
+		"/C/Users/Florian/SkyDrive/2012 Wintersemester/Beyond the Desktop & Building Interaction Interfaces/Exercises/VU02 Context Analysis/documentation.html",
+		"/C/Users/Florian/.ssh/github_rsa.pub",
+		"/C/Users/Florian/.ssh/config",
+		"/C/Users/Florian/.ssh/known_hosts",
+		"/C/Program Files (x86)/OpenSSH/docs/readme.txt",
+		"/C/cygwin/home/Florian/.ssh/config",
+		"/C/Program Files (x86)/OpenSSH/etc/passwd",
+		"/C/Users/Florian/.gitconfig",
+		"/E/Dropbox/BarCraft Austria/BarCraft Vienna/Events/2012-11-24 BarCraft #019 - Dreamhack Winter/Quizfragen.txt",
+		"/E/Dropbox/BarCraft Austria/BarCraft Vienna/Events/2012-11-24 BarCraft #019 - Dreamhack Winter/Razer Gewinnspiele.txt",
+		"/E/Dropbox/BarCraft Austria/BarCraft Vienna/Events/2012-11-24 BarCraft #019 - Dreamhack Winter/Plan.txt",
+		"/C/Program Files (x86)/OpenSSH/etc/ssh_config",
+		"/C/Program Files (x86)/OpenSSH/etc/group",
+		"/C/Program Files (x86)/OpenSSH/docs/quickstart.txt",
+		"/I/Software/MSDNAA Software/Windows Keys.txt",
+		"/C/Users/Florian/SkyDrive/2012 Wintersemester/Beyond the Desktop & Building Interaction Interfaces/Exercises/VU01 BTD in the wild/Documentation.tex",
+		"/E/Dropbox/BarCraft Austria/BarCraft Vienna/Verein/Protokolle/2012-11-13 Stammtisch Kimchi.txt",
+		"/E/Dropbox/Pathfinder/kommentare zu gelöschten pdfs.txt",
+		"/C/Users/Florian/SkyDrive/2012 Wintersemester/Beyond the Desktop & Building Interaction Interfaces/pandoccommands",
+		"/E/Dropbox/BarCraft Austria/BarCraft Vienna/Events/2012-11-18 BarCraft #019 - Dreamhack Winter/Razer Gewinnspiele.txt",
+		"/C/Users/Florian/SkyDrive/2012 Wintersemester/Beyond the Desktop & Building Interaction Interfaces/Exercises/VU01 BTD in the wild/Documentation.aux",
+		"/C/Users/Florian/SkyDrive/2012 Wintersemester/Beyond the Desktop & Building Interaction Interfaces/Exercises/VU01 BTD in the wild/Documentation_AR_Apps.tex",
+		"/C/Users/Florian/SkyDrive/2012 Wintersemester/Beyond the Desktop & Building Interaction Interfaces/Exercises/VU01 BTD in the wild/Documentation AR Apps.tex",
+		"/C/Users/Florian/SkyDrive/2012 Wintersemester/Beyond the Desktop & Building Interaction Interfaces/Exercises/VU01 BTD in the wild/Documentation_Goggles.tex",
+		"/C/Users/Florian/SkyDrive/2012 Wintersemester/Beyond the Desktop & Building Interaction Interfaces/Exercises/VU01 BTD in the wild/Feedback_MEO_Recorder.tex",
+		"/C/Users/Florian/SkyDrive/2012 Wintersemester/Beyond the Desktop & Building Interaction Interfaces/Exercises/VU01 BTD in the wild/Documentation_Car2Go.tex",
+		"/C/Users/Florian/SkyDrive/2012 Wintersemester/Beyond the Desktop & Building Interaction Interfaces/Exercises/VU01 BTD in the wild/Documentation Goggles.md",
+		"/C/Users/Florian/SkyDrive/2012 Wintersemester/Beyond the Desktop & Building Interaction Interfaces/Exercises/VU01 BTD in the wild/Feedback MEO Recorder.md",
+		"/C/Users/Florian/AppData/Local/Temp/7zE8BAC.tmp/MobMETA.xml",
+		"/C/Users/Florian/SkyDrive/2012 Wintersemester/Beyond the Desktop & Building Interaction Interfaces/Exercises/VU01 BTD in the wild/Documentation AR Apps.md",
+		"/C/Users/Florian/SkyDrive/2012 Wintersemester/Beyond the Desktop & Building Interaction Interfaces/Exercises/VU01 BTD in the wild/Documentation Car2Go.md"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"minimap",
+			"menu",
+			"full screen",
+			"full_screen",
+			"//\n",
+			"date_",
+			"florian",
+			"[width=0.9\\textwidth]",
+			"includegraphics",
+			"includgraphics",
+			"noise",
+			"buildCommand",
+			"cmd",
+			"pdf",
+			"ctrl+alt+c",
+			"alt",
+			" ",
+			"http://www.razerzone.com/gaming-keyboards-keypads/razer-lycosa",
+			"img",
+			"();\n",
+			"js",
+			"\"sRGB IEC61966-2.1\"",
+			"RGB 8",
+			"28.35pcm",
+			";",
+			"gmail",
+			"_/fonts",
+			"masthead",
+			"block",
+			"dir=\"ltr\""
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"[width=\\textwidth]",
+			"includegraphics[width=0.9\\textwidth]",
+			"includegraphics",
+			"shift",
+			"\"U.S. Web Coated (SWOP) v2\"",
+			"CMYK 16",
+			"300 dpi",
+			",",
+			"fonts"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "_posts/2013-01-22-kindle-paperwhite.md",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Users/Florian/AppData/Roaming/Sublime Text 2/Packages/Git/Git.sublime-settings",
+					"settings":
+					{
+						"buffer_size": 1367,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": false,
+	"output.git":
+	{
+		"height": 132.0
+	},
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/C/Users/Florian/SkyDrive/2012 Wintersemester/Beyond the Desktop & Building Interaction Interfaces/Exercises/VU02 Context Analysis/documentation.md"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}
