@@ -27,29 +27,89 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "_posts/2013-01-22-kindle-paperwhite.md",
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/Users/Florian/AppData/Roaming/Sublime Text 2/Packages/Git/Git.sublime-settings",
-			"settings":
-			{
-				"buffer_size": 1367,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 86.0,
+		"height": 161.0,
 		"selected_items":
 		[
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"git: hi",
+				"Git: Commit history"
+			],
+			[
+				"git ",
+				"Git: Gui"
+			],
+			[
+				"git status",
+				"Git: Status"
+			],
+			[
+				"git add",
+				"Git: Add Current File"
+			],
+			[
+				"git add ",
+				"Git: Add Current File"
+			],
+			[
+				"git quic",
+				"Git: Quick Commit"
+			],
+			[
+				"git qui",
+				"Git: Quick Commit"
+			],
+			[
+				"git add cu",
+				"Git: Add Current File"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"syntax: mar",
+				"Set Syntax: Markdown"
+			],
+			[
+				"word",
+				"Word Wrap: Toggle"
+			],
+			[
+				"brows",
+				"Preferences: Browse Packages"
+			],
+			[
+				"default",
+				"Preferences: Settings - Default"
+			],
+			[
+				"user",
+				"Preferences: Settings - User"
+			],
+			[
+				"git commit",
+				"Git: Commit"
+			],
+			[
+				"git statu",
+				"Git: Status"
+			],
+			[
+				"git stat",
+				"Git: Status"
+			],
+			[
+				"git",
+				"Git: Commit history"
+			],
 			[
 				"upgrad",
 				"Package Control: Upgrade Package"
@@ -57,10 +117,6 @@
 			[
 				"control",
 				"Package Control: Upgrade Package"
-			],
-			[
-				"git",
-				"Git: Add Current File"
 			],
 			[
 				"brow",
@@ -85,10 +141,6 @@
 			[
 				"remo",
 				"Package Control: Remove Package"
-			],
-			[
-				"instal",
-				"Package Control: Install Package"
 			],
 			[
 				"todo",
@@ -127,10 +179,6 @@
 				"Git: Quick Commit"
 			],
 			[
-				"git status",
-				"Git: Status"
-			],
-			[
 				"pandoc: pdf",
 				"Pandoc: Convert a Pandoc file to PDF"
 			],
@@ -143,16 +191,8 @@
 				"Package Control: Remove Package"
 			],
 			[
-				"insta",
-				"Package Control: Install Package"
-			],
-			[
 				"pandoc html",
 				"Pandoc: Render Markdown to temp HTML and View"
-			],
-			[
-				"git qui",
-				"Git: Quick Commit"
 			],
 			[
 				"pan",
@@ -177,14 +217,6 @@
 			[
 				"git commit ",
 				"Git: Commit"
-			],
-			[
-				"git add ",
-				"Git: Add Current File"
-			],
-			[
-				"git add",
-				"Git: Add..."
 			],
 			[
 				"removce",
@@ -283,7 +315,7 @@
 				"Schemr: Anatomy of Grey Light"
 			]
 		],
-		"width": 498.0
+		"width": 458.0
 	},
 	"console":
 	{
@@ -300,13 +332,51 @@
 	},
 	"file_history":
 	[
-		"/E/Blog/_posts/2012-01-22-kindle-paperwhite.md",
+		"/E/profoundgrid-master/examples/fixedresponsive.html",
+		"/E/profoundgrid-master/examples/pushpull.html",
+		"/E/profoundgrid-master/examples/fixed.html",
+		"/E/profoundgrid-master/examples/nested.html",
+		"/E/profoundgrid-master/examples/fluidresponsive.html",
+		"/E/profoundgrid-master/examples/multiple.html",
+		"/E/profoundgrid-master/examples/fluidmaxwidth.html",
+		"/E/profoundgrid-master/examples/fluid.html",
+		"/E/profoundgrid-master/sass/examples/responsive.scss",
+		"/E/profoundgrid-master/sass/examples/adaptive.scss",
+		"/E/profoundgrid-master/sass/examples/fixed.scss",
+		"/E/profoundgrid-master/sass/examples/fluid.scss",
+		"/E/profoundgrid-master/sass/examples/maxwidth.scss",
+		"/E/profoundgrid-master/sass/examples/multiple.scss",
+		"/E/profoundgrid-master/sass/examples/nested.scss",
+		"/E/profoundgrid-master/sass/examples/pushpull.scss",
+		"/E/profoundgrid-master/index.html",
+		"/E/profoundgrid-master/sass/examples/index.scss",
+		"/E/profoundgrid-master/sass/config.rb",
+		"/E/profoundgrid-master/css/examples/adaptive.css",
+		"/E/profoundgrid-master/README.md",
+		"/e/Blog/blog.sublime-project",
+		"/C/Program Files/nodejs/node_modules/npm/html/doc/faq.html",
+		"/e/Blog/less/bobschi.less",
+		"/e/Blog/less/normalize.less",
+		"/e/Blog/_includes/footer.html",
+		"/e/Blog/_posts/2013-01-22-kindle-paperwhite.md",
+		"/E/Blog/less/test.rb",
+		"/e/Blog/less/helpfull.less",
+		"/e/Blog/less/layout.less",
+		"/e/Blog/less/type.less",
+		"/e/Blog/less/color.less",
+		"/C/Users/Florian/AppData/Roaming/Sublime Text 2/Packages/User/Markdown.sublime-settings",
+		"/C/Users/Florian/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/Florian/AppData/Roaming/Sublime Text 2/Packages/User/XML.sublime-settings",
+		"/C/Users/Florian/AppData/Roaming/Sublime Text 2/Packages/Markdown/Markdown.tmLanguage",
+		"/C/Users/Florian/AppData/Roaming/Sublime Text 2/Packages/Markdown/Symbol List - Heading.tmPreferences",
 		"/C/Users/Florian/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/e/Blog/humans.txt",
+		"/C/Users/Florian/AppData/Roaming/Sublime Text 2/Packages/Git/Git.sublime-settings",
+		"/E/Blog/_posts/2012-01-22-kindle-paperwhite.md",
 		"/C/Users/Florian/AppData/Roaming/Sublime Text 2/Packages/Package Control/Package Control.sublime-settings",
 		"/e/Blog/_layouts/post.html",
 		"/e/Blog/_layouts/index.html",
 		"/e/Blog/_layouts/default.html",
-		"/C/Users/Florian/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
 		"/C/Users/Florian/AppData/Roaming/Sublime Text 2/Packages/User/Distraction Free.sublime-settings",
 		"/E/Dropbox/Texte & Notizen/Untitled.txt",
 		"/E/Dropbox/Texte & Notizen/Flo ♥ Thery.txt",
@@ -381,7 +451,6 @@
 		"/C/Users/Florian/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
 		"/C/Users/Florian/AppData/Roaming/Sublime Text 2/Packages/Pandoc Academic/PandocConvertor.py",
 		"/C/Users/Florian/AppData/Roaming/Sublime Text 2/Packages/User/Git.sublime-settings",
-		"/C/Users/Florian/AppData/Roaming/Sublime Text 2/Packages/Git/Git.sublime-settings",
 		"/C/Users/Florian/AppData/Roaming/Sublime Text 2/Packages/Pandoc (Markdown)/PandocRender.py",
 		"/C/Users/Florian/AppData/Roaming/Sublime Text 2/Packages/User/Pandoc.sublime-settings",
 		"/C/Users/Florian/AppData/Roaming/Sublime Text 2/Packages/Pandoc/Pandoc.sublime-settings",
@@ -390,44 +459,7 @@
 		"/C/Users/Florian/AppData/Roaming/Sublime Text 2/Packages/Pandoc Academic/Main.sublime-menu",
 		"/C/Users/Florian/AppData/Roaming/Sublime Text 2/Packages/Pandoc Academic/Keymap/Default.sublime-keymap",
 		"/C/Users/Florian/SkyDrive/2012 Wintersemester/Beyond the Desktop & Building Interaction Interfaces/Exercises/VU02 Context Analysis/inst",
-		"/C/Users/Florian/AppData/Roaming/Sublime Text 2/Packages/Pandoc Academic/readme.md",
-		"/C/Users/Florian/AppData/Roaming/Sublime Text 2/Packages/Pandoc (Markdown)/Main.sublime-menu",
-		"/C/Users/Florian/AppData/Roaming/Sublime Text 2/Packages/Pandoc (Markdown)/README.md",
-		"/c/Users/Florian/SkyDrive/2012 Wintersemester/Beyond the Desktop & Building Interaction Interfaces/Exercises/VU02 Context Analysis/documentation.md",
-		"/C/Users/Florian/AppData/Roaming/Sublime Text 2/Packages/Pandoc (Markdown)/Default (Windows).sublime-keymap",
-		"/C/Users/Florian/AppData/Roaming/Sublime Text 2/Packages/User/SmartMarkdown.sublime-settings",
-		"/C/Users/Florian/SkyDrive/2012 Wintersemester/Beyond the Desktop & Building Interaction Interfaces/Documentation/documentation.txt",
-		"/C/Users/Florian/SkyDrive/2012 Wintersemester/Beyond the Desktop & Building Interaction Interfaces/Exercises/VU02 Context Analysis/documentation.html",
-		"/C/Users/Florian/.ssh/github_rsa.pub",
-		"/C/Users/Florian/.ssh/config",
-		"/C/Users/Florian/.ssh/known_hosts",
-		"/C/Program Files (x86)/OpenSSH/docs/readme.txt",
-		"/C/cygwin/home/Florian/.ssh/config",
-		"/C/Program Files (x86)/OpenSSH/etc/passwd",
-		"/C/Users/Florian/.gitconfig",
-		"/E/Dropbox/BarCraft Austria/BarCraft Vienna/Events/2012-11-24 BarCraft #019 - Dreamhack Winter/Quizfragen.txt",
-		"/E/Dropbox/BarCraft Austria/BarCraft Vienna/Events/2012-11-24 BarCraft #019 - Dreamhack Winter/Razer Gewinnspiele.txt",
-		"/E/Dropbox/BarCraft Austria/BarCraft Vienna/Events/2012-11-24 BarCraft #019 - Dreamhack Winter/Plan.txt",
-		"/C/Program Files (x86)/OpenSSH/etc/ssh_config",
-		"/C/Program Files (x86)/OpenSSH/etc/group",
-		"/C/Program Files (x86)/OpenSSH/docs/quickstart.txt",
-		"/I/Software/MSDNAA Software/Windows Keys.txt",
-		"/C/Users/Florian/SkyDrive/2012 Wintersemester/Beyond the Desktop & Building Interaction Interfaces/Exercises/VU01 BTD in the wild/Documentation.tex",
-		"/E/Dropbox/BarCraft Austria/BarCraft Vienna/Verein/Protokolle/2012-11-13 Stammtisch Kimchi.txt",
-		"/E/Dropbox/Pathfinder/kommentare zu gelöschten pdfs.txt",
-		"/C/Users/Florian/SkyDrive/2012 Wintersemester/Beyond the Desktop & Building Interaction Interfaces/pandoccommands",
-		"/E/Dropbox/BarCraft Austria/BarCraft Vienna/Events/2012-11-18 BarCraft #019 - Dreamhack Winter/Razer Gewinnspiele.txt",
-		"/C/Users/Florian/SkyDrive/2012 Wintersemester/Beyond the Desktop & Building Interaction Interfaces/Exercises/VU01 BTD in the wild/Documentation.aux",
-		"/C/Users/Florian/SkyDrive/2012 Wintersemester/Beyond the Desktop & Building Interaction Interfaces/Exercises/VU01 BTD in the wild/Documentation_AR_Apps.tex",
-		"/C/Users/Florian/SkyDrive/2012 Wintersemester/Beyond the Desktop & Building Interaction Interfaces/Exercises/VU01 BTD in the wild/Documentation AR Apps.tex",
-		"/C/Users/Florian/SkyDrive/2012 Wintersemester/Beyond the Desktop & Building Interaction Interfaces/Exercises/VU01 BTD in the wild/Documentation_Goggles.tex",
-		"/C/Users/Florian/SkyDrive/2012 Wintersemester/Beyond the Desktop & Building Interaction Interfaces/Exercises/VU01 BTD in the wild/Feedback_MEO_Recorder.tex",
-		"/C/Users/Florian/SkyDrive/2012 Wintersemester/Beyond the Desktop & Building Interaction Interfaces/Exercises/VU01 BTD in the wild/Documentation_Car2Go.tex",
-		"/C/Users/Florian/SkyDrive/2012 Wintersemester/Beyond the Desktop & Building Interaction Interfaces/Exercises/VU01 BTD in the wild/Documentation Goggles.md",
-		"/C/Users/Florian/SkyDrive/2012 Wintersemester/Beyond the Desktop & Building Interaction Interfaces/Exercises/VU01 BTD in the wild/Feedback MEO Recorder.md",
-		"/C/Users/Florian/AppData/Local/Temp/7zE8BAC.tmp/MobMETA.xml",
-		"/C/Users/Florian/SkyDrive/2012 Wintersemester/Beyond the Desktop & Building Interaction Interfaces/Exercises/VU01 BTD in the wild/Documentation AR Apps.md",
-		"/C/Users/Florian/SkyDrive/2012 Wintersemester/Beyond the Desktop & Building Interaction Interfaces/Exercises/VU01 BTD in the wild/Documentation Car2Go.md"
+		"/C/Users/Florian/AppData/Roaming/Sublime Text 2/Packages/Pandoc Academic/readme.md"
 	],
 	"find":
 	{
@@ -445,6 +477,15 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"url",
+			"img",
+			"/img",
+			"wrap",
+			"ruler",
+			"rulers",
+			"xml",
+			"html",
+			"code",
 			"minimap",
 			"menu",
 			"full screen",
@@ -482,6 +523,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"img",
 			"[width=\\textwidth]",
 			"includegraphics[width=0.9\\textwidth]",
 			"includegraphics",
@@ -501,62 +543,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "_posts/2013-01-22-kindle-paperwhite.md",
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/C/Users/Florian/AppData/Roaming/Sublime Text 2/Packages/Git/Git.sublime-settings",
-					"settings":
-					{
-						"buffer_size": 1367,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -620,10 +608,10 @@
 		],
 		"width": 380.0
 	},
-	"show_minimap": true,
+	"show_minimap": false,
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 150.0,
+	"side_bar_width": 220.0,
 	"status_bar_visible": true
 }

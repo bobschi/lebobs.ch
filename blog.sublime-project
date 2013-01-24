@@ -6,7 +6,7 @@
       "name": "Posts"
     },
     {
-      "path": "./less/",
+      "path": "./sass/",
       "name": "Styles"
     },
     {
@@ -17,7 +17,7 @@
       "path": "./",
       "name": "Blog",
       "folder_exclude_patterns": ["css", "_site", "_posts", "less", "_layouts"],
-      "file_exclude_patterns": [".hgtags"]
+      "file_exclude_patterns": [".hg*", "_config.yml", "*.sublime-workspace"]
     }
   ],
   "settings":
