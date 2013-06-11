@@ -31,9 +31,17 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 161.0,
+		"height": 311.0,
 		"selected_items":
 		[
+			[
+				"html",
+				"Pandoc: Convert a Pandoc file to HTML"
+			],
+			[
+				"syntax mark",
+				"Set Syntax: Markdown"
+			],
 			[
 				"instal",
 				"Package Control: Install Package"
@@ -315,7 +323,7 @@
 				"Schemr: Anatomy of Grey Light"
 			]
 		],
-		"width": 458.0
+		"width": 498.0
 	},
 	"console":
 	{
@@ -332,6 +340,13 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Florian/AppData/Local/Temp/Temp1_tweets.zip/README.txt",
+		"/E/Dropbox/BarCraft Austria/BarCraft Vienna/Verein/Protokolle/2013-02-06 Stammtisch #1 Ballsaal.txt",
+		"/E/Dropbox/BarCraft Austria/BarCraft Vienna/Verein/Protokolle/2012-11-13 Stammtisch Kimchi.txt",
+		"/E/Dropbox/BarCraft Austria/BarCraft Vienna/Verein/Protokolle/2013-02-06 Stammtisch Ballsaal.txt",
+		"/C/Users/Florian/AppData/Local/Temp/Temp1_Xenocontendi.zip/pack.txt",
+		"/E/Blog/_posts/2013-01-22-kindle-paperwhite.md",
+		"/C/Users/Florian/AppData/Local/Programs/Git/doc/git/html/git-log.html",
 		"/E/profoundgrid-master/examples/fixedresponsive.html",
 		"/E/profoundgrid-master/examples/pushpull.html",
 		"/E/profoundgrid-master/examples/fixed.html",
@@ -452,14 +467,7 @@
 		"/C/Users/Florian/AppData/Roaming/Sublime Text 2/Packages/Pandoc Academic/PandocConvertor.py",
 		"/C/Users/Florian/AppData/Roaming/Sublime Text 2/Packages/User/Git.sublime-settings",
 		"/C/Users/Florian/AppData/Roaming/Sublime Text 2/Packages/Pandoc (Markdown)/PandocRender.py",
-		"/C/Users/Florian/AppData/Roaming/Sublime Text 2/Packages/User/Pandoc.sublime-settings",
-		"/C/Users/Florian/AppData/Roaming/Sublime Text 2/Packages/Pandoc/Pandoc.sublime-settings",
-		"/C/Users/Florian/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap",
-		"/C/Users/Florian/AppData/Roaming/Sublime Text 2/Packages/Pandoc Academic/Default.sublime-commands",
-		"/C/Users/Florian/AppData/Roaming/Sublime Text 2/Packages/Pandoc Academic/Main.sublime-menu",
-		"/C/Users/Florian/AppData/Roaming/Sublime Text 2/Packages/Pandoc Academic/Keymap/Default.sublime-keymap",
-		"/C/Users/Florian/SkyDrive/2012 Wintersemester/Beyond the Desktop & Building Interaction Interfaces/Exercises/VU02 Context Analysis/inst",
-		"/C/Users/Florian/AppData/Roaming/Sublime Text 2/Packages/Pandoc Academic/readme.md"
+		"/C/Users/Florian/AppData/Roaming/Sublime Text 2/Packages/User/Pandoc.sublime-settings"
 	],
 	"find":
 	{
@@ -578,7 +586,7 @@
 			1.0
 		]
 	},
-	"menu_visible": false,
+	"menu_visible": true,
 	"output.git":
 	{
 		"height": 132.0
