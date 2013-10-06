@@ -12,16 +12,10 @@ Hi, my name is Florian Holzner. I live in Vienna, Austria. I am currently studyi
 *  You'll reach me the fastest via [twitter][] ...
 *  ... or my email-address <a href="ygb:obofpuv\@yninovg.pbz" class="contact-full">email (run through rot13 first)</a>
 *  I have some code up on [GitHub][github] and [bitbucket][]
-*  Occasionally, I post a quick picture ore something on my [tumblelog][] (<em>NSFW</em>) or [soup][]. I've got an abandoned blog up on [tumblr][].
 
 [twitter]:    https://twitter.com/bobschi "my twitter profile"
 [bitbucket]:  https://bitbucket.org/florianholzner "my bitbucket profile"
 [github]:     https://github.com/bobschi "my github profile"
-[soup]:     http://bobschi.soup.io/ "One of my tumble logs"
-[tumblelog]:  http://bobsch.tumblr.com "My tumblr"
-[tumblr]:     http://www.tumblr.com/tumblelog/florianholzner "a more serious aproach"
 
 ## About this page
 This is my <em>personal</em> weblog.
-
-As some of you might guess, this site was heavily inspired by [Mark Pilgrim](http://diveintomark.org/about "Mark's personal about page")'s exceptionally beautiful and useful [Dive into HTML5](http://diveintohtml5.org/ "Dive into HTML5"). Thanks Mark, for your books, and especially for Dive into HTML5 and Dive into Python. You rock!

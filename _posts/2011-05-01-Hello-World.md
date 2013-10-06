@@ -1,9 +1,6 @@
 ---
 layout: post
 title: Hello World!
-teaser: I finally went through with the plan to buy the domain lebobs.ch and setup a blog for myself. This is still very much a WIP, so don't expect too much.
-categories:
-  - personal
 ---
 I **finally** went through with the plan to buy the domain [lebobs.ch][lebobsch] and setup a blog for myself. [Markus][] told me about [pages.github.com][ghpages] some time ago, and this weekend I finally set down and purchased my domain, set up the repository, site structure etc. pp., the end product of which you can see here.
 
