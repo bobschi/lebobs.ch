@@ -1,33 +1,27 @@
 ---
 layout: page
 permalink: /about/index.html
-title: About the Jekyll Theme
-tags: [Jekyll, theme, simple, minimal, minimalism, responsive]
-modified: 2013-09-13
-image:
-  feature: so-simple-sample-image-4.jpg
-  credit: Michael Rose
-  creditlink: http://mademistakes.com
+title: (Out and) About
+tags: [about]
+modified: 2013-10-06
 ---
 
-Looking for a simple, responsive, theme for your Jekyll powered blog? Well look no further. Here be **So Simple Theme**, the followup to [**Minimal Mistakes**](http://mmistakes.github.io/minimal-mistakes) --- by designer slash illustrator [Michael Rose](http://mademistakes).
+Hi, my name is Florian Holzner. I live in Vienna, Austria. I am currently studying Human Medicine and Medical Informatics. Those are two distinct studies, one at the Medical University of Vienna, the other at the Vienna University of Technology. My blog is mostly about stuff that interests me: computers, medicine, design, photography, typography, and so on. In neither of my studies nor my fields of interest I am a master, so please, feel free to correct me when I make mistakes, but also tell me when I did good. ;-)
 
-## So Simple Theme is all about:
+<h2 id="contact">Contact</h2>
+*  You'll reach me the fastest via [twitter][] ...
+*  ... or my email-address <a href="ygb:obofpuv\@yninovg.pbz" class="contact-full">email (run through rot13 first)</a>
+*  I have some code up on [GitHub][github] and [bitbucket][]
+*  Occasionally, I post a quick picture ore something on my [tumblelog][] (<em>NSFW</em>) or [soup][]. I've got an abandoned blog up on [tumblr][].
 
-* Responsive templates. Looking good on mobile, tablet, and desktop.
-* Gracefully degrading in older browsers. Compatible with Internet Explorer 9+ and all modern browsers.
-* Minimal embellishments and subtle animations. 
-* Readable typography to make your words shine.
-* Support for large images to call out your favorite posts.
-* Disqus comments if you choose to enable.
-* Simple and clear permalink structure[^1].
-* Tags for [Open Graph](https://developers.facebook.com/docs/opengraph/) and [Twitter Cards](https://dev.twitter.com/docs/cards) for a better social sharing experience.
-* Vanilla [custom 404 page]({{ site.url }}/404.html) to get you started.
-* Stylesheets for Pygments and Coderay [syntax highlighting](http://mmistakes.github.io/articles/so-simple-theme/code-highlighting-post/) to make your code examples look snazzy.
-* Simple search that overlays results based on post title.
-* [Grunt build script]({{ site.url }}/theme-setup/index.html#theme-development) for easier theme development.
-* [Sitemap](https://github.com/mmistakes/so-simple-theme/blob/master/sitemap.xml) for search engines
+[twitter]:    https://twitter.com/bobschi "my twitter profile"
+[bitbucket]:  https://bitbucket.org/florianholzner "my bitbucket profile"
+[github]:     https://github.com/bobschi "my github profile"
+[soup]:     http://bobschi.soup.io/ "One of my tumble logs"
+[tumblelog]:  http://bobsch.tumblr.com "My tumblr"
+[tumblr]:     http://www.tumblr.com/tumblelog/florianholzner "a more serious aproach"
 
-<a markdown="0" href="{{ site.url }}/theme-setup" class="btn">Install Minimal Mistakes Theme</a>
+## About this page
+This is my <em>personal</em> weblog.
 
-[^1]: Example: *domain.com/category-name/post-title*
+As some of you might guess, this site was heavily inspired by [Mark Pilgrim](http://diveintomark.org/about "Mark's personal about page")'s exceptionally beautiful and useful [Dive into HTML5](http://diveintohtml5.org/ "Dive into HTML5"). Thanks Mark, for your books, and especially for Dive into HTML5 and Dive into Python. You rock!
