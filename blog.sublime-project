@@ -6,8 +6,8 @@
       "name": "Posts"
     },
     {
-      "path": "./sass/",
-      "name": "Styles"
+      "path": "./assets/",
+      "name": "Assets"
     },
     {
       "path": "./_layouts/",
