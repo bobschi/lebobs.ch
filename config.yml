@@ -10,15 +10,15 @@ search:           true
 # Owner/author information
 owner:
   name:           Florian bobschi Holzner
-  avatar:         your-photo.jpg
+  avatar:         bobschi.jpg
   email:          your@email.com
   # Social networking links used in footer. Update and remove as you like.
-  twitter:
-  facebook:
-  github:
+  twitter:        bobschi
+  facebook:       florianholzner
+  github:         bobschi
   linkedin:
   instagram:
-  tumblr:
+  tumblr:         bobschi
   # For Google Authorship https://plus.google.com/authorship
   google_plus:    "http://plus.google.com/123123123123132123"
 
