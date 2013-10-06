@@ -1,9 +1,9 @@
 # theme config
 title:            Le Bobsch Blogsch
 description:      The personal weblog of Florian bobschi Holzner
-logo:             bobschi.png
+logo:             bobschi.jpg
 disqus_shortname: bobschi
-search:           true
+search:           false
 #Comment out url when working locally to resolve base urls correctly
 #url:              http://www.lebobs.ch
 
