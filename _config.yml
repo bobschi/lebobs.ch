@@ -1,0 +1,84 @@
+# theme config
+title:            Le Bobsch Blogsch
+description:      The personal weblog of Florian bobschi Holzner
+logo:             bobschi.png
+disqus_shortname: bobschi
+search:           true
+#Comment out url when working locally to resolve base urls correctly
+#url:              http://www.lebobs.ch
+
+# Owner/author information
+owner:
+  name:           Florian bobschi Holzner
+  avatar:         bobschi.jpg
+  email:          your@email.com
+  # Social networking links used in footer. Update and remove as you like.
+  twitter:        bobschi
+  facebook:       florianholzner
+  github:         bobschi
+  #linkedin:
+  #instagram:
+  tumblr:         bobschi
+  # For Google Authorship https://plus.google.com/authorship
+  google_plus:    "https://plus.google.com/116906205946090602685"
+
+# Analytics and webmaster tools stuff goes here
+#google_analytics:
+#google_verify:
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
+
+# Links to include in top navigation
+# For external links add external: true
+links:
+  - title: About
+    url: /about
+  - title: Articles
+    url: /articles
+
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:    Europe/Vienna
+pygments:    true
+markdown:    kramdown
+
+# https://github.com/mojombo/jekyll/wiki/Permalinks
+permalink:   /:categories/:year/:month/:title
+
+# jekyll config
+source:      .
+destination: ./_site
+plugins:     ./_plugins
+layouts:     ./_layouts
+include:     ['.htaccess']
+exclude:     ['README.md', 'LICENSE.md', 'TODO.md', 'build', 'test']
+encoding:    nil
+
+future:      false
+show_drafts: false
+limit_posts: 0
+pygments:    true
+
+relative_permalinks: true
+
+paginate_path: 'page:num'
+
+markdown_ext:  markdown,mkd,mkdn,md
+textile_ext:   textile
+
+excerpt_separator: '\n\n'
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsaquo,rsaquo,laquo,raquo
+  use_coderay: false
+
+  coderay:
+    coderay_wrap: div
+    coderay_line_numbers: inline
+    coderay_line_numbers_start: 1
+    coderay_tab_width: 4
+    coderay_bold_every: 10
+    coderay_css: style
