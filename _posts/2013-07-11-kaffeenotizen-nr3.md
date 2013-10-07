@@ -4,7 +4,7 @@ title: "Kaffeenotizen #3 &ndash; Coldbrew"
 image:
   feature: coldbrew.jpg
   thumb: coldbrew-thumb.jpg
-  credit: Ben Hengst
+  credit: "cc-by-nc-sa Ben Hengst"
   creditlink: http://www.flickr.com/photos/ben_hengst/9185174392
 tags: ['coffee', 'cooking', 'tastenerd', 'kaffeenotizen', 'cold brew', 'french press', 'hario', 'skerton']
 ---
