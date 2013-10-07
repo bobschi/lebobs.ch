@@ -4,8 +4,8 @@ title: "Kaffeenotizen #1"
 image:
   feature: chemex.jpg
   thumb: chemex-thumb.jpg
-  credit: "100% Soft"
-  creditlink: http://www.flickr.com/photos/100soft/8187134860/
+  credit: "cc-by-nd goingon102"
+  creditlink: http://www.flickr.com/photos/better-taste/7495023336/
 tags: ['coffee', 'cooking', 'tastenerd', 'kaffeenotizen', 'chemex', 'hario', 'skerton', 'kaffeefabrik', 'coffee circle']
 ---
 

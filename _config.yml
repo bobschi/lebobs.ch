@@ -3,7 +3,7 @@ title:            Le Bobsch Blogsch
 description:      The personal weblog of Florian bobschi Holzner
 logo:             bobschi.jpg
 disqus_shortname: bobschi
-search:           false
+search:           true
 #Comment out url when working locally to resolve base urls correctly
 #url:              http://www.lebobs.ch
 

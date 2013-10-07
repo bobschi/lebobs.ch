@@ -4,8 +4,8 @@ title: "Kaffeenotizen #2 &ndash; Espresso"
 image:
   feature: espresso.jpg
   thumb: espresso-thumb.jpg
-  credit: Ben Hengst
-  creditlink: http://www.flickr.com/photos/ben_hengst/9185174392
+  credit: cc-by-nc photobrick
+  creditlink: http://www.flickr.com/photos/brickza/349072224/
 tags: ['coffee', 'cooking', 'tastenerd', 'kaffeenotizen', 'espresso', 'mokkakanne', 'hario', 'skerton', 'kaffeefabrik']
 ---
 

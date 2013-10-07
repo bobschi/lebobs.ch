@@ -7,6 +7,5 @@ image:
   credit:
   credit-link:
 tags: ['ux', 'iid', 'design', 'web design', 'tech', 'conference']
-published: false
 ---
 

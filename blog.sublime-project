@@ -2,6 +2,10 @@
   "folders":
   [
     {
+      "path": "./_drafts/",
+      "name": "Drafts"
+    },
+    {
       "path": "./_posts/",
       "name": "Posts"
     },
