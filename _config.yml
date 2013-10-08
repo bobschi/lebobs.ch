@@ -39,7 +39,7 @@ links:
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Europe/Vienna
 markdown:    kramdown
-pygments:    true
+# pygments:    true
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink:   /:year/:month/:title
