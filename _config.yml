@@ -51,6 +51,7 @@ exclude:
 - TODO.md
 - build
 - test
+- *.sublime-*
 encoding:    UTF8
 
 kramdown:
