@@ -16,7 +16,7 @@ owner:
   twitter:        bobschi
   facebook:       florianholzner
   github:         bobschi
-  #linkedin:
+  linkedin:       florianholzner
   #instagram:
   tumblr:         bobschi
   # For Google Authorship https://plus.google.com/authorship
@@ -48,6 +48,7 @@ permalink:   /:year/:month/:title
 exclude:     
 - README.md
 - LICENSE.md
+- IDEAS.md
 - TODO.md
 - build
 - test
