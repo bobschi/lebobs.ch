@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Kaffeenotizen #1"
+title: "Kaffeenotizen Nummer Eins: Neues Spielzeug!"
 image:
   feature: chemex.jpg
   thumb: chemex-thumb.jpg

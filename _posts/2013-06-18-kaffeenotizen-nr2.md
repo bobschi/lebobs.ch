@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Kaffeenotizen #2 &ndash; Espresso"
+title: "Kaffeenotizen Nummer Zwei: Espresso"
 image:
   feature: espresso.jpg
   thumb: espresso-thumb.jpg
