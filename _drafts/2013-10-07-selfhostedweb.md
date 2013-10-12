@@ -7,5 +7,6 @@ image:
   credit:
   credit-link:
 tags: ['foss', 'tech', 'self hosted web']
+category: Blog
 ---
 
