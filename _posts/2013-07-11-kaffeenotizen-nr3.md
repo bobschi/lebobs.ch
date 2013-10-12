@@ -7,6 +7,7 @@ image:
   credit: "cc-by-nc-sa Ben Hengst"
   creditlink: http://www.flickr.com/photos/ben_hengst/9185174392
 tags: ['coffee', 'cooking', 'tastenerd', 'kaffeenotizen', 'cold brew', 'french press', 'hario', 'skerton']
+category: Foodblog
 ---
 
 Coldbrew Experiment 1 war sehr erfolgreich. Heute nur kurz verkosten können, nachdem es schon Abend war als ich gefiltert habe, aber der 20% und der 25% sind nach dem ersten Kosten die Favoriten. 15% ist zu wenig, 30% ist zu viel, ich schätze, ich werde ein zweite Testreihe zwischen 20% und 25% machen. Und statt 24 Stunden gute 46 Stunden extrahieren lassen = überhaupt kein Problem! :)

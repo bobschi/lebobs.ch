@@ -7,6 +7,7 @@ image:
   credit: cc-by-nc photobrick
   creditlink: http://www.flickr.com/photos/brickza/349072224/
 tags: ['coffee', 'cooking', 'tastenerd', 'kaffeenotizen', 'espresso', 'mokkakanne', 'hario', 'skerton', 'kaffeefabrik']
+category: Foodblog
 ---
 
 Die Aufregung steigt. Im Moment steht eine Mokkakanne auf dem Herd, geladen mit 12g feinst gemahlenem [Disco](http://www.kaffeefabrik.at/kaffeesortiment/) und 200ml Wasser. Mal schauen, ich hab' das Gefühl, dass es eventuell ein wenig zu wenig Kaffee ist. Der Siebträger ist zwar gut voll, aber ganz voll halt auch nicht. Das wären dann eher so 15-16g. Mal schauen.

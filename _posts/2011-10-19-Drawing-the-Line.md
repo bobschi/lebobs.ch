@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Drawing the Line
+category: Blog
 ---
 
 For all of you who don't yet know it, I decided to put my studies in Human Medicine at the Medical University of Vienna on ice for the time being. I've thought about it for quite some time, since April, actually. I didn't really think about quitting, at least in the beginning, but I was trying to get an idea about how my life would be in the next five years if I passed the SIP1 in June. How it would be if I failed the next attempt but passed it in September. Or how it would play out if I couldn't pass it at all. Whatever outcome I could think of, the problem remained the same, and that simple discovery sealed the deal for me.

@@ -7,6 +7,7 @@ image:
   credit: "cc-by-nd goingon102"
   creditlink: http://www.flickr.com/photos/better-taste/7495023336/
 tags: ['coffee', 'cooking', 'tastenerd', 'kaffeenotizen', 'chemex', 'hario', 'skerton', 'kaffeefabrik', 'coffee circle']
+category: Foodblog
 ---
 
 Heute habe ich das erste Mal einen Kaffee von der [kaffeefabrik](http://kaffeefabrik.at) in meiner neue Chemex zubereitet. Genauer gesagt war es ein Sidamo Grade 2 *direct trade, mehr zum Kaffee erfährt man [beim Röster selbst](http://www.kaffeefabrik.at/kaffeesortiment/). Vorher gab's schon zwei mal den Limu Ernte 2012 und zwei mal den Yirgacheffe Ernte 2012 vom [coffee circle berlin](http://www.coffeecircle.com/shop/kaffee/) aus der Chemex, ebenfalls zwei ausgezeichnete Kaffees und gute Alternativen, falls ihr nicht zur kaffeefabrik gehen könnt oder wollt. Aber für mich heißt's «support your local coffee dealer», deswegen findet ihr hier in nächster Zeit auch sicher mehr zur kaffeefabrik. Ich habe zum Beispiel den bob-o-link *dt auf meiner Zu-Probieren-Liste stehen, ein wunderbarer Espresso aus 100% Arabica.

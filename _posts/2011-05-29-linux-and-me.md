@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Linux and Me
+category: Blog
 ---
 I'd like to start off this blog-post with a lot of swear words, some of which you might have never heard. Others, that might make you blush. But I won't, I'm trying to be professional here, people.
 
