@@ -6,7 +6,7 @@
 <script>
   $(document).ready(function() {
       $('.search-field').simpleJekyllSearch({
-          jsonFile : '{{ site.url | remove: 'http:\/\/' }}/search.json',
+          jsonFile : '{{ site.url | remove: 'http://' }}/search.json',
           jsonFormat : 'title,category,url,date,shortdate',
           searchResults : '.search-results',
           template : '<li><article><a href="{url}">{title} <span class="entry-date"><time datetime="{date}">{shortdate}</time></span></a></article></li>',
