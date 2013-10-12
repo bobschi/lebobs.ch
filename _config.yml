@@ -33,6 +33,12 @@ owner:
 links:
   - title: Home
     url: /
+  - title: Blog
+    url: /blog
+  - title: Cooking
+    url: /foodblog
+#  - title: "Musical Diary"
+#    url: /musicblog
   - title: About
     url: /about
   - title: Articles
@@ -44,7 +50,9 @@ markdown:    kramdown
 pygments:    true
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink:   /blog/:year/:month/:title
+permalink:   pretty
+category_dir: /
+category_title_prefix: ""
 
 # jekyll config
 exclude:     
