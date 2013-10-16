@@ -31,8 +31,8 @@ owner:
 # Links to include in top navigation
 # For external links add external: true
 links:
-  - title: Home
-    url: /
+  - title: "All Articles"
+    url: /articles
   - title: Blog
     url: /blog
   - title: Cooking
@@ -41,8 +41,6 @@ links:
 #    url: /musicblog
   - title: About
     url: /about
-  - title: Articles
-    url: /articles
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Europe/Vienna
