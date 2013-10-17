@@ -2,13 +2,13 @@
 layout: post
 date: 2013-10-17 09:54:50 +0200
 title: Tempus Fugit
+image:
+  feature: tempus_fugit.jpg
+  thumb: tempus_fugit-thumb.jpg
+  credit: "cc by nicksarebi"
+  credit-link: http://flic.kr/p/59yhbY
 category: blog
 tags: ['personal','time']
-image:
-  feature: {{ site.url }}/images/tempus_fugit.jpg
-  thumb: {{ site.url }}/images/tempus_fugit-thumb.jpg
-  credit:
-  credit-link:
 ---
 
 Times flies, as they say. I'm pretty busy at the moment. Part of that is my own fault, part of it is that I'm just trying to get a lot of stuff done, that I've been putting off for far too long.
