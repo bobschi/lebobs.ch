@@ -33,12 +33,13 @@ owner:
 links:
   - title: "All Articles"
     url: /articles
-  - title: Blog
+  - title: "Personal Blog"
     url: /blog
-  - title: Cooking
-    url: /foodblog
-#  - title: "Musical Diary"
-#    url: /musicblog
+  - title: "Musical Diary"
+    url: /musicblog
+  - title: "Ich bin ein Genußspecht"
+    url: http://www.genußspechte.in/
+    external: true
   - title: About
     url: /about
 
