@@ -52,6 +52,7 @@ permalink:   pretty
 category_dir: /
 category_title_prefix: ""
 
+
 # jekyll config
 exclude:     
 - README.md
@@ -66,3 +67,6 @@ encoding:    UTF8
 
 kramdown:
   smart_quotes: lsaquo,rsaquo,laquo,raquo
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"
