@@ -5,7 +5,7 @@ logo:             bobschi.jpg
 disqus_shortname: bobschi
 search:           true
 #Comment out url when working locally to resolve base urls correctly
-url:              .
+url:              //lebobs.ch
 
 # Owner/author information
 owner:
