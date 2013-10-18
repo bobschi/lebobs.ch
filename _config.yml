@@ -66,6 +66,7 @@ exclude:
 - blog.sublime-workspace
 - README.md
 - IDEAS.md
+- node_modules
 encoding:    UTF8
 
 kramdown:
