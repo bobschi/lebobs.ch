@@ -67,7 +67,7 @@ exclude:
 encoding:    UTF8
 
 kramdown:
-  smart_quotes: lsquo,rsquo,laquo,raquo
+  smart_quotes: lsquo,rsquo,raquo,laquo
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
