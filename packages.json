@@ -1,13 +1,13 @@
 {
-  "name": "minimal-mistakes-theme",
-  "author": "Michael Rose <michael@mademistakes.com>",
-  "homepage": "http://mmistakes.github.io/minima-mistakes/",
+  "name": "le-bobsch-blogs",
+  "author": "Florian Holzner <hello@lebobs.ch>",
+  "homepage": "https://lebobs.ch/",
   "repository": {
     "type": "git",
-    "url": "git://github.com/mmistakes/minimal-mistakes.git"
+    "url": "https://github.com/bobschi/bobschi.github.com"
   },
   "bugs": {
-    "url": "https://github.com/mmistakes/minimal-mistakes/issues"
+    "email": "hello@lebobs.ch"
   },
   "engines": {
     "node": ">= 0.10.0"
