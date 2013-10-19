@@ -1,7 +1,7 @@
 # theme config
 title:            Le Bobsch Blogsch
 description:      The personal blog of Florian Holzner
-logo:             bobschi.jpg
+logo:             placeholder-logo.png
 disqus_shortname: bobschi
 search:           true
 #Comment out url when working locally to resolve base urls correctly
