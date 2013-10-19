@@ -18,9 +18,9 @@ Good hunting.
 
 <h2>What I've Written About Lately</h2>
 <ul class="post-list">
-{% for post in site.posts limit:10 %} 
-  <li><article><!--<h3>--><a href="{{ site.url }}{{ post.url }}">{{ post.title }} <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span></a><!--</h3>--> 
-  <!--<p>{{ post.excerpt | markdownify }}<br /><a href="{{ site.url }}{{ post.url }}">Read more ...</a></p>-->
+{% for post in site.posts limit:12 %} 
+  <li><article><h3><a href="{{ site.url }}{{ post.url }}">{{ post.title }} <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span></a></h3>
+  <p>{{ post.excerpt | markdownify }}<br /><a href="{{ site.url }}{{ post.url }}">Read more ...</a></p>
   </article></li>
 {% endfor %}
 </ul>
