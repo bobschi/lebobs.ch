@@ -2,6 +2,11 @@
 layout: post
 date: 2013-10-19 10:45:36 +0200
 title: "#kultigtalks"
+image:
+  feature: kultigtalks.jpg
+  thumb: kultigtalks-thumb.jpg
+  credit: "&copy; Othmar Fetz"
+  credit-link: 
 category: blog
 tags: ["design", "talks", "conference", "event", "upper austria", "kultig", "kultigtalks"]
 ---
