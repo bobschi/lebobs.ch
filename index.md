@@ -2,7 +2,7 @@
 layout: page
 title: "A Tour de Force of Bobschi"
 image:
-  feature: placeholder-main-feature.png
+  feature: placeholder-feature.png
 ---
 
 Hi, my name is Florian, and I like [design]({{ site.url }}/tags/#design); [computers]({{ site.url }}/tags/#computers); [cooking, eating and drinking](https://genussspechte.in/) as well as [photography]({{ site.url }}/tags/#photography) and [people]({{ site.url }}/tags/#people).
@@ -16,8 +16,7 @@ Good hunting.
 ---
 
 <ul class="post-list">
-{% for post in site.posts limit:12 %} 
-  <li><article><header><h3><a href="{{ site.url }}{{ post.url }}">{{ post.title }} <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span></a></h3></header>{{ post.excerpt | markdownify }}
-  </article></li>
+{% for post in site.posts limit:7 %} 
+  <li><article><a href="{{ site.url }}{{ post.url }}">{{ post.title }} <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span></a></article></li>
 {% endfor %}
 </ul>
