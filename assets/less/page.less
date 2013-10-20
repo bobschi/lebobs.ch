@@ -296,9 +296,15 @@ span + .entry-title {
 	}
 	p > a,
 	li > a {
-		border-bottom: 1px dotted lighten(@link-color, 50);
-		&:hover {
-			border-bottom-style: solid;
+		background: @link-background;
+		&:visited { 
+			background: lighten(@link-background, 20);
+		}
+		&:hover { 
+			background: lighten(@link-background, 20);
+		}
+		&:focus { 
+			background: lighten(@link-background, 20);
 		}
 	}
 }
@@ -333,12 +339,12 @@ span + .entry-title {
 	margin: 0;
 	padding: 0;
 	list-style-type: none;
-	/*li {
+	li {
 		padding: 8px 0;
 		border-bottom: 1px solid lighten(@black,80);
 		border-bottom: 1px solid fade(@black,10);
 		.clearfix();
-	}*/
+	}
 	a > span {
 		float: right;
 	}
