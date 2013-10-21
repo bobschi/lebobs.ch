@@ -1,5 +1,6 @@
 {
   "name": "le-bobsch-blogs",
+  "version": "0.0.1",
   "author": "Florian Holzner <hello@lebobs.ch>",
   "homepage": "https://lebobs.ch/",
   "repository": {
