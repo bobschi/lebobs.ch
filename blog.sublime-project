@@ -20,12 +20,18 @@
     },
     {
       "path": "./_layouts/",
-      "name": "Templates"
+      "name": "Layouts"
+    },
+    {
+      "path": "./_includes/",
+      "name": "Includes"
     },
     {
       "path": "./",
       "name": "Main Folder",
-      "file_exclude_patterns": [".hg*", "*.sublime-workspace"]
+      "file_exclude_patterns": ["*.sublime-*"],
+      "folder_exclude_patterns": ["*"],
+      "folder_include_patterns": ["images","_site"]
     }
   ],
   "settings":
