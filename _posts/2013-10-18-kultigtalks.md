@@ -17,4 +17,16 @@ Aber bevor ich ein wenig über die Talks schreibe, möchte ich noch [Othmar](htt
 
 Achtung, eine kleine Werbeeinschaltung: von 23. bis 25. Oktober bietet er in Wels mit seinem go-to Programmierer und Rocketscientist [Andriy Borodiychuk](https://twitter.com/borodiychuk) einen [Workshop zum Thema AngularJS](http://workshops.kultig.at/index.php?id=68) an. Andriy gab gestern auch einen Talk, ein Workshop über 3 Tage wird sicher intensiv, aber auch unheimlich lehrreich.
 
-Aber zurück zu den #kultigtalks. 
+Aber zurück zu den #kultigtalks. Es standen insgesamt sechs Talks auf dem Programm, und danach gab's noch ein, zwei gemütliche Seiterl und ein wenig Feedback.
+
+<ol style="list-style: none;">
+  <li>15:00 – Mehr Produktivität in der Frontend-Entwicklung</li>
+  <li>16:00 – Designing for a Multi-Screen World</li>
+  <li>17:00 – Erfolg am Stockmarket</li>
+  <li>18:00 – APIs und wie sie unsere Welt verbinden</li>
+  <li>19:00 – Code als Spiegel der Unternehmensstruktur</li>
+</ol>
+
+Ein voller Nachmittag. Die Sessions waren großzügig geplant, und gut vorbereitet, so dass wir trotz eines verspäteten Beginns und etwas ausgedehnterer Kaffeepausen immer gut im Zeitplan waren. Für mich hätten die Kaffeepausen ruhig auch etwas länger -- so 15--20 Minuten ßß dauern können, manchen waren schon die 10 Minuten, die uns Othmar gegeben hat, zu viel. Mal schauen, wie es das nächste Mal wird.
+
+Wenn man Blogs zum Thema Webdesign liest, oder so wie ich in letzter Zeit auf einer Webdesign Konferenz -- [Digital Visions]({% post_url  %}), anybody? --
