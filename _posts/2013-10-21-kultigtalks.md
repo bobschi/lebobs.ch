@@ -29,4 +29,4 @@ Aber zurück zu den #kultigtalks. Es standen insgesamt sechs Talks auf dem Progr
 
 Ein voller Nachmittag. Die Sessions waren großzügig geplant, und gut vorbereitet, so dass wir trotz eines verspäteten Beginns und etwas ausgedehnterer Kaffeepausen immer gut im Zeitplan waren. Für mich hätten die Kaffeepausen ruhig auch etwas länger -- so 15--20 Minuten ßß dauern können, manchen waren schon die 10 Minuten, die uns Othmar gegeben hat, zu viel. Mal schauen, wie es das nächste Mal wird.
 
-Wenn man Blogs zum Thema Webdesign liest, oder so wie ich in letzter Zeit auf einer Webdesign Konferenz -- [Digital Visions]({% post_url  %}), anybody? --
+Wenn man Blogs zum Thema Webdesign liest, oder so wie ich in letzter Zeit auf einer Webdesign Konferenz -- [Digital Visions]({% post_url 2013-10-21-digital-visions-2013 %}), anybody? --
