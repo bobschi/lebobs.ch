@@ -2,6 +2,10 @@
   "folders":
   [
     {
+      "path": "./assets/",
+      "name": "Assets"
+    },
+    {
       "path": "./_drafts/",
       "name": "Drafts"
     },
@@ -10,8 +14,9 @@
       "name": "Posts"
     },
     {
-      "path": "./assets/",
-      "name": "Assets"
+      "path": "./_plugins/",
+      "name": "Plugins"
+
     },
     {
       "path": "./_layouts/",
@@ -19,8 +24,7 @@
     },
     {
       "path": "./",
-      "name": "Blog",
-      "folder_exclude_patterns": ["css", "_site", "_posts", "less", "_layouts"],
+      "name": "Main Folder",
       "file_exclude_patterns": [".hg*", "*.sublime-workspace"]
     }
   ],

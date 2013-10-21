@@ -12,4 +12,4 @@ If you want to get in touch with me, you can find me social media stuff in the f
 
 Meanwhile, please enjoy this picture of me (red shirt) talking.
 
-![Me and @pyrker talking](../images/me-talking.gif)
+![Me and @pyrker talking]({{ site.url }}/images/me-talking.gif)
