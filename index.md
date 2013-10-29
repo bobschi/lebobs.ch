@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "A Tour de Force of Bobschi"
+modified: 2013-10-29
 ---
 
 Hi, my name is Florian, and I like [design]({{ site.url }}/tags/#design); [computers]({{ site.url }}/tags/#computers); [cooking, eating and drinking](https://genussspechte.in/) as well as [photography]({{ site.url }}/tags/#photography) and [people]({{ site.url }}/tags/#people).
@@ -9,7 +10,8 @@ This site is about me, and only me. I've also just started a little project with
 
 For now, all that's left to do is blog to fill this up, and tweak this baby as I go along.
 
-Good hunting.
+Ciao,  
+&nbsp;&nbsp;&nbsp;&nbsp;Florian
 
 ---
 
