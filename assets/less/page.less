@@ -294,12 +294,12 @@ span + .entry-title {
 	@media @large {
 		float: left;
 	}
+	mark {
+		background: @link-background;
+	}
 	p > a,
 	li > a {
 		background: @link-background;
-		&:visited { 
-			background: lighten(@link-background, 20);
-		}
 		&:hover { 
 			background: lighten(@link-background, 20);
 		}
