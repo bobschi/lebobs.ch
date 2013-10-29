@@ -46,3 +46,6 @@ build/config/buildinfo.properties
 
 # node.js
 node_modules
+
+# sublime text
+*.sublime-workspace
