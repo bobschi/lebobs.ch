@@ -13,3 +13,7 @@ If you want to get in touch with me, you can find me on many a social networking
 Meanwhile, please enjoy this picture of me (red shirt) talking.
 
 ![Me and @pyrker talking]({{ site.url }}/images/me-talking.gif)
+
+## Licensing
+
+Any content on this blog is created by me, and available under a cc by-nc license, unless explicitly stated otherwise. You may share it, you may adapt it, but if you want to use it to make money with it, please contact me about licensing options. The theme I'm using is a slightly modified version of the [So Simple](https://github.com/mmistakes/so-simple-theme)theme by [mmistakes](http://mademistakes.com/). It's a constant WIP, so don't expect it to stay that way it is right now for too long. You can clone any iteration of this blog at [github](https://github.com/bobschi/bobschi.github.com).
