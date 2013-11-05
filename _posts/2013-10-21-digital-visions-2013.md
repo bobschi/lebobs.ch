@@ -5,7 +5,7 @@ image:
   feature: digitalvisions.jpg
   credit: "cc by-nc-nd Theresa @calzioneAroma Hammerl"
   creditlink: http://colazionearoma.com/
-tags: ['ux', 'iid', 'design', 'web design', 'tech', 'conference']
+tags: ['ux', 'iid', 'design', 'web design', 'tech', 'conference', 'event', 'vienna']
 category: Blog
 link: http://liechtenecker.at/das-war-digital-visions-2013/
 ---
