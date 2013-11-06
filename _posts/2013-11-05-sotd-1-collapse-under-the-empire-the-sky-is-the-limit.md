@@ -8,7 +8,7 @@ image:
   credit: "'Shoulders &amp; Giants' Fotos-Session by Thomas Duffé"
   creditlink: http://thomasduffe.sites.livebooks.com/
 category: 'musicblog'
-tags: ['music', 'post-rock', 'instrumental', 'electronic', german', 'hamburg']
+tags: ['music', 'post-rock', 'instrumental', 'electronic', german', 'hamburg', 'song of the day']
 thread: 'post-rock'
 ---
 
