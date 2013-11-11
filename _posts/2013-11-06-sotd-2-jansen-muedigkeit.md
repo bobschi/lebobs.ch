@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2013-11-06 10:05:51 +0100
-title: "SOTD #2: Jansen &ndash; Müdigkeit"
+title: "Jansen &ndash; Müdigkeit"
 link: http://rd.io/x/QYXvTDfaCB0/
 category: 'musicblog'
 tags: ['music', 'schräg-pop', 'weird', german', 'hamburg', 'melancholy', 'song of the day']
