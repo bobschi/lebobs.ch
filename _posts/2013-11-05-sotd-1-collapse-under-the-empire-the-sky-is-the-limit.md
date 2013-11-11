@@ -4,7 +4,7 @@ date: 2013-11-05 12:54:26 +0100
 title: "SOTD #1: Collapse Under The Empire &ndash; The Sky Is The Limit"
 link: http://collapseundertheempire.bandcamp.com/track/the-sky-is-the-limit
 image:
-  feature: cute-sag.jpg
+  feature: sotd1-cute.jpg
   credit: "'Shoulders &amp; Giants' Fotos-Session by Thomas Duffé"
   creditlink: http://thomasduffe.sites.livebooks.com/
 category: 'musicblog'
