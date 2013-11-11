@@ -3,12 +3,17 @@ layout: post
 date: 2013-11-11 09:34:23 +0100
 title: "SOTD #7: The Avalanches &ndash; Frontier Psychiatriast"
 image:
-  feature: sotd3-65dos.jpg
-  credit: "65DaysofStatic @The Wall 20110308; cc by-nc-sa postlife1976"
-  creditlink: http://www.flickr.com/photos/postlife1976/5528358598
-thread: 'melancholy'
+  feature: sotd7-avalanches.jpg
+  credit: "cc by-nc-sa tiddlywinker"
+  creditlink: http://www.flickr.com/photos/tiddlywinker/2498466262/in/photostream/
+thread: 'madness'
 category: 'musicblog'
-tags: ['music','post-rock','65daysofstatic','instrumental','electronic','united kingdom','song of the day']
-link: http://www.youtube.com/watch?v=_RkZ3D9W4vg&list=PLkGnH0dp-9r9jMlXPP9GYTFpZ68XfIPvg&index=2
+tags: ['music','electronic','turntablism','electronica','experimental','inedie','austrilian', 'song of the day']
+link: http://www.youtube.com/watch?v=qLrnkK2YEcE
 ---
 
+Ich werde einfach nur Mal [Federico](http://professorfedi.wordpress.com/) zitieren, der diese Perle heute morgen wieder ausgegraben und gepostet hat:
+
+> Für den gesunden Wahnsinn am Montag-Morgen.
+
+<iframe width="960" height="720" src="//www.youtube-nocookie.com/embed/qLrnkK2YEcE" frameborder="0" allowfullscreen></iframe>
