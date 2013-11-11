@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2013-11-07 09:28:01 +0100
+date: 2013-11-09 09:28:01 +0100
 title: "Weezer &ndash; In the Garage"
 image:
   feature: sotd5-weezer.jpg
