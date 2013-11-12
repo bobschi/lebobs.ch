@@ -4,8 +4,8 @@ date: 2013-11-12 11:05:00 +0100
 title: "Morsa &ndash; Erotic/Post-Ironic (Featuring Ella)"
 image:
   feature: sotd8-morsa.jpg
-  credit: "cc by-nc-sa tiddlywinker"
-  creditlink: http://www.flickr.com/photos/tiddlywinker/2498466262/in/photostream/
+  credit: "cc by-nc-sa Morsa"
+  creditlink: http://morsa.bandcamp.com/
 thread: 'chill out'
 category: 'musicblog'
 tags: ['music','chill','trip hop','portugal','Lamego', 'song of the day']
