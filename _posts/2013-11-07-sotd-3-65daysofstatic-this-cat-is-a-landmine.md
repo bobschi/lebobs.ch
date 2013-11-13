@@ -9,7 +9,7 @@ image:
 thread: 'melancholy'
 category: 'musicblog'
 tags: ['music','post-rock','65daysofstatic','instrumental','electronic','united kingdom','song of the day']
-link: http://www.youtube.com/watch?v=_RkZ3D9W4vg&list=PLkGnH0dp-9r9jMlXPP9GYTFpZ68XfIPvg&index=2
+link: http://www.youtube.com/watch?v=_RkZ3D9W4vg
 ---
 
 So, I've been listening to 65daysofstatic quite a lot lately, especially in the month prior to their live concert here in Vienna. It's one of these timing things again. For the better part of the year, I couldn't really stand listening to post-rock, and then, just before those guys showed up in Vienna, I manage to get through an Godspeed You! Black Emperor bootleg just fine again. Good timing, for a change.
