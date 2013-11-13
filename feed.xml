@@ -3,21 +3,21 @@ layout: none
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-<title type="text">{{ site.title }}</title>
+<title type="text">{{ site.title | xml_escape}}</title>
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="https:{{ site.url }}/feed.xml" />
 <link rel="alternate" type="text/html" href="https:{{ site.url }}" />
 <updated>{{ site.time | date_to_xmlschema }}</updated>
 <id>https:{{ site.url }}/</id>
 <author>
-  <name>{{ site.owner.name }}</name>
+  <name>{{ site.owner.name | xml_escape}}</name>
   <uri>https:{{ site.url }}/</uri>
   <email>{{ site.owner.email }}</email>
 </author>
 {% for post in site.posts limit:20 %}
 
 <entry>
-  <title>{{ post.title }}</title>
+  <title>{{ post.title | xml_escape }}</title>
   <link rel="alternate" href="{% if post.link %}{{ post.link }}{% else %}https:{{ site.url }}{{ post.url }}{% endif %}" />
   <id>https:{{ site.url }}{{ post.id }}</id>
   {% if post.modified %}<updated>{{ post.modified | to_xmlschema }}T00:00:00-00:00</updated>
