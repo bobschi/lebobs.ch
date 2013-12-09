@@ -3,7 +3,7 @@ layout: post
 title: "Digital Visions 2013"
 image:
   feature: digitalvisions.jpg
-  credit: "cc by-nc-nd Theresa @calzioneAroma Hammerl"
+  credit: "cc by-nc-nd Teresa @colazioneAroma Hammerl"
   creditlink: http://colazionearoma.com/
 tags: ['ux', 'iid', 'design', 'web design', 'tech', 'conference', 'event', 'vienna']
 category: Blog
