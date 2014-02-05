@@ -56,18 +56,17 @@ category_title_prefix: ""
 
 # jekyll config
 exclude:     
-- README.md
-- LICENSE.md
-- IDEAS.md
-- TODO.md
-- build
-- test
-- blog.sublime-project
-- blog.sublime-workspace
-- README.md
-- IDEAS.md
-- node_modules
-encoding:    UTF8
+  - README.md
+  - LICENSE.md
+  - IDEAS.md
+  - TODO.md
+  - build
+  - test
+  - blog.sublime-project
+  - blog.sublime-workspace
+  - README.md
+  - IDEAS.md
+  - node_modules
 
 kramdown:
   smart_quotes: lsquo,rsquo,raquo,laquo
