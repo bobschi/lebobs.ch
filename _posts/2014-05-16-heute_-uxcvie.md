@@ -1,0 +1,33 @@
+---
+layout: post
+date: 2014-05-16 11:42:53 +0200
+title: "Today: #uxcvie"
+---
+
+Today I'll be spending my day at the [UX Camp Vienna][1]. This year we're having the barcamp at FH Technikum Wien, and it's the first time that we had a keynote speaker, [Darius Kumana][2].
+
+At the time of writing, the lunch break is already over, and we're starting into the afternoon sessions. So far, today's sessions very quite interesting. I especially liked the Keynote, simply because it was a very poignant, polished and well structured talk. The sessions are very well spaced, leaving enough time for coffee breaks and discussion. There's more than ample room---too much for my taste even---for the sessions.
+
+> Always put the people at the heart of your decisions.  
+> <small>---Darius Kumana</small>
+
+The keynote speech given by Darius Kumana was quite well done. A concise and poignant speech about #whatarewedoingagain. The central points were, basically, the following: UX is not a thing. UX is not a role. It's a mindset, and a set of skills. Everybody in a team can and does provide to UX, so always look for skills in your team members that can help you improve the UX. Even the DevOps guy _will_ have some clever things to say and some good ideas to provide to your product. Darius' entry into his speech was the issue of explaining to people at a party what he does. UX doesn't mean anything to many people, and most of the others will think that you make things pretty and do Photoshop Stuff. He summed it up pretty perfectly in the end:
+
+> I make software more usable for real people.  
+> <small>---Darius Kumana</small>
+
+The slides are really worth checking out. He included a collection of 195 graphs that try to describe what UX is to illustrate his point that talking about UX as a noun, as a thing, is just not working out, and in fact creating problems instead of solving them.
+
+> Don't try to improve the home page first. It's a political minefield.
+
+The first session of the day for me was called "Agile UX in large companies". Thomas Zahler and one of his colleagues from the Viennese UX consultancy [Intuio][3] presented some case studies of employing A/B-Split-Testing and Multi-Variable-Testing in large e-commerce companies. I really liked the case examples, how they use interactive prototypes in the browser to test their design changes, how to structure your backlog using the PIE metric and how you sell that kind of development strategy to conservative management types. Oh, and don't try to improve the homepage or landing page first, it's a political minefield.
+
+The first session after lunch---summer rolls by [SAPA][4] and some nice coffee by [Akrap][5] aftwards---was called "Markdown vs. WYSIWYG", a short praise of the virtues of using markdown in CMSes instead of WYSIWYG editors. Nothing new for me, but I decided that I wanted to do some writing, so I decided to spend some time in a session that I could only pay a little attention to while writing was a good idea. I'm looking forward to hearing about the "Accessibility & Usability for better UX" session from Kevin, though, as this seemed quite interesting as well.
+
+Now I'm off to the next sessions. I guess I'll update this later on.
+
+[1]: http://uxcamp.at/
+[2]: http://uxcamp.at/de/2014/03/keynote-speaker-darius-kumana/
+[3]: http://intuio.at/en/
+[4]: http://www.sapa.at/
+[5]: http://www.akrapcoffee.com/
