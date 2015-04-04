@@ -37,9 +37,9 @@ links:
     url: /blog
   - title: "Music Blog"
     url: /musicblog
-  - title: "Ich bin ein Genußspecht!"
-    url: http://www.genußspechte.in/
-    external: true
+  #- title: "Ich bin ein Genußspecht!"
+  #  url: http://www.genußspechte.in/
+  #  external: true
   - title: About
     url: /about
 
