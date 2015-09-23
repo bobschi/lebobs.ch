@@ -1,2 +1,1 @@
-DIR="$( cd -P "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
-(cd $DIR /Users/florianholzner/.rbenv/versions/2.2.2/bin/jekyll build --draft --future --config _config.yml,_localdef.yml)
+/Users/florianholzner/.rbenv/versions/2.2.2/bin/jekyll build --source /Users/florianholzner/private/blog --destination /Users/florianholzner/private/blog/_site --plugins /Users/florianholzner/private/blog/_plugins --layouts /Users/florianholzner/private/blog/_layouts --draft --future --config /Users/florianholzner/private/blog/_config.yml,/Users/florianholzner/private/blog/_localdef.yml --watch
