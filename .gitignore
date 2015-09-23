@@ -49,3 +49,7 @@ node_modules
 
 # sublime text
 *.sublime-workspace
+
+# serve files
+wip.blog.plist
+.serve_locally.sh
