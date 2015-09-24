@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2013-11-10 09:28:01 +0100
-title: "Deftones &ndash; My Own Summer (Shove it)"
+title: "★ Deftones &ndash; My Own Summer (Shove it)"
 image:
   feature: sotd6-deftones.jpg
   credit: "cc by-nc-sa flrc"

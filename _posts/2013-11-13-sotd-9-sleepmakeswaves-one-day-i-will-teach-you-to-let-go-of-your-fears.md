@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2013-11-13 10:26:37 +0100
-title: "sleepmakeswaves &ndash; One Day I Will Teach You To Let Go Of Your Fears"
+title: "★ sleepmakeswaves &ndash; One Day I Will Teach You To Let Go Of Your Fears"
 image:
   feature: sotd9-sleepmakeswaves.png
 thread: 'melancholy'

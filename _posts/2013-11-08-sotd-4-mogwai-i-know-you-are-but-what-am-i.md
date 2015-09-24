@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2013-11-08 09:28:01 +0100
-title: "Mogwai &ndash; I Know You Are But What Am I"
+title: "★ Mogwai &ndash; I Know You Are But What Am I"
 image:
   feature: sotd4-mogwai.jpg
   credit: "cc by-nc _Jer_"

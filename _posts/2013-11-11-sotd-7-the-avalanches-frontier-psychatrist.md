@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2013-11-11 09:34:23 +0100
-title: "The Avalanches &ndash; Frontier Psychiatriast"
+title: "★ The Avalanches &ndash; Frontier Psychiatriast"
 image:
   feature: sotd7-avalanches.jpg
   credit: "cc by-nc-sa tiddlywinker"
