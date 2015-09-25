@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2015-09-25 19:00:00 +0200
+date: 2015-09-25 7:30:00 +0200
 title: "★ Baroness &ndash; Chlorine &amp; Wine"
 thread: 'power'
 category: 'musicblog'
