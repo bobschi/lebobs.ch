@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2014-02-06 12:00:00 +0100
-title: "Gardens &amp; Villa &ndash; Echosassy"
+title: "★ Gardens &amp; Villa &ndash; Echosassy"
 thread: 'melancholy'
 category: 'musicblog'
 tags: ['music','synth pop','indie','usa', 'song of the day']

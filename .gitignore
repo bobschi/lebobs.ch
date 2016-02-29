@@ -50,5 +50,6 @@ node_modules
 # sublime text
 *.sublime-workspace
 
-# pow stuff
-public
+# serve files
+wip.blog.plist
+.serve_locally.sh

@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2013-11-12 11:05:00 +0100
-title: "Morsa &ndash; Erotic/Post-Ironic (Featuring Ella)"
+title: "★ Morsa &ndash; Erotic/Post-Ironic (Featuring Ella)"
 image:
   feature: sotd8-morsa.jpg
   credit: "cc by-nc-sa Morsa"

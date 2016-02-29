@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2013-11-05 12:54:26 +0100
-title: "Collapse Under The Empire &ndash; The Sky Is The Limit"
+title: "★ Collapse Under The Empire &ndash; The Sky Is The Limit"
 link: http://collapseundertheempire.bandcamp.com/track/the-sky-is-the-limit
 image:
   feature: sotd1-cute.jpg

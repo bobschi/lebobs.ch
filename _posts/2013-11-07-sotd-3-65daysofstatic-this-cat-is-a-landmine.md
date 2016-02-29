@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2013-11-07 09:28:01 +0100
-title: "65daysofstatic &ndash; This Cat Is a Landmine"
+title: "★ 65daysofstatic &ndash; This Cat Is a Landmine"
 image:
   feature: sotd3-65dos.jpg
   credit: "65DaysofStatic @The Wall 20110308; cc by-nc-sa postlife1976"
