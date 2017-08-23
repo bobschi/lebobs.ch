@@ -2,6 +2,7 @@
 layout: page
 title: "A Tour de Force of Bobschi"
 modified: 2013-10-29
+regenerate: true
 ---
 
 ---
