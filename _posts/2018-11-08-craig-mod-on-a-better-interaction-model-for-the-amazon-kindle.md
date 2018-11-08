@@ -3,6 +3,11 @@ layout: post
 date: 2018-11-08 11:12:08 +0100
 title: Craig Mod on a Better Interaction Model for the Amazon Kindle
 link: https://medium.com/@craigmod/reconsidering-the-hardware-kindle-interface-3c54088bed9e
+image:
+  feature: kindle.jpg
+  thumb: kindle-thumb.jpg
+  credit: "Photo by Aliis Sinisalu on Unsplash"
+  creditlink: https://unsplash.com/photos/yzVxz_OYVxU
 ---
 
 Interesting read, and clever analysis.
