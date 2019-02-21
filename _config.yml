@@ -57,5 +57,8 @@ exclude: ["README.md", "LICENSE.md", "IDEAS.md", "TODO.md", "build", "test", "bl
 kramdown:
   smart_quotes: lsquo,rsquo,raquo,laquo
 
+plugins:
+  - jekyll-compose
+
 jekyll_compose:
   auto_open: true
