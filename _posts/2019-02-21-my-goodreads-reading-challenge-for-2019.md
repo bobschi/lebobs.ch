@@ -11,4 +11,6 @@ To relax a bit, I started to reread Patrick Rothfuss' [The Kingkiller Chronicle]
 
 Next up is [book 2 of The Kingkiller Chronicle](https://www.goodreads.com/book/show/1215032.The_Wise_Man_s_Fear) as well as [The Bottoming Book](https://www.goodreads.com/book/show/433500.The_New_Bottoming_Book), [The New Topping Book](https://www.goodreads.com/book/show/503943.The_New_Topping_Book), [The 5 Love Languages](https://www.goodreads.com/book/show/23878688-the-5-love-languages), [Nonviolent Communication](https://www.goodreads.com/book/show/71730.Nonviolent_Communication), [Finish](https://www.goodreads.com/book/show/35397160-finish), [Slow Sex](https://www.goodreads.com/book/show/10054823-slow-sex) and [Storm Static Sleep](https://www.goodreads.com/book/show/28116379-storm-static-sleep), just to name a few.
 
+You can check in on my progress over on [Goodreads](https://www.goodreads.com/user_challenges/15547138).
+
 Way too much to read, way too little time.
