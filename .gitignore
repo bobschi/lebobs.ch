@@ -25,6 +25,7 @@ thumbs.db
 # Jekyll
 _site
 .jekyll-metadata
+.jekyll-cache
 
 # Dreamweaver added files
 _notes
