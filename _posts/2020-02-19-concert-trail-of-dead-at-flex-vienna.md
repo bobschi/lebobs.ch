@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Trail of Dead at Flex, Vienna
+title: "Concert: Trail of Dead at Flex, Vienna"
 date: 2020-02-19 12:07 +0100
 ---
 
